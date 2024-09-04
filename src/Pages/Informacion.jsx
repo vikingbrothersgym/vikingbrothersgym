@@ -15,7 +15,9 @@ const Informacion = () => {
                 <NavBar selected={"INFORMACION"}/>
             </header>
             <div>
-                <Presentacion/>
+                <div className="presen-container">
+                    <Presentacion/>
+                </div>
                 <hr/>
                 <Tarifas/>
                 {/* <hr/>

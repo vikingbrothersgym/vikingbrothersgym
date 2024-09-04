@@ -8,6 +8,10 @@
     height: auto;
 }
 
+.presen-container {
+    width: 100%;
+}
+
 .hor-tar {
     display: flex;
     justify-content: space-around;
