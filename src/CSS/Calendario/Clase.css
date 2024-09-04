@@ -1,0 +1,326 @@
+.horas {
+    color: var(--color-third);
+    display: flex;
+    text-align: center; /* Centra el contenido del párrafo */
+    margin-top: 20px;
+}
+
+.nombre-clase {
+    font-weight: bold;
+    color: var(--color-text1);
+}
+
+.link-clase-vacio {
+    @media (max-width:1400px) {
+        display: none;
+    }
+    opacity: 0;
+    padding: 10px 20px;
+    font-weight: bold; /* Hace el enlace más prominente */
+    font-size: 110%; /* Asegura que el tamaño de la fuente sea consistente */
+    text-decoration: none;
+}
+
+/* 1 */
+
+.link-clase-1 {
+    padding: 10px 20px;
+    font-weight: bold; /* Hace el enlace más prominente */
+    font-size: 110%; /* Asegura que el tamaño de la fuente sea consistente */
+    text-decoration: none;
+    color: var(--color-third); /* Azul vibrante para el enlace */
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color:rgb(25, 10, 63); /* Specific background for Abdominales */
+}
+
+.link-clase-1:hover {
+    background-color: var(--color-third); /* Fondo azul vibrante al pasar el mouse */
+    color: black; /* Texto blanco al pasar el mouse */
+    opacity: 1;
+}
+
+/* 2 */
+
+.link-clase-2 {
+    font-size: 110%; /* Asegura que el tamaño de la fuente sea consistente */
+    font-weight: bold; /* Hace el enlace más prominente */
+    text-decoration: none;
+    color: var(--color-third); /* Azul vibrante para el enlace */
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color:rgb(63, 10, 33); /* Specific background for Abdominales */
+}
+
+.link-clase-2:hover {
+    background-color: var(--color-third); /* Fondo azul vibrante al pasar el mouse */
+    color: black; /* Texto blanco al pasar el mouse */
+    opacity: 1;
+}
+
+/* 3 */
+
+.link-clase-3 {
+    font-size: 110%; /* Asegura que el tamaño de la fuente sea consistente */
+    font-weight: bold; /* Hace el enlace más prominente */
+    text-decoration: none;
+    color: var(--color-third); /* Azul vibrante para el enlace */
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color:rgb(10, 63, 44); /* Specific background for Abdominales */
+}
+
+.link-clase-3:hover {
+    background-color: var(--color-third); /* Fondo azul vibrante al pasar el mouse */
+    color: black; /* Texto blanco al pasar el mouse */
+    opacity: 1;
+}
+
+/* 4 */
+
+.link-clase-4 {
+    font-size: 110%; /* Asegura que el tamaño de la fuente sea consistente */
+    font-weight: bold; /* Hace el enlace más prominente */
+    text-decoration: none;
+    color: var(--color-third); /* Azul vibrante para el enlace */
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color:rgb(54, 63, 10); /* Specific background for Abdominales */
+}
+
+.link-clase-4:hover {
+    background-color: var(--color-third); /* Fondo azul vibrante al pasar el mouse */
+    color: black; /* Texto blanco al pasar el mouse */
+    opacity: 1;
+}
+
+/* 5 */
+
+.link-clase-5 {
+    font-size: 110%; /* Asegura que el tamaño de la fuente sea consistente */
+    font-weight: bold; /* Hace el enlace más prominente */
+    text-decoration: none;
+    color: var(--color-third); /* Azul vibrante para el enlace */
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color:rgb(44, 19, 120); /* Specific background for Abdominales */
+}
+
+.link-clase-5:hover {
+    background-color: var(--color-third); /* Fondo azul vibrante al pasar el mouse */
+    color: black; /* Texto blanco al pasar el mouse */
+    opacity: 1;
+}
+
+/* 6 */
+
+.link-clase-6 {
+    font-size: 110%; /* Asegura que el tamaño de la fuente sea consistente */
+    font-weight: bold; /* Hace el enlace más prominente */
+    text-decoration: none;
+    color: var(--color-third); /* Azul vibrante para el enlace */
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color:rgb(17, 14, 28); /* Specific background for Abdominales */
+}
+
+.link-clase-6:hover {
+    background-color: var(--color-third); /* Fondo azul vibrante al pasar el mouse */
+    color: black; /* Texto blanco al pasar el mouse */
+    opacity: 1;
+}
+
+/* 7 */
+
+.link-clase-7 {
+    font-size: 110%; /* Asegura que el tamaño de la fuente sea consistente */
+    font-weight: bold; /* Hace el enlace más prominente */
+    text-decoration: none;
+    color: var(--color-third); /* Azul vibrante para el enlace */
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color:rgb(0, 34, 16); /* Specific background for Abdominales */
+}
+
+.link-clase-7:hover {
+    background-color: var(--color-third); /* Fondo azul vibrante al pasar el mouse */
+    color: black; /* Texto blanco al pasar el mouse */
+    opacity: 1;
+}
+
+/* 8 */
+
+.link-clase-8 {
+    font-size: 110%; /* Asegura que el tamaño de la fuente sea consistente */
+    font-weight: bold; /* Hace el enlace más prominente */
+    text-decoration: none;
+    color: var(--color-third); /* Azul vibrante para el enlace */
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color:rgb(54, 48, 13); /* Specific background for Abdominales */
+}
+
+.link-clase-8:hover {
+    background-color: var(--color-third); /* Fondo azul vibrante al pasar el mouse */
+    color: black; /* Texto blanco al pasar el mouse */
+    opacity: 1;
+}
+
+/* 9 */
+
+.link-clase-9 {
+    font-size: 110%; /* Asegura que el tamaño de la fuente sea consistente */
+    font-weight: bold; /* Hace el enlace más prominente */
+    text-decoration: none;
+    color: var(--color-third); /* Azul vibrante para el enlace */
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color:rgb(75, 40, 49); /* Specific background for Abdominales */
+}
+
+.link-clase-9:hover {
+    background-color: var(--color-third); /* Fondo azul vibrante al pasar el mouse */
+    color: black; /* Texto blanco al pasar el mouse */
+    opacity: 1;
+}
+
+/* 10 */
+
+.link-clase-10 {
+    font-size: 110%; /* Asegura que el tamaño de la fuente sea consistente */
+    font-weight: bold; /* Hace el enlace más prominente */
+    text-decoration: none;
+    color: var(--color-third); /* Azul vibrante para el enlace */
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color:rgb(62, 61, 110); /* Specific background for Abdominales */
+}
+
+.link-clase-10:hover {
+    background-color: var(--color-third); /* Fondo azul vibrante al pasar el mouse */
+    color: black; /* Texto blanco al pasar el mouse */
+    opacity: 1;
+}
+
+/* 11 */
+
+.link-clase-11 {
+    font-size: 110%; /* Asegura que el tamaño de la fuente sea consistente */
+    font-weight: bold; /* Hace el enlace más prominente */
+    text-decoration: none;
+    color: var(--color-third); /* Azul vibrante para el enlace */
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color:rgb(56, 147, 58); /* Specific background for Abdominales */
+}
+
+.link-clase-11:hover {
+    background-color: var(--color-third); /* Fondo azul vibrante al pasar el mouse */
+    color: black; /* Texto blanco al pasar el mouse */
+    opacity: 1;
+}
+
+/* 12 */
+
+.link-clase-12 {
+    font-size: 110%; /* Asegura que el tamaño de la fuente sea consistente */
+    font-weight: bold; /* Hace el enlace más prominente */
+    text-decoration: none;
+    color: var(--color-third); /* Azul vibrante para el enlace */
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color:rgb(4, 108, 122); /* Specific background for Abdominales */
+}
+
+.link-clase-12:hover {
+    background-color: var(--color-third); /* Fondo azul vibrante al pasar el mouse */
+    color: black; /* Texto blanco al pasar el mouse */
+    opacity: 1;
+}
+
+/* 13 */
+
+.link-clase-13 {
+    font-size: 110%; /* Asegura que el tamaño de la fuente sea consistente */
+    font-weight: bold; /* Hace el enlace más prominente */
+    text-decoration: none;
+    color: var(--color-third); /* Azul vibrante para el enlace */
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color:rgb(133, 3, 120); /* Specific background for Abdominales */
+}
+
+.link-clase-13:hover {
+    background-color: var(--color-third); /* Fondo azul vibrante al pasar el mouse */
+    color: black; /* Texto blanco al pasar el mouse */
+    opacity: 1;
+}
+
+/* 14 */
+
+.link-clase-14 {
+    font-size: 110%; /* Asegura que el tamaño de la fuente sea consistente */
+    font-weight: bold; /* Hace el enlace más prominente */
+    text-decoration: none;
+    color: var(--color-third); /* Azul vibrante para el enlace */
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color:rgb(77, 159, 7); /* Specific background for Abdominales */
+}
+
+.link-clase-14:hover {
+    background-color: var(--color-third); /* Fondo azul vibrante al pasar el mouse */
+    color: black; /* Texto blanco al pasar el mouse */
+    opacity: 1;
+}
+
+/* 15 */
+
+.link-clase-15 {
+    font-size: 110%; /* Asegura que el tamaño de la fuente sea consistente */
+    font-weight: bold; /* Hace el enlace más prominente */
+    text-decoration: none;
+    color: var(--color-third); /* Azul vibrante para el enlace */
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color:rgb(55, 55, 55); /* Specific background for Abdominales */
+}
+
+.link-clase-15:hover {
+    background-color: var(--color-third); /* Fondo azul vibrante al pasar el mouse */
+    color: black; /* Texto blanco al pasar el mouse */
+    opacity: 1;
+}
+
+/* 16 */
+
+.link-clase-16 {
+    font-size: 110%; /* Asegura que el tamaño de la fuente sea consistente */
+    font-weight: bold; /* Hace el enlace más prominente */
+    text-decoration: none;
+    color: var(--color-third); /* Azul vibrante para el enlace */
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color:rgb(117, 79, 123); /* Specific background for Abdominales */
+}
+
+.link-clase-16:hover {
+    background-color: var(--color-third); /* Fondo azul vibrante al pasar el mouse */
+    color: black; /* Texto blanco al pasar el mouse */
+    opacity: 1;
+}

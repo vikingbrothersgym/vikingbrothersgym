@@ -1,0 +1,38 @@
+.noticia {
+    color: white;
+}
+
+.titulo-noticia {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 300%;
+    color: var(--color-third);
+}
+
+.fecha-noticia {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: var(--color-text1);
+    font-size: 150%;
+}
+
+.im-noticia-container {
+    display: flex;
+    justify-content: center;
+}
+
+.im-noticia {
+    max-width: 40%;
+    text-align: center;
+    align-items: center;
+}
+
+.noticia-text {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-size: 150%;
+    line-height: 175%;
+    font-family:'Times New Roman', Times, serif;
+}

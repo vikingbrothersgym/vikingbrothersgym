@@ -1,0 +1,147 @@
+.ultnot {
+    @media (max-width: 1100px) { /* Pantalla pequeña */
+        display: flex;
+        flex-direction: column;
+        width: 75vw;   
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5vh;
+    }
+
+    @media (min-width: 1100px) { /* Pantalla grande */
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+        margin-bottom: 2vh;
+    }
+    background-color: var(--color-primary);
+    border-radius: 10px;    
+    padding: 10px;
+}
+
+.im-ultnot-container {
+    @media (max-width: 1100px) { /* Pantalla pequeña */
+        justify-content: center;
+    }
+    @media (min-width: 1100px) { /* Pantalla grande */
+        width: 15vw;
+    }
+    display: flex;
+    max-width: 1000px;
+    min-width: 100px;
+    height: auto;
+}
+
+.im-ultnot {
+    @media (min-width: 1100px) {
+        width: 100%;        
+        height: auto;
+    }
+    @media (max-width: 1100px) {
+        width: 90%;
+    }
+}
+
+.ultnot-content {
+    @media (max-width: 1100px) { /* Pantalla pequeña */
+        
+    }
+    @media (min-width: 1100px) { /* Pantalla grande */
+        
+    }
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+    align-self: center;
+    color: var(--color-text1);
+}
+
+.ult-tit {
+    color: var(--color-text1);
+}
+
+.ultnot-tit {
+    color: var(--color-third);
+
+    @media (max-width: 1100px) { /* Pantalla pequeña */
+        
+    }
+    @media (min-width: 1100px) { /* Pantalla grande */
+        width: 15vw;        
+    }
+}
+
+/* Ubicación */
+.como-llegar {
+    display: flex;
+    text-align: center; /* Centra el contenido del párrafo */
+    font-size: 18px; /* Ajusta el tamaño de fuente para todo el texto */
+    font-family: 'Arial', sans-serif; /* Aplica una fuente legible */
+    color: #333; /* Color del texto para "al TEMPLO" */
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.link-como-llegar {
+    font-size: 18px; /* Asegura que el tamaño de la fuente sea consistente */
+    font-weight: bold; /* Hace el enlace más prominente */
+    text-decoration: none;
+    color: var(--color-third); /* Azul vibrante para el enlace */
+    background-color: black; /* Fondo claro */
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.link-como-llegar:hover {
+    background-color: var(--color-third); /* Fondo azul vibrante al pasar el mouse */
+    color: black; /* Texto blanco al pasar el mouse */
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+
+.new {
+
+    display: flex;
+    color: white;
+    margin-left: 5vw;
+    margin-top: 2vh;
+}
+
+.im-new {
+    max-width: 15%;
+}
+
+.title-date-new {
+    color: white;
+    margin-left: 1vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-new {
+    color: var(--color-third);
+}
+
+.hr-noticias {
+    margin-top: 1vh;
+    width: 90%;
+    color: white;
+    -webkit-mask-image: radial-gradient(circle, white, transparent);
+    mask-image: radial-gradient(circle, white, transparent);
+}
+
+.news-container {
+    @media (max-width: 1100px) { /* Pantalla pequeña */
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    @media (min-width: 1100px) { /* Pantalla grande */
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 5vh;
+        align-items: center;
+        justify-content: space-evenly;            
+    }
+}

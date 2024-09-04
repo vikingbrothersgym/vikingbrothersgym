@@ -1,0 +1,42 @@
+.infoclase-container {
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+
+.infoclase-titulo {
+    color: var(--color-third);
+}
+
+.hr-infoclase {
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.descripcion {
+    color: var(--color-third);
+}
+
+.descripcion-text {
+    font-size: 130%;
+    color: var(--color-text1);
+}
+
+.profe-container {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10vh;
+}
+
+.profes {
+    max-width: 30%;
+}
+
+.video {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 100%;
+    height: auto;
+}

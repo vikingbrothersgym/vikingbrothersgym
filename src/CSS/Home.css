@@ -1,0 +1,60 @@
+.home-page {
+    background-color: var(--color-background);
+    position: absolute;
+}
+
+.header-navbar {
+    z-index: 1;
+}
+
+.home {
+    position: relative;
+    margin: 0;
+}
+
+.carrusel-home {
+    position: relative; /* Necesario para que el hijo se posicione relativo a este contenedor */
+}
+
+.button-down {
+    position: absolute;
+    top: 1vh; /* Coloca el botón en la parte superior */
+    left: 50%; /* Mueve el botón al centro del contenedor */
+    transform: translateX(-50%); /* Ajusta el centro del botón */
+    z-index: 1; /* Asegura que esté por encima del contenido del carrusel */
+    display: flex;
+    text-align: center;
+    justify-content: center;    
+    color: var(--color-third);
+    /* color: black; */
+    @media (min-width: 1000px) {
+        font-size: 3.5rem;        
+    }
+    @media (max-width: 1000px) {
+        display: none;
+    }
+}
+
+.sin-margen {
+    margin-top: 0;
+}
+
+
+.old {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: black; */
+    margin-top: 10vh;
+}
+
+.old-img {
+    max-width: 40%;
+}
+
+.ubi-con {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    margin-left: 1vw;
+    margin-bottom: 5vh ;
+}

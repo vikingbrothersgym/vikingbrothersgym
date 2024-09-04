@@ -1,0 +1,119 @@
+/* Esta clase solo sirve para impedir el scroll */
+.no-scroll {
+    overflow: hidden;
+}
+
+.navbar {
+    background-color: #101010;
+    padding: 1%;
+}
+
+.navbar-big {
+    @media (max-width: 760px) {
+        display: none;
+    }
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.logo {
+    max-width: 12vh;
+}
+
+.links-big {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 150%;
+    a {
+        color: var(--color-text1);
+        text-decoration: none;
+        margin-right: 3vw;
+        align-items: center;
+        text-align: center;
+        justify-self: center
+    }
+    a:hover {
+        opacity: 50%;
+    }
+}
+
+.navbar-little {
+    @media (min-width: 760px) {
+        display: none;
+    }
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.menu-button {
+    margin-right: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
+    z-index: 15000;
+    a {
+        color: white;
+    }
+}
+
+.menu-button-clicked {
+    display: none;
+}
+
+.close-button {
+    display: none;
+}
+
+.close-button-clicked {
+    margin-right: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 15000;
+    a {
+        color: white;
+    }
+    font-size: 5vh;
+}
+
+.menu-little {
+    position: absolute;
+    top: -1000px;
+    left: -1000px;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    transition: all .6s ease ;
+}
+
+.menu-little-clicked {
+    transition: all .6s ease;
+    position: absolute;
+    border-radius: 0 0 80% 0;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 1500;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 160%;    
+
+    a {
+        display: block;
+        margin: 5px 0; /* Espacio entre los enlaces */
+        color: white;
+        margin-bottom: 5vh;
+    }
+
+}

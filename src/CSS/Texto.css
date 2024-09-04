@@ -1,0 +1,52 @@
+.centered-container {
+    margin-top: 5vh;
+    color: var(--color-text1);
+    justify-content: center;
+    text-align: center;
+}
+
+.centered-title {
+    color: var(--color-text1);
+    font-weight: bold;
+    font-size: 3rem;
+
+    span {
+        color: var(--color-third);
+    }
+}
+
+.text {
+    font-size: 150%;
+}
+
+.resaltar {
+    font-weight: bold;
+}
+
+.dir-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Contacto */
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.red-a {
+    font-size: 200%;
+    color: white;
+    text-decoration: none;
+    margin: 0 3vw;
+}
+
+.red-a:hover {
+    opacity: 50%;
+}
+

@@ -1,0 +1,15 @@
+.video-presentacion {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 100%;
+    height: auto;
+}
+
+.hor-tar {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 5vw;
+}

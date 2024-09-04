@@ -1,0 +1,13 @@
+.test {
+    display: flex;
+    align-items: center;
+}
+
+.test-container {
+    width: 75%;
+    margin: auto;
+}
+
+.im-test {
+    width: 5vw;
+}

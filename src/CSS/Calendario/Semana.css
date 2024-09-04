@@ -1,0 +1,12 @@
+.semana {
+    @media (min-width: 1400px) {
+        display: flex;
+        margin-right: 2vw;
+        margin-left: 2vw;            
+    }
+    @media (max-width: 1400px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

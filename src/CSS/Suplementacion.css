@@ -1,0 +1,31 @@
+.suple-container {
+    width: 100%;
+    @media (min-width: 650px) {
+        display: flex;
+    }
+    margin-top: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.suple {
+    color: var(--color-text1);
+    font-size: 150%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.suple-im-container {
+    display: flex;
+    width: 45vw;
+    max-width: 750px;
+    min-width: 320px;
+    margin: auto;
+}
+
+.suple-im {
+    width: 100%;
+    height: auto;
+    margin-right: 5vw;
+    border-radius: 10px;
+}

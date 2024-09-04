@@ -1,0 +1,12 @@
+.carrusel {
+    position: relative;
+    margin: auto;
+
+    @media (min-width: 1000px) {
+        width: 80%;
+    }
+    @media (max-width: 1000px) {
+        margin-top: 5vh;
+        width: 100%;
+    }
+}

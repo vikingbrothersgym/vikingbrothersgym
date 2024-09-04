@@ -1,0 +1,31 @@
+.presentacion-container {
+    width: 100%;
+    @media (min-width: 650px) {
+        display: flex;
+    }
+    margin-top: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentacion {
+    color: var(--color-text1);
+    font-size: 150%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.jefes-container {
+    display: flex;
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+}
+
+.jefes {
+    width: 100%;
+    height: auto;
+    margin-right: 5vw;
+    border-radius: 10px;
+}

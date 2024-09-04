@@ -1,0 +1,25 @@
+.ult-container {
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+.ult-tit {
+    color: var(--color-text1);
+    font-weight: bold;
+    font-size: 3rem;
+
+    span {
+        color: var(--color-third);
+    }
+}
+
+.ultnot-container {
+    @media (max-width: 1100px) { /* Pantalla pequeña */
+        margin-bottom: 5vh;
+    }
+    @media (min-width: 1100px) { /* Pantalla grande */
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;            
+    }
+}
