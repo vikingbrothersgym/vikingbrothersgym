@@ -26,24 +26,23 @@ const InfoClase = () => {
                         todos los músculos del abdomen, desde los superiores e 
                         inferiores hasta los oblicuos y el core profundo. 
                     </p>
-                    <div className="video">
+                    {/* <div className="video">
                         <Video url={"https://youtu.be/2O1SAhAx7mI?si=AwKEa9_WhjFjLiyo"} />
-                    </div>
-
-                    <hr className="hr-infoclase"/>
-                    <h2 className="descripcion"> Nuestr@ profe </h2>
-                    <div className="profe-container">
-                        <p className="descripcion-text">
-                            Dani y Héctor son los entrenadores que llevarán tu 
-                            entrenamiento abdominal al siguiente nivel. Con años de 
-                            experiencia en fitness y una pasión por ayudar a otros a 
-                            alcanzar sus metas, ambos se han ganado la reputación de 
-                            ser los mejores cuando se trata de fortalecer el núcleo.
-                        </p>
-                        <img className="profes"
-                             src={danihector}/>
-                    </div>
+                    </div> */}
                 </div>
+            )}
+
+            {nombre !== "Abdominales" && (
+                <div className="infoclase-container">
+                    <p className="descripcion-text"> 
+                        Muy pronto esta página poseerá una descripción sobre esta clase <br/> <br/>
+                        ¡Disculpe las molestias!
+                    </p>
+                    {/* <div className="video">
+                        <Video url={"https://youtu.be/2O1SAhAx7mI?si=AwKEa9_WhjFjLiyo"} />
+                    </div> */}
+                </div>
+
             )}
             
             <div id="contacto">
