@@ -34,6 +34,7 @@ const Noticia = () => {
                              src={noticia.image}
                              alt={noticia.title} />
                     </div>
+                    <hr/>
                     {noticia.text.map((text, index) => (
                         <p key={index} className="noticia-text"> {text} </p>
                     ))}

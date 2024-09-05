@@ -11,7 +11,7 @@ const Informacion = () => {
 
     return (
         <div className="info-page">
-            <header className="cabecera">
+            <header className="header-navbar">
                 <NavBar/>
             </header>
             <div>

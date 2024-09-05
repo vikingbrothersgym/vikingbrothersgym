@@ -1,11 +1,30 @@
+/* Plantilla para una nueva noticia */
+/*
+id: X,
+image: "/vikingbrothersgym/news/newX.png",
+title: "",
+date: "",
+text: [""],
+*/
+
 const news = [
     {
-        id: 2,
-        image: "/vikingbrothersgym/news/new1.png",
-        title: "Oferta Anual mes de Septiembre",
-        date: "13/08/2024",
-        text: [""],
+        id: 3,
+        image: "/vikingbrothersgym/news/new3.png",
+        title: "Proximamente en Viking Brothers Gym...",
+        date: "05/09/2024",
+        text: [
+            "Con la vuelta a la rutina, también vienen cambios al Templo.",
+            "Pronto os contaremos y enseñaremos todo lo que está por llegar. Hasta entonces, os dejamos con la portada de esta noticia como gran pista de las próximas novedades."
+        ],
     },
+    // {
+    //     id: 2,
+    //     image: "/vikingbrothersgym/news/new1.png",
+    //     title: "Oferta Anual mes de Septiembre",
+    //     date: "13/08/2024",
+    //     text: [""],
+    // },
     {
         id: 1,
         image: "/vikingbrothersgym/news/new2.png",

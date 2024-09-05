@@ -1,7 +1,6 @@
 import { useParams } from "react-router-dom"
 import NavBar from "../Components/NavBar"
 import Contacto from "../Components/Contacto"
-import danihector from "../assets/danihector.jpeg"
 import "../CSS/InfoClase.css"
 import Video from "../Components/Video"
 
