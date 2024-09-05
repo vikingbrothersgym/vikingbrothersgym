@@ -23,8 +23,8 @@ const Noticia = () => {
     } else {
         return (
             <div>
-                <header>
-                    <NavBar selected={"NOTICIAS"}/>
+                <header className="header-navbar">
+                    <NavBar/>
                 </header>
                 <div className="noticia">
                     <h1 className="titulo-noticia"> {noticia.title} </h1>

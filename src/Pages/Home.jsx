@@ -2,13 +2,6 @@ import NavBar from "../Components/NavBar"
 import Contacto from "../Components/Contacto"
 import Carrusel from "../Components/Carrusel"
 import { FaArrowCircleDown } from "react-icons/fa";
-// import Gym1 from "../assets/Gym/Gym1.jpg"
-// import Gym2 from "../assets/Gym/Gym2.jpg"
-// import Gym3 from "../assets/Gym/Gym3.jpg"
-// import Gym4 from "../assets/Gym/Gym4.jpg"
-// import Gym5 from "../assets/Gym/Gym5.jpg"
-// import Gym6 from "../assets/Gym/Gym6.jpg"
-// import Gym7 from "../assets/Gym/Gym7.jpg"
 
 import Gym1 from "../assets/Gym/Gym_1.jpg"
 import Gym2 from "../assets/Gym/Gym_2.jpg"

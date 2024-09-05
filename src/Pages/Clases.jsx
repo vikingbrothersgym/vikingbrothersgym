@@ -7,8 +7,8 @@ import "../CSS/Clases.css"
 const Clases = () => {
     return (
         <div className="clases-page">
-            <header id="inicio">
-                <NavBar selected={"CLASES"}/>
+            <header className="header-navbar">
+                <NavBar/>
             </header>
             <div>
                 <Texto texto="clases"/>

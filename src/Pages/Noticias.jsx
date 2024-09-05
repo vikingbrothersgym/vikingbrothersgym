@@ -13,8 +13,8 @@ const Noticias = () => {
 
     return (
         <div>
-            <header>
-                <NavBar selected={"NOTICIAS"}/>
+            <header className="header-navbar">
+                <NavBar/>
             </header>
             <h1 className="sec-tit"> 
                 NOTICIAS <br/> 

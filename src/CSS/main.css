@@ -1,3 +1,10 @@
+.header-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000000000;
+    background-color: white; /* Asegúrate de que el fondo no sea transparente */
+}
+
 body, html {
     margin: 0;
     padding: 0;

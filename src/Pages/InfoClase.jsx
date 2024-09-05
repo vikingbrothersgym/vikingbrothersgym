@@ -9,8 +9,8 @@ const InfoClase = () => {
     const { nombre } = useParams()
     return (
         <div className="info-clase">
-            <header>
-                <NavBar selected={"INFORMACION"}/>
+            <header className="header-navbar">
+                <NavBar/>
             </header>
             {nombre === "Abdominales" && (
                 <div className="infoclase-container">

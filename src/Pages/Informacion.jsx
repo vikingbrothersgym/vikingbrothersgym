@@ -11,8 +11,8 @@ const Informacion = () => {
 
     return (
         <div className="info-page">
-            <header id="inicio">
-                <NavBar selected={"INFORMACION"}/>
+            <header className="cabecera">
+                <NavBar/>
             </header>
             <div>
                 <div className="presen-container">

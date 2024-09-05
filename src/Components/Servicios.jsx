@@ -39,8 +39,8 @@ const Servicio = ({index = 1}) => {
                     </div>
                     <h2> El Templo </h2>
                     <hr/>
-                    <p> Ven y descubre nuestra sala de clases, musculación y 
-                        spinning al puro estilo Old School
+                    <p> Ven y descubre nuestra sala de clases y musculación 
+                        al puro estilo Old School
                     </p>
                 </div>
             )}
