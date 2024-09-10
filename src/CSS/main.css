@@ -9,7 +9,7 @@ body, html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    height: 100%;
+    height: fit-content;
     width: 100%;
     background-color: var(--color-background); /* Elige el color que desees */
     font-family: 'Macondo', system-ui; /* Opcional, para asegurar la consistencia tipográfica */

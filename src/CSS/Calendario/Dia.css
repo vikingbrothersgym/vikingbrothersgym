@@ -30,6 +30,7 @@
     display: flex;
     flex-wrap:wrap; /* Permite que los elementos se envuelvan a la siguiente línea */
     justify-content: center;
+    text-align: center;
     align-items: center;
     width: 100%; /* Asegura que la lista no exceda el ancho de la página */
     padding: 0;
@@ -39,7 +40,7 @@
 
 .clase-dia {
     display: flex;
-    margin-right: 1vw;
+    /* margin-right: 1vw; */
 }
 
 .hr-dia {

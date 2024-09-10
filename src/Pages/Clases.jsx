@@ -1,8 +1,9 @@
+import "../CSS/Clases.css"
 import Semana from "../Components/Calendario/Semana"
 import Contacto from "../Components/Contacto"
 import NavBar from "../Components/NavBar"
 import Texto from "../Components/Texto"
-import "../CSS/Clases.css"
+import {Tabs, Tab, Card, CardBody} from "@nextui-org/react";
 
 const Clases = () => {
     return (
@@ -12,7 +13,21 @@ const Clases = () => {
             </header>
             <div>
                 <Texto texto="clases"/>
-                <Semana/>
+                <div className="tabs-container">
+                    <Tabs className="tabs dark text-foreground" 
+                          size="lg"
+                          radius="full"
+                          variant="bordered"
+                          color="warning"
+                          aria-label="Options">
+                        <Tab key="gimnasio" title="Gimnasio">
+                            <Semana gimnasio={true}/>
+                        </Tab>
+                        <Tab key="boxeo" title="Boxeo / Defensa Personal">
+                            <Semana gimnasio={false}/>
+                        </Tab>
+                    </Tabs>
+                </div>
             </div>
             <div id="contacto">
                 <Contacto/>

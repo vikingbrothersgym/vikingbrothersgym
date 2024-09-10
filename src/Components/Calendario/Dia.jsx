@@ -11,8 +11,16 @@ const Dia = ({ dia, clases = [] }) => {
                 {clases.map((tupla, index) => (
                     <div className="clase-container" key={index}>
                         <div className="clase-dia" key={index}>
-                            <Clase nombre={tupla[0]} 
-                                   inicio={tupla[1]} />
+                            {tupla[2] && (
+                                <Clase nombre={tupla[0]} 
+                                       inicio={tupla[1]}
+                                       final={tupla[2]}
+                                       trainer={tupla[3]} />
+                            )}
+                            {!tupla[2] && (
+                                <Clase nombre={tupla[0]} 
+                                       inicio={tupla[1]} />
+                            )}
                         </div>
                         <hr className={`hr-${tupla[0] === "" ? 'no' : 'si'}`}/>
                     </div>

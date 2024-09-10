@@ -9,6 +9,18 @@ text: [""],
 
 const news = [
     {
+        id: 4,
+        image: "/vikingbrothersgym/news/new4.png",
+        title: "¡NUEVO! Boxeo, King Boxing y Defensa Personal",
+        date: "11/09/2024",
+        text: [
+            "¡APÚNTANTE! Ya están aquí la revolución del templo: ¡nuevas clases!",
+            "No sabemos si el boxeo, el king boxing y la defensa personal se practicaban en el Valhalla, pero lo que sí sabemos es que no te dejarán indiferente.",
+            "Las clases comenzarán en octubre. Ven e inscríbete, las plazas en los grupos son limitadas, ¡no dejes escapar la oportunidad!",
+            "Horarios, profesores y clases disponibles tanto en el apartado de Clases de esta web como en la imagen de esta misma noticia"
+        ],
+    },
+    {
         id: 3,
         image: "/vikingbrothersgym/news/new3.png",
         title: "Proximamente en Viking Brothers Gym...",

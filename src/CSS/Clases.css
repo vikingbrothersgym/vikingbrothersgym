@@ -1,0 +1,12 @@
+.tabs-container {
+    text-align: center;
+}
+
+.tabs {
+    width: fit-content;
+    background-color: var(--color-primary);
+    border-radius: 20px;
+    text-align: center;
+    color: var(--color-third);
+}
+

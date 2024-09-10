@@ -1,18 +1,38 @@
 .infoclase-container {
-    margin-top: 5vh;
-    margin-left: 5vw;
+    /* margin-top: 5vh;
+    margin-left: 5vw; */
+    width: 90%;
+    margin: auto;
 }
 
 .infoclase-titulo {
+    justify-content: center;
+    text-align: center;
     color: var(--color-third);
 }
 
 .hr-infoclase {
+    width: 100%;
     margin-left: 0;
     margin-top: 0;
 }
 
+.text-clase {
+    @media (min-width: 1100px) {
+        display: flex;
+        justify-content: space-around;            
+    }
+}
+
+.descripcion-container {
+    @media (min-width: 1100px) {
+        width: 50%;
+        
+    }
+}
+
 .descripcion {
+    text-align: center;
     color: var(--color-third);
 }
 
@@ -21,13 +41,19 @@
     color: var(--color-text1);
 }
 
-.profe-container {
+.im-profe-container {
     display: flex;
-    justify-content: space-around;
-    margin-right: 10vh;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    margin-bottom: 2vh;
 }
 
-.profes {
-    max-width: 30%;
+.im-profe {
+    @media (min-width: 900px) {
+        width: 20vw;        
+    }
+    @media (max-width: 900px) {
+        width: 50vw;
+    }
 }
-
