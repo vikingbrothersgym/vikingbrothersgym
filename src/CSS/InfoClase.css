@@ -31,12 +31,3 @@
     max-width: 30%;
 }
 
-.video {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    width: 100%;
-    height: auto;
-}

@@ -1,6 +1,6 @@
 import { BsPersonArmsUp } from "react-icons/bs";
 import { GiVikingHead, GiVikingLonghouse, 
-    GiWeightLiftingUp, GiVikingHelmet, GiVikingShield } from "react-icons/gi";
+    GiWeightLiftingUp, GiVikingHelmet, GiVikingShield, GiBoxingGlove } from "react-icons/gi";
 import "../CSS/Servicios.css"
 
 const Servicio = ({index = 1}) => {
@@ -9,7 +9,7 @@ const Servicio = ({index = 1}) => {
             {index === 1 && (
                 <div className="servicio">
                     <div className="icon-service">
-                        <BsPersonArmsUp/>
+                        <GiWeightLiftingUp/>
                     </div>
                     <h2> Clases Dirigidas </h2>
                     <hr/>
@@ -48,12 +48,12 @@ const Servicio = ({index = 1}) => {
             {index === 4 && (
                 <div className="servicio">
                     <div className="icon-service">
-                        <GiWeightLiftingUp />
+                        <GiBoxingGlove/>
                     </div>
-                    <h2> Pasión Vikinga </h2>
+                    <h2> Boxeo </h2>
                     <hr/>
-                    <p> No solo encontrarás un gimnasio, sino un lugar en el que
-                        se respira el fitness y la motivación
+                    <p> Próximamente en Viking Brothers Gym. Síguenos en redes
+                        para estar al tanto
                     </p>
                 </div>
             )}

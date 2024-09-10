@@ -23,6 +23,8 @@ body, html {
     --color-third: #FBA92C;
     --color-text1: white;
     --color-text2: black;
+    --color-boxing: rgb(201, 0, 0);
+    --color-entire: rgb(46, 188, 33);
 }
 
 hr {
@@ -53,4 +55,14 @@ a {
     span {
         color: var(--color-third);
     }
+}
+
+.video {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 100%;
+    height: auto;
 }

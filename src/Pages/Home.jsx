@@ -1,6 +1,7 @@
 import NavBar from "../Components/NavBar"
 import Contacto from "../Components/Contacto"
 import Carrusel from "../Components/Carrusel"
+import Video from "../Components/Video"
 import { FaArrowCircleDown } from "react-icons/fa";
 
 import Gym1 from "../assets/Gym/Gym_1.jpg"
@@ -49,6 +50,10 @@ const Home = () => {
                 <hr/>
                 <div id="servicios">
                     <Servicios/>
+                </div>
+                <hr/>
+                <div className="video">
+                    <Video url={"https://youtu.be/PK_kANLdbyo"}/>
                 </div>
                 <hr/>
                 <div className="ubi-con">
