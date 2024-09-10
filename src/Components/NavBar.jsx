@@ -77,7 +77,7 @@ const NavBar = () => {
         <a onClick={() => navigate(constants.root + "informacion")} href=""> 
             Información 
         </a>
-        <a href="#contacto"> 
+        <a href="#contacto" onClick={handleClick}> 
           Contacto 
         </a>
 
