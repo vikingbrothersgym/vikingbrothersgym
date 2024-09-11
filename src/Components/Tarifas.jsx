@@ -1,4 +1,6 @@
-import { GiBoxingGlove, GiChestArmor, GiTwoHandedSword, GiBattleAxe, GiVikingHead } from "react-icons/gi";
+import { GiBoxingGlove, GiChestArmor, GiTwoHandedSword, GiBattleAxe, 
+         GiVikingHead } from "react-icons/gi";
+import {Tabs, Tab} from "@nextui-org/react";
 
 import "../CSS/Tarifas.css"
 
@@ -11,7 +13,8 @@ const Incluido = ({boxeo = false, normal = false}) => {
                     <div className="incluido-container">
                         <p className="incluido">
                             - Sala de musculación <br/>
-                            - Todas las clases (excepto Boxeo)
+                            - Todas las clases (excepto Boxeo, King Boxing y
+                            Defensa Personal)
                         </p>
                     </div>
                 </>
@@ -22,7 +25,8 @@ const Incluido = ({boxeo = false, normal = false}) => {
                     <hr className="sin-margen"/>
                     <div className="incluido-container">
                         <p className="incluido">
-                            - Clases en nuestra sala de Boxeo
+                            - Clases en nuestra sala de Boxeo, King Boxing y
+                            Defensa Personal
                         </p>
                     </div>
                 </>
@@ -161,13 +165,27 @@ const Tarifas = () => {
                 ÚNETE A LA <br/> 
                 <span> OLD SCHOOL </span>
             </h1>
-            <div className="cuotas">
-                <Cuota meses={1}/>
-                <Cuota meses={3}/>
-                <Cuota meses={6}/>
-                <Cuota meses={12}/>
-                {/* <Cuota boxeo={true}/>
-                <Cuota boxeo={true} normal={true}/> */}
+            <div className="tabs-container">
+                    <Tabs className="tabs dark text-foreground" 
+                          size="lg"
+                          radius="full"
+                          variant="bordered"
+                          color="warning"
+                          aria-label="Options">
+                        <Tab key="gimnasio" title="Gimnasio">
+                            <div className="cuotas">
+                                <Cuota meses={1}/>
+                                <Cuota meses={3}/>
+                                <Cuota meses={6}/>
+                                <Cuota meses={12}/>
+                            </div>
+                        </Tab>
+                        <Tab key="boxeo" title="Boxeo / Defensa Personal">
+                            <div className="cuotas">
+                                <Cuota boxeo={true}/>
+                            </div>
+                        </Tab>
+                    </Tabs>
             </div>
         </div>
     )

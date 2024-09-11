@@ -3,7 +3,7 @@ import Semana from "../Components/Calendario/Semana"
 import Contacto from "../Components/Contacto"
 import NavBar from "../Components/NavBar"
 import Texto from "../Components/Texto"
-import {Tabs, Tab, Card, CardBody} from "@nextui-org/react";
+import {Tabs, Tab} from "@nextui-org/react";
 
 const Clases = () => {
     return (
