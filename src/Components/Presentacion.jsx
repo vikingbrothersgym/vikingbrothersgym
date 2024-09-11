@@ -1,5 +1,6 @@
 import jefes from "../assets/presentacion/jefes.jpg"
 import exterior from "../assets/presentacion/gimasio_exterior.jpg"
+import {Image} from "@nextui-org/react";
 import "../CSS/Presentacion.css"
 
 const Presentacion = () => {
@@ -15,13 +16,20 @@ const Presentacion = () => {
                 Te esperamos en el TEMPLO.
             </p>
             <div className="jefes-container">
-                <img className="jefes" 
-                     src={exterior}
-                     alt="Exterior del gimasio"
-                     sizes=""/>
-                <img className="jefes" 
-                     src={jefes} 
-                     alt="Los jefes del templo"/>
+                <div className="im-jefes-container">
+                    <Image 
+                        className="im-jefes" 
+                        src={exterior}
+                        isBlurred
+                        isZoomed />
+                </div>
+                <div className="im-jefes-container">
+                    <Image 
+                        className="im-jefes" 
+                        src={jefes}
+                        isBlurred
+                        isZoomed />
+                </div>
             </div>
         </div>
     )

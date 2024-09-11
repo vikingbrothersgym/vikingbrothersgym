@@ -1,6 +1,6 @@
 .presentacion-container {
     width: 100%;
-    @media (min-width: 650px) {
+    @media (min-width: 1100px) {
         display: flex;
     }
     margin-top: 5vh;
@@ -13,18 +13,31 @@
     font-size: 150%;
     margin-left: 5vw;
     margin-right: 5vw;
+    @media (min-width: 1100px) {
+        width: 50%;
+    }
 }
 
 .jefes-container {
-    display: flex;
-    max-width: 800px;
-    min-width: 320px;
-    margin: auto;
+        display: flex;
+        text-align: center;
+        justify-content: center;
 }
 
-.jefes {
-    width: 100%;
-    height: auto;
-    margin-right: 5vw;
-    border-radius: 10px;
+.im-jefes-container {
+    display: flex;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    margin-bottom: 2vh;
+    margin-right: 2vw;
+}
+
+.im-jefes {
+    @media (min-width: 900px) {
+        width: 15vw;        
+    }
+    @media (max-width: 900px) {
+        width: 40vw;
+    }
 }
