@@ -166,26 +166,26 @@ const Tarifas = () => {
                 <span> OLD SCHOOL </span>
             </h1>
             <div className="tabs-container">
-                    <Tabs className="tabs dark text-foreground" 
-                          size="lg"
-                          radius="full"
-                          variant="bordered"
-                          color="warning"
-                          aria-label="Options">
-                        <Tab key="gimnasio" title="Gimnasio">
-                            <div className="cuotas">
-                                <Cuota meses={1}/>
-                                <Cuota meses={3}/>
-                                <Cuota meses={6}/>
-                                <Cuota meses={12}/>
-                            </div>
-                        </Tab>
-                        <Tab key="boxeo" title="Boxeo / Defensa Personal">
-                            <div className="cuotas">
-                                <Cuota boxeo={true}/>
-                            </div>
-                        </Tab>
-                    </Tabs>
+                <Tabs className="tabs dark text-foreground bg-white" 
+                        size="lg"
+                        radius="full"
+                        variant="bordered"
+                        color="warning"
+                        aria-label="Options">
+                    <Tab key="gimnasio" title="Gimnasio">
+                        <div className="cuotas">
+                            <Cuota meses={1}/>
+                            <Cuota meses={3}/>
+                            <Cuota meses={6}/>
+                            <Cuota meses={12}/>
+                        </div>
+                    </Tab>
+                    <Tab key="boxeo" title="Boxeo / Defensa Personal">
+                        <div className="cuotas">
+                            <Cuota boxeo={true}/>
+                        </div>
+                    </Tab>
+                </Tabs>
             </div>
         </div>
     )

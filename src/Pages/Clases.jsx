@@ -14,7 +14,7 @@ const Clases = () => {
             <div>
                 <Texto texto="clases"/>
                 <div className="tabs-container">
-                    <Tabs className="tabs dark text-foreground" 
+                    <Tabs className="tabs dark text-foreground bg-white" 
                           size="lg"
                           radius="full"
                           variant="bordered"
