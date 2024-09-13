@@ -1,5 +1,5 @@
 import C1 from "../assets/campeones/Tatiana.jpg"
-import C2 from "../assets/campeones/Camelia.jpg"
+import C2 from "../assets/campeones/Camelia.png"
 import C3 from "../assets/campeones/Alex.jpg"
 import C4 from "../assets/campeones/Lucia.jpg"
 import "../CSS/Competidores.css"

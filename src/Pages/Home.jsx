@@ -1,8 +1,13 @@
+import "../CSS/Home.css"
+
 import NavBar from "../Components/NavBar"
 import Contacto from "../Components/Contacto"
 import Carrusel from "../Components/Carrusel"
 import Video from "../Components/Video"
-import { FaArrowCircleDown } from "react-icons/fa";
+import Texto from "../Components/Texto"
+import Servicios from "../Components/Servicios"
+import UltimasNoticias from "../Components/UltimasNoticias"
+import Competidores from "../Components/Competidores"
 
 import Gym1 from "../assets/Gym/Gym_1.jpg"
 import Gym2 from "../assets/Gym/Gym_2.jpg"
@@ -15,11 +20,7 @@ import Gym8 from "../assets/Gym/Gym_8.jpg"
 import Gym9 from "../assets/Gym/Gym_9.jpg"
 import Gym10 from "../assets/Gym/Gym_10.jpg"
 
-import "../CSS/Home.css"
-import Texto from "../Components/Texto"
-import Servicios from "../Components/Servicios"
-import UltimasNoticias from "../Components/UltimasNoticias"
-import Competidores from "../Components/Competidores"
+import { FaArrowCircleDown } from "react-icons/fa";
 
 const Home = () => {
     const images = [
