@@ -4,6 +4,7 @@ import {Image} from "@nextui-org/react";
 import "../CSS/CBImperial.css"
 
 const CBImperial = () => {
+    
     return (
         <>
         <h1 className="sec-tit">
