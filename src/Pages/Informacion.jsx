@@ -1,11 +1,11 @@
+import "../CSS/Informacion.css"
+
 import NavBar from "../Components/NavBar.jsx"
 import Presentacion from "../Components/Presentacion"
 import Contacto from "../Components/Contacto"
-
-import "../CSS/Informacion.css"
 import Tarifas from "../Components/Tarifas.jsx"
-import Video from "../Components/Video.jsx"
 import Suplementacion from "../Components/Suplementacion.jsx"
+import CBImperial from "../Components/CBImperial.jsx"
 
 const Informacion = () => {
 
@@ -20,12 +20,10 @@ const Informacion = () => {
                 </div>
                 <hr/>
                 <Tarifas/>
-                {/* <hr/>
-                <div className="video-presentacion">
-                    <Video url={"https://youtu.be/iq-Sc8D0Was?si=MQc-rtyoKImzHBvO"}/>
-                </div> */}
                 <hr/>
                 <Suplementacion/>
+                <hr/>
+                <CBImperial/>
             </div>
             <div id="contacto">
                 <Contacto/>

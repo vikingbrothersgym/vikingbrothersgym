@@ -1,6 +1,6 @@
 .suple-container {
     width: 100%;
-    @media (min-width: 650px) {
+    @media (min-width: 900px) {
         display: flex;
     }
     margin-top: 5vh;
@@ -13,19 +13,23 @@
     font-size: 150%;
     margin-left: 5vw;
     margin-right: 5vw;
+    align-self: center;
 }
 
 .suple-im-container {
     display: flex;
-    width: 45vw;
-    max-width: 750px;
-    min-width: 320px;
-    margin: auto;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    margin-bottom: 2vh;
+    margin-right: 5vw;
 }
 
 .suple-im {
-    width: 100%;
-    height: auto;
-    margin-right: 5vw;
-    border-radius: 10px;
+    @media (min-width: 900px) {
+        width: 30vw;        
+    }
+    @media (max-width: 900px) {
+        width: 50vw;
+    }
 }
