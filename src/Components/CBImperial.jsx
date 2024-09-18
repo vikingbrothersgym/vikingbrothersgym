@@ -1,4 +1,5 @@
-import cbimperial from "../assets/cbimperial.jpg"
+import cbimperial from "../assets/cbimperial/cbimperial.jpg"
+import vbg_cbi from "../assets/cbimperial/vbg_cbi.png"
 import {Image} from "@nextui-org/react";
 
 import "../CSS/CBImperial.css"
@@ -13,20 +14,37 @@ const CBImperial = () => {
         </h1>
         <div className="imperial-container">
             <div className="imperial-im-container">
-                <Image 
-                    className="imperial-im" 
-                    src={cbimperial}
-                    isBlurred
-                    isZoomed/>
+                <div className="espaciador">
+                    <Image 
+                        className="imperial-im" 
+                        src={cbimperial}
+                        isBlurred
+                        isZoomed/>
+                </div>
+                <div className="espaciador">
+                    <Image 
+                        className="imperial-im" 
+                        src={vbg_cbi}
+                        isBlurred
+                        isZoomed/>
+                </div>
             </div>
             <p className="imperial">  
                 En Viking Brothers Gym nos enorgullece ser colaboradores 
                 oficiales del equipo de baloncesto CB Imperial Zaragoza. <br/><br/>
                 
-                En nuestro templo disponemos de unas instalaciones de primer 
-                nivel que impulsan a los jugadores de CB Imperial a alcanzar 
-                éxitos deportivos. <br/> <br/>
+                CB Imperial Zaragoza: <br/> <br/>
+                <i>
+                Estamos muy contentos de anunciar nuestro acuerdo de colaboración 
+                con Viking Brothers Gym que nos ayudará a alcanzar nuestro máximo 
+                potencial la próxima temporada 💪🏼😎. <br/> <br/>
 
+                Viking Brothers Gym es más que un gimnasio. Es una comunidad 
+                donde podrás forjar tu cuerpo y mente con entrenamientos épicos 
+                y junto a un apoyo inquebrantable. <br/> <br/>
+
+                💥 Vamos a liberar al vikingx que llevamos dentro 💥 <br/> <br/>
+                </i>
                 ¡Vamos equipo!
             </p>
         </div>
