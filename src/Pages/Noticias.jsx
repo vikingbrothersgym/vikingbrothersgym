@@ -22,28 +22,7 @@ const Noticias = () => {
             </h1>
             <div className="news-container">
                 {news.map((not, index) => (
-                    <div key={index}>
-                        <NoticiaPreview ultimas={true} not={not}/>
-                    </div>
-                    // <>
-                    // <div className="new" key={index}>
-                    //     <img 
-                    //         className="im-new"
-                    //         src={not.image} 
-                    //         alt={not.title} /> 
-                    //     <p className="title-date-new">
-                    //         <h1 > 
-                    //             <a className="title-new" 
-                    //                href=""
-                    //                onClick={() => navigate(constants.root + "noticia/" + not.id)}>
-                    //                 {not.title}
-                    //             </a> 
-                    //         </h1>
-                    //         {not.date}
-                    //     </p>            
-                    // </div>
-                    // <hr className="hr-noticias"/>
-                    // </>
+                    <NoticiaPreview key={index} ultimas={true} not={not}/>
                 ))}
             </div>
             <div id="contacto">

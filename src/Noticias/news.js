@@ -10,7 +10,18 @@ text: [""],
 const news = [
     {
         id: 4,
-        image: "/vikingbrothersgym/news/new4.png",
+        image: "/vikingbrothersgym/news/new4.jpeg",
+        title: "El cachirulo más vikingo con tu matrícula",
+        date: "25/09/2024",
+        text: [
+            "Como todos los meses de octubre sacamos a lucir nuestro cachirulo.",
+            "Pero este año, los vikingos de Viking Brothers Gym resaltarán con el cachirulo más chulo de todos.😛",
+            "Apúntate este mes y llévate gratis el cachirulo de Odín."
+        ],
+    },
+    {
+        id: 3,
+        image: "/vikingbrothersgym/news/new3.png",
         title: "¡NUEVO! Boxeo, King Boxing y Defensa Personal",
         date: "11/09/2024",
         text: [
@@ -21,8 +32,8 @@ const news = [
         ],
     },
     {
-        id: 3,
-        image: "/vikingbrothersgym/news/new3.png",
+        id: 2,
+        image: "/vikingbrothersgym/news/new2.png",
         title: "Proximamente en Viking Brothers Gym...",
         date: "05/09/2024",
         text: [
@@ -30,16 +41,9 @@ const news = [
             "Pronto os contaremos y enseñaremos todo lo que está por llegar. Hasta entonces, os dejamos con la portada de esta noticia como gran pista de las próximas novedades."
         ],
     },
-    // {
-    //     id: 2,
-    //     image: "/vikingbrothersgym/news/new1.png",
-    //     title: "Oferta Anual mes de Septiembre",
-    //     date: "13/08/2024",
-    //     text: [""],
-    // },
     {
         id: 1,
-        image: "/vikingbrothersgym/news/new2.png",
+        image: "/vikingbrothersgym/news/new1.png",
         title: "Web Viking Brothers Gym Zaragoza",
         date: "13/08/2024",
         text: [
