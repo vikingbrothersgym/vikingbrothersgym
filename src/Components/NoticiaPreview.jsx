@@ -50,7 +50,7 @@ const NoticiaPreview = ({ultimas, not }) => {
         >
             <CardHeader className="text-third pb-0 pt-2 px-4 flex-col items-center">
               <p className="text-white font-bold mr-7"> {not.date} </p>
-              <h4 className="font-bold text-2xl text-center text-large m-0 mr-7"> {not.title} </h4>
+              <h4 className="font-bold text-xl text-center text-large m-0 mr-7"> {not.title} </h4>
             </CardHeader>
             <CardBody className="overflow-visible py-2 flex-col items-center">
                 <div className="mr-6">

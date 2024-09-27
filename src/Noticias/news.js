@@ -9,6 +9,17 @@ text: [""],
 
 const news = [
     {
+        id: 5,
+        image: "/vikingbrothersgym/news/new5.png",
+        title: "1 de octubre: Comienzan clases: Boxeo y Defensa Personal",
+        date: "25/09/2024",
+        text: [
+            "Este 1 de octubre es un día muuuuuy especial😛",
+            "¡¡¡Comienzan nuestras clases de Boxeo y Defensa Personal!!!",
+            "¿Aún no te has apuntado? No esperes más y apúntate. Nuestros profes harán de ti un guerrero VIKINGO."
+        ],
+    },
+    {
         id: 4,
         image: "/vikingbrothersgym/news/new4.jpeg",
         title: "El cachirulo más vikingo con tu matrícula",
