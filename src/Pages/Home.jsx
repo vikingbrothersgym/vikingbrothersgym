@@ -49,11 +49,11 @@ const Home = () => {
                     </a>
                 </div>
                 <hr/>
-                <div className="video">
+                <div id="servicios" className="video">
                     <Video url={"https://youtube.com/shorts/U0sdbC-t48Y?feature=share"}/>
                 </div>
                 <hr/>
-                <div id="servicios">
+                <div>
                     <Servicios/>
                 </div>
                 <hr/>
