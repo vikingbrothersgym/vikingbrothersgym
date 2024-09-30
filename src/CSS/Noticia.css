@@ -24,7 +24,12 @@
 }
 
 .im-noticia {
-    max-width: 40%;
+    @media (min-width: 700px) {
+        max-width: 40%;        
+    }
+    @media (max-width: 700px) {
+        max-width: 80%;
+    }
     text-align: center;
     align-items: center;
 }
