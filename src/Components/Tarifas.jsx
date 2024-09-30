@@ -49,13 +49,16 @@ const Incluido = ({boxeo = false, normal = false}) => {
     )
 }
 
-const Precio = ({oferta, mesOferta, normal, mesNormal}) => {
+const Precio = ({oferta, mesOferta, normal, mesNormal, matricula}) => {
     return (
         <>
             {oferta < 0 ? (
                 <div className="precio">
                     <div className="oferta">
                         <h2> {normal} € </h2>
+                        {matricula && (
+                            <p> + {matricula} € matrícula el primer mes </p>
+                        )}
                         {mesNormal > 0 && (
                             <p> {mesNormal} €/mes </p>
                         )}
@@ -115,7 +118,8 @@ const Cuota = ({meses, boxeo = false, normal = false}) => {
                         <GiTwoHandedSword/>
                         <h1> 1 Mes </h1>
                     </div>
-                    <Precio oferta={-1} normal={35} mesNormal={0} />
+                    <Precio oferta={-1} matricula={20}
+                            normal={35} mesNormal={0} />
                     <Incluido/>
                 </div>
             )}
@@ -148,8 +152,7 @@ const Cuota = ({meses, boxeo = false, normal = false}) => {
                         <GiVikingHead/>
                         <h1> 1 Año </h1>
                     </div>
-                    <Precio oferta={300} mesOferta={25} 
-                            normal={330} mesNormal={27.5}/>
+                    <Precio oferta={-1} normal={330} mesNormal={27.5}/>
                     <Incluido/>
                 </div>
             )}
