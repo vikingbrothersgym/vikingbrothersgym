@@ -23,7 +23,7 @@ const NoticiaPreview = ({ultimas, not }) => {
                 />
                 </div>
                 <Button 
-                  className="bg-black border-0 text-third font-bold text-lg mt-2 mr-7"
+                  className="bg-black border-0 text-third font-bold text-lg mt-2 mr-7 hover:bg-third hover:text-black"
                   onClick={() => navigate(constants.root + "noticia/" + not.id)}
                 >
                     Leer más

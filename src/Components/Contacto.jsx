@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.png"
-import { FaInstagram, FaFacebook, FaTiktok } from "react-icons/fa";
+import { FaInstagram, FaYoutube, FaTiktok } from "react-icons/fa";
 import "../CSS/Contacto.css"
 
 
@@ -28,8 +28,8 @@ const Contacto = () => {
                         </a>                        
                     </li>
                     <li className="red"> 
-                        <a className="red-a" href="https://www.facebook.com/people/Viking-brothers-gym/61550865178176/">
-                            <FaFacebook />
+                        <a className="red-a" href="https://www.youtube.com/@VikingBrothersGymZaragoza/videos">
+                            <FaYoutube />
                         </a>
                     </li>
                     <li className="red"> 
