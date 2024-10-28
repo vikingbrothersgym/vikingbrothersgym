@@ -50,15 +50,11 @@ const Home = () => {
                 </div>
                 <hr/>
                 <div id="servicios" className="video">
-                    <Video url={"https://youtube.com/shorts/U0sdbC-t48Y?feature=share"}/>
+                    <Video url={"https://www.youtube.com/watch?v=1OiH3hK8ihc"}/>
                 </div>
                 <hr/>
                 <div>
                     <Servicios/>
-                </div>
-                <hr/>
-                <div className="video">
-                    <Video url={"https://youtu.be/PK_kANLdbyo"}/>
                 </div>
                 <hr/>
                 <div className="ubi-con">

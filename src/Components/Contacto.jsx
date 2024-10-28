@@ -28,7 +28,7 @@ const Contacto = () => {
                         </a>                        
                     </li>
                     <li className="red"> 
-                        <a className="red-a" href="https://www.youtube.com/@VikingBrothersGymZaragoza/videos">
+                        <a className="red-a" href="https://www.youtube.com/@VikingBrothersGym">
                             <FaYoutube />
                         </a>
                     </li>
