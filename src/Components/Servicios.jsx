@@ -89,7 +89,7 @@ const Servicio = ({index = 1}) => {
 
 const Servicios = () => {
     return (
-        <>
+        <div className="servicios-back">
             <h1 className="sec-tit"> 
                 NUESTRA OFERTA <br/> 
                 <span> VIKINGA </span>  
@@ -102,7 +102,7 @@ const Servicios = () => {
                 <Servicio index={5}/>
                 <Servicio index={6}/>
             </div>
-        </>
+        </div>
     )
 }
 

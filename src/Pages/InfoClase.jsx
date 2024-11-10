@@ -5,6 +5,7 @@ import panedas from "../assets/info/Panedas.jpg"
 import bueno from "../assets/info/Bueno.jpg"
 import marquino from "../assets/info/Marquino.png"
 import chamon from "../assets/info/Chamon.jpg"
+import alex from "../assets/info/Alex.jpeg"
 import {Image} from "@nextui-org/react";
 import "../CSS/InfoClase.css"
 import Video from "../Components/Video"
@@ -220,6 +221,44 @@ const InfoClase = () => {
 
                                 ¿Listo para empezar? Únete a nuestras clases de 
                                 boxeo y dale un giro a tu entrenamiento.                            </p>
+                        </div>
+                    </div>
+                    {/* <div className="video">
+                        <Video url={"https://youtu.be/2O1SAhAx7mI?si=AwKEa9_WhjFjLiyo"} />
+                    </div> */}
+                </div>
+            )
+            : nombre === "Álex Clandestino" ? (
+                <div className="infoclase-container">
+                    <h1 className="infoclase-titulo"> 
+                        Boxeo infantil (6 a 14 años) </h1>
+                    <hr className="hr-infoclase"/>
+                    <div className="text-clase">
+                        <div className="profe-container">
+                            <h2 className="descripcion"> Álex Clandestino </h2>
+                            <div className="im-profe-container">
+                                <Image 
+                                    className="im-profe" 
+                                    src={alex}
+                                    isBlurred
+                                    isZoomed />
+                            </div>
+                        </div>
+                        <div className="descripcion-container">
+                            <h2 className="descripcion"> Descripción </h2>
+                            <p className="descripcion-text"> 
+                            Las clases de defensa personal para niños están 
+                            diseñadas para enseñar habilidades básicas de 
+                            defensa, mejorar su confianza, disciplina y 
+                            conciencia de seguridad. <br/> <br/>
+                            Con un enfoque en técnicas no violentas y de 
+                            control, nuestros instructores capacitan a los niños 
+                            para protegerse de una manera segura y respetuosa, 
+                            mientras desarrollan habilidades físicas y mentales 
+                            valiosas. <br/> <br/>
+                            Estaremos encantados de recibir a nuestros 
+                            mini-vikingos de 6 a 14 años.
+                            </p>
                         </div>
                     </div>
                     {/* <div className="video">

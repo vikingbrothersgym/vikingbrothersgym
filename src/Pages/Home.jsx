@@ -21,6 +21,7 @@ import Gym9 from "../assets/Gym/Gym_9.jpg"
 import Gym10 from "../assets/Gym/Gym_10.jpg"
 
 import { FaArrowCircleDown } from "react-icons/fa";
+import Profesores from "../Components/Profesores"
 
 const Home = () => {
     const images = [
@@ -49,12 +50,14 @@ const Home = () => {
                     </a>
                 </div>
                 <hr/>
-                <div id="servicios" className="video">
-                    <Video url={"https://www.youtube.com/watch?v=1OiH3hK8ihc"}/>
-                </div>
+                <Profesores/>
                 <hr/>
                 <div>
                     <Servicios/>
+                </div>
+                <hr/>
+                <div id="servicios" className="video">
+                    <Video url={"https://www.youtube.com/watch?v=1OiH3hK8ihc"}/>
                 </div>
                 <hr/>
                 <div className="ubi-con">

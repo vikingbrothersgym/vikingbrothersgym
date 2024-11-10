@@ -25,6 +25,7 @@ const Clase = ({nombre, inicio, final = "", trainer}) => {
         nombre === "Espalda sana + core"            ? 16 :
         nombre === "Boxeo"                          ? 1 :
         nombre === "King Boxing / Defensa Personal" ? 2 :
+        nombre === "Boxeo infantil" ? 3 :
         19
 
     return (

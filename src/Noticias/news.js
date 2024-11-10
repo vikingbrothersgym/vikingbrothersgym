@@ -9,15 +9,27 @@ text: [""],
 
 const news = [
     {
-        id: 5,
-        image: "/vikingbrothersgym/news/new5.png",
-        title: "1 de octubre: Comienzan clases: Boxeo y Defensa Personal",
-        date: "25/09/2024",
+        id: 6,
+        image: "/vikingbrothersgym/news/new6.jpeg",
+        title: "El 9º campeón español del mundo (y nuestro profesor), José Antonio López Bueno",
+        date: "11/11/2024",
         text: [
-            "Este 1 de octubre es un día muuuuuy especial😛",
-            "¡¡¡Comienzan nuestras clases de Boxeo y Defensa Personal!!!",
-            "¿Aún no te has apuntado? No esperes más y apúntate. Nuestros profes harán de ti un guerrero VIKINGO.",
-            "Consulta nuestras tarifas y horarios en esta misma web o ven y pregúntanos."
+            "José Antonio es uno de nuestros profesores de boxeo del Viking Brothers Gym.",
+            "En su carrera profesional, se convirtió en el noveno campeón mundial del boxeo español tras: Baltasar Berenguer, José Legrá, Pedro Carrasco, Perico Fernández, Miguel Velázquez, José Manuel Durán, Cecilio Lastra y Javier Castillejo.",
+            "¿Qué puede haber mejor que entrenar y aprender de un campeón como José Antonio?",
+            "Consulta en esta web y/o ven a preguntarnos para saber más. ¡Apúntate a nuestras clases tengas el nivel que tengas!"
+        ],
+    },
+    {
+        id: 5,
+        image: "/vikingbrothersgym/news/new5.jpeg",
+        title: "Nuestra campeona de boxeo del templo",
+        date: "11/11/2024",
+        text: [
+            "Tenemos el placer de tener con nosotros a Andrea Marquino.",
+            "Esta campeona vikinga es un diamante del boxeo aragonés.",
+            "¿Sabías que también entrena y da clases junto con su padre en el Viking Brothers Gym?",
+            "Consulta en esta web y/o ven a preguntarnos para saber más. ¡Apúntate a nuestras clases tengas el nivel que tengas!"
         ],
     },
     {
@@ -41,16 +53,6 @@ const news = [
             "No sabemos si el boxeo, el king boxing y la defensa personal se practicaban en el Valhalla, pero lo que sí sabemos es que no te dejarán indiferente.",
             "Las clases comenzarán en octubre. Ven e inscríbete, las plazas en los grupos son limitadas, ¡no dejes escapar la oportunidad!",
             "Horarios, profesores y clases disponibles tanto en el apartado de Clases de esta web como en la imagen de esta misma noticia"
-        ],
-    },
-    {
-        id: 2,
-        image: "/vikingbrothersgym/news/new2.png",
-        title: "Proximamente en Viking Brothers Gym...",
-        date: "05/09/2024",
-        text: [
-            "Con la vuelta a la rutina, también vienen cambios al Templo.",
-            "Pronto os contaremos y enseñaremos todo lo que está por llegar. Hasta entonces, os dejamos con la portada de esta noticia como gran pista de las próximas novedades."
         ],
     },
     {

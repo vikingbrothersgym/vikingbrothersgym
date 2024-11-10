@@ -12,9 +12,11 @@
     @media (max-width: 760px) {
         display: none;
     }
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
+    @media (min-width: 760px) {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;            
+    }
 }
 
 .logo {
@@ -44,9 +46,11 @@
     @media (min-width: 760px) {
         display: none;
     }
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
+    @media (max-width: 760px) {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;            
+    }
 }
 
 .menu-button {

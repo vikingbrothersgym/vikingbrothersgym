@@ -31,7 +31,6 @@ const horarios = {
         ["Espalda sana", "18:00"],
         ["Body Pump", "19:00"],
         ["Spinning virtual", "20:00"],
-        ["Viking Box + Flexibilidad", "20:00"],
         ["Yoga", "20:30"],
     ],
     miercoles: [
@@ -54,7 +53,6 @@ const horarios = {
         ["Modelaje", "18:00"],
         ["Pilates", "19:00"],
         ["Spinning virtual", "20:00"],
-        ["Viking Box + Flexibilidad", "20:00"],
         ["Yoga", "20:30"],
     ],
     viernes: [
@@ -66,10 +64,9 @@ const horarios = {
         ["Hit + Flexibilidad", "18:00"],
         ["Zumba", "19:00"],
         ["Spinning virtual", "20:00"],
-        ["Hit + Flexibilidad", "20:00"],
     ],
     sabado: [
-        ["Viking Box", "9:30"],
+        ["Viking Box", "10:00"],
         ["Pilates", "11:00"],
     ],
     domingo: [
