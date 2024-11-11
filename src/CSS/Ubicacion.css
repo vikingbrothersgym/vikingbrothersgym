@@ -1,42 +1,9 @@
-/* .mapa {
-    margin-left: 5vw;
-    justify-content: center;
-}
-
-.ubi {
-    padding: 1vh;
-    color: var(--color-text1);
-}
-
-.ubi-title {
-    color: var(--color-third);
-    margin-left: 5vw;
-    font-size: 200%;
-    font-weight: bold;
-}
-
-.dir-info {
-    color: var(--color-text1);
-    justify-content: center;
-    align-items: center;
-}
-
-.dir {
-    font-size: 150%;
-}
- */
-
  /* Ubicación */
 
  .ubi-title {
     color: var(--color-text1);
     font-weight: bold;
     font-size: 3rem;
-
-    /* color: var(--color-third); */
-    /* margin-left: 5vw; */
-    /* font-size: 200%; */
-    /* font-weight: bold; */
 }
 
 .como-llegar {

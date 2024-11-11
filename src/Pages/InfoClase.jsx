@@ -231,7 +231,7 @@ const InfoClase = () => {
             : nombre === "Álex Clandestino" ? (
                 <div className="infoclase-container">
                     <h1 className="infoclase-titulo"> 
-                        Boxeo infantil (6 a 14 años) </h1>
+                        Kick boxing infantil (6 a 14 años) </h1>
                     <hr className="hr-infoclase"/>
                     <div className="text-clase">
                         <div className="profe-container">

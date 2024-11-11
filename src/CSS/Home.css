@@ -51,6 +51,6 @@
     display: flex;
     justify-content: space-around;
     align-items: start;
-    margin-left: 1vw;
+    /* margin-left: 1vw; */
     margin-bottom: 5vh ;
 }

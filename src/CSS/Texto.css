@@ -50,3 +50,32 @@
     opacity: 50%;
 }
 
+/* Ubicación */
+
+.ubi {
+    width: 100vw;
+    position: relative; /* Asegura que el pseudo-elemento ::before esté contenido en este div */
+    background-image: url("../assets/banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    overflow: hidden; /* Evita que el ::before se extienda fuera del div */
+}
+
+.ubi::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Ajusta el nivel de oscuridad */
+    z-index: 1;
+}
+
+/* Estilo para el contenido dentro del div */
+.ubi > * {
+    position: relative;
+    z-index: 2; /* Coloca el contenido del div encima del overlay */
+}
