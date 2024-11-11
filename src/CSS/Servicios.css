@@ -1,6 +1,6 @@
 .servicios-back {
     position: relative; /* Asegura que el pseudo-elemento ::before esté contenido en este div */
-    background-image: url("/vikingbrothersgym/src/assets/iconmap.png");
+    background-image: url("../assets/iconmap.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

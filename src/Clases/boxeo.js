@@ -23,8 +23,10 @@ const horarios = {
         ["Boxeo", "20:30", "21:30", "Marquino"],
     ],
     viernes: [
-        ["Boxeo infantil", "19:00", "20:00", "Álex Clandestino"],
-        ["Boxeo infantil", "20:15", "21:15", "Álex Clandestino"],
+        ["", ""],
+        ["", ""],
+        ["Kick boxing infantil", "19:00", "20:00", "Álex Clandestino"],
+        ["Kick boxing infantil", "20:15", "21:15", "Álex Clandestino"],
     ],
     sabado: [
     ],

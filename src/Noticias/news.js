@@ -10,6 +10,18 @@ text: [""],
 const news = [
     {
         id: 6,
+        image: "/vikingbrothersgym/news/new7.jpeg",
+        title: "¡NUEVO! Kick boxing infantil",
+        date: "11/11/2024",
+        text: [
+            "Si tienes entre 6 y 14 años estás de suerte, ¡comienzan las clases de Kick boxing infantil!",
+            "Tenemos el lujo de contar con Álex Clandestino para poder aprender de la mejor manera las bases del Kick boxing.",
+            "Los horarios son los viernes de 19:00-20:00 y 20:15-21:15.",
+            "Consulta en esta web y/o ven a preguntarnos para saber más. ¡Apúntate a nuestras clases y conviértete en un Vikingo!"
+        ],
+    },
+    {
+        id: 6,
         image: "/vikingbrothersgym/news/new6.jpeg",
         title: "El 9º campeón español del mundo (y nuestro profesor), José Antonio López Bueno",
         date: "11/11/2024",
