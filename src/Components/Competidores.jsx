@@ -1,32 +1,19 @@
-import C1 from "../assets/campeones/Tatiana.jpg"
-import C2 from "../assets/campeones/Camelia.png"
-import C3 from "../assets/campeones/Alex.jpg"
-import C4 from "../assets/campeones/Lucia.jpg"
+import C1 from "../assets/campeones/Andrea.jpg"
+import C2 from "../assets/campeones/Lucia.jpg"
 import "../CSS/Competidores.css"
 
 const Competidores = () => {
     const comp = [
         {
             image: C1,
-            name: "TATIANA REY",
-            text: "Campeona de WORLD CHAMPIONSHIP 2022 Wabba international, Olimpia Wabba 2022 Copa España IFBB 2019 y Cataluña IFBB 2019"
+            name: "ANDREA MARQUINO",
+            text: "Boxeadora selección autonómica de Aragón Junior"
         }, 
         {
             image: C2,
             name: "CAMELIA ARIÑO",
             text: "Otra de nuestras campeonas que entrena con nosotros"
         },
-        {
-            image: C3,
-            name: "ALEX AROZ",
-            text: "Campeón Mens Physique IFBB ELITE PRO Malta PRO CARD, European"
-        },
-        {
-            image: C4,
-            name: "LUCÍA CASTELLS",
-            text: "Competidora Natural"
-        }
-
     ]
     
     return (

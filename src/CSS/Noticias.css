@@ -88,18 +88,14 @@
     font-size: 18px; /* Asegura que el tamaño de la fuente sea consistente */
     font-weight: bold; /* Hace el enlace más prominente */
     text-decoration: none;
-    color: var(--color-third); /* Azul vibrante para el enlace */
-    background-color: black; /* Fondo claro */
+    color: black; /* Azul vibrante para el enlace */
+    background-color: var(--color-third); /* Fondo claro */
     padding: 10px 20px;
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s;
 }
 
-.link-como-llegar:hover {
-    background-color: var(--color-third); /* Fondo azul vibrante al pasar el mouse */
-    color: black; /* Texto blanco al pasar el mouse */
-    text-decoration: underline; /* Subrayado al pasar el mouse */
-}
+
 
 .new {
 
