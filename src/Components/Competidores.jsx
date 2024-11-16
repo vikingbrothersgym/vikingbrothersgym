@@ -7,13 +7,13 @@ const Competidores = () => {
         {
             image: C1,
             name: "ANDREA MARQUINO",
-            text: "Boxeadora selección autonómica de Aragón Junior"
+            text: "Boxeadora selección autonómica de Aragón"
         }, 
         {
             image: C2,
-            name: "CAMELIA ARIÑO",
-            text: "Otra de nuestras campeonas que entrena con nosotros"
-        },
+            name: "LUCÍA CASTELLS",
+            text: "Competidora Natural"
+        }
     ]
     
     return (
