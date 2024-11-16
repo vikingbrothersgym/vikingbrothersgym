@@ -45,18 +45,18 @@ const Home = () => {
             <div className="home">
                 <div className="carrusel-home">
                     <Carrusel images={images}/>
-                    <a className="button-down" href="#servicios">
+                    <a className="button-down" href="#profesores">
                         <FaArrowCircleDown />                    
                     </a>
                 </div>
-                <hr/>
+                <hr id="profesores"/>
                 <Profesores/>
                 <hr className="mb-0"/>
                 <div>
                     <Servicios/>
                 </div>
                 <hr className="mt-0"/>
-                <div id="servicios" className="video">
+                <div className="video">
                     <Video url={"https://www.youtube.com/watch?v=1OiH3hK8ihc"}/>
                 </div>
                 {/* <hr className="mb-0"/> */}
