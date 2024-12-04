@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom"
-import logo from "../assets/logo.png"
+import logo from "../assets/logo_navidad.webp"
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import "../CSS/NavBar.css"
 import { useEffect, useState } from "react"
@@ -55,11 +55,11 @@ const NavBar = () => {
         <img className="logo" src={logo}/>
 
         <div className={`menu-button${clicked ? '-clicked' : ''}`}>
-          <a onClick={handleClick} ><AiOutlineMenu/></a>
+          <a className="flex items-center" onClick={handleClick} ><AiOutlineMenu/></a>
         </div>
 
         <div className={`close-button${clicked ? '-clicked' : ''}`}>
-          <a onClick={handleClick} ><AiOutlineClose/></a>
+          <a className="flex items-center" onClick={handleClick} ><AiOutlineClose/></a>
         </div>
 
       </div>
