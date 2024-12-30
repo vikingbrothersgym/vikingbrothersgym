@@ -9,6 +9,7 @@ import Servicios from "../Components/Servicios"
 import UltimasNoticias from "../Components/UltimasNoticias"
 import Competidores from "../Components/Competidores"
 
+import Gym0 from "../assets/Gym/Gym_0.webp"
 import Gym1 from "../assets/Gym/Gym_1.jpg"
 import Gym2 from "../assets/Gym/Gym_2.jpg"
 import Gym3 from "../assets/Gym/Gym_3.jpg"
@@ -25,6 +26,7 @@ import Profesores from "../Components/Profesores"
 
 const Home = () => {
     const images = [
+        { original: Gym0 },
         { original: Gym1 },
         { original: Gym2 }, 
         { original: Gym3 }, 

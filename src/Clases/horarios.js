@@ -20,7 +20,6 @@ const horarios = {
         ["Modelaje", "18:00"],
         ["Zumba", "19:00"],
         ["Spinning virtual", "20:00"],
-        ["Hit + Flexibilidad", "20:00"],
     ],
     martes: [
         ["Pilates + Espalda sana", "9:30"],
@@ -42,7 +41,6 @@ const horarios = {
         ["Pilates", "18:00"],
         ["Zumba", "19:00"],
         ["Spinning virtual", "20:00"],
-        ["Hit + Flexibilidad", "20:00"],
     ],
     jueves: [
         ["Free Style", "9:30"],
@@ -61,7 +59,7 @@ const horarios = {
         ["Abdominales", "11:45"],
         ["", ""],
         ["", ""],
-        ["Hit + Flexibilidad", "18:00"],
+        ["", ""],
         ["Zumba", "19:00"],
         ["Spinning virtual", "20:00"],
     ],
