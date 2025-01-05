@@ -11,13 +11,13 @@ const Clase = ({nombre, inicio, final = "", trainer}) => {
         nombre === "Zumba"                          ? 2 :
         nombre === "Modelaje"                       ? 3 :
         nombre === "Yoga"                           ? 4 :
-        nombre === "Spinning virtual"               ? 5 :
+        nombre === "Salsa + Bachata Fusión"         ? 5 :
         nombre === "Pilates + Espalda sana"         ? 6 :
         nombre === "Espalda sana"                   ? 7 :
         nombre === "Pilates"                        ? 8 :
         nombre === "F-Interval"                     ? 9 :
         nombre === "Funcional"                      ? 10 :
-        nombre === "Free Style"                     ? 11 :
+        nombre === "HIT + Avanzado 45 min"          ? 11 :
         nombre === "Viking Box"                     ? 12 :
         nombre === "Hit + Flexibilidad"             ? 13 :
         nombre === "Viking Box + Flexibilidad"      ? 14 :
