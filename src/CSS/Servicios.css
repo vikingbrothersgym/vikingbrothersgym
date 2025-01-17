@@ -44,14 +44,14 @@
     height: 100%;
 
     @media (max-width: 900px) {
-        background-color: #00000090;
+        background-color: rgb(0,0,0,0.9);
         backdrop-filter: blur(2px);
     }
     @media (min-width: 900px) {
         opacity: 0;
         backdrop-filter: blur(10px);
         transition: opacity .3s ease;
-        background-color: #00000070;
+        background-color: rgb(0,0,0,0.7);
     }
     
 }
