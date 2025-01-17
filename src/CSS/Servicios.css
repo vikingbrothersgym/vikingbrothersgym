@@ -38,7 +38,7 @@
     transition: all 0.3s ease;
 }
 
-.clases::before {
+.clases::after {
     content: '';
     position: absolute;
     top: 0;
@@ -47,18 +47,19 @@
     height: 100%;
 
     @media (max-width: 900px) {
-        background-color: rgba(0,0,0,0.9);
+        background-color: rgb(0,0,0);
+        opacity: 0.7;
     }
     @media (min-width: 900px) {
         opacity: 0;
         transition: opacity 0.3s ease;
-        background-color: rgba(0,0,0,0.7);
+        background-color: rgb(0,0,0);
     }
     
 }
 
-.clases:hover::before {
-    opacity: 1;
+.clases:hover::after {
+    opacity: 0.7;
 }
 
 .clases:hover .img-clases {
