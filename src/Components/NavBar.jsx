@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom"
-import logo from "../assets/logo_navidad.webp"
+import logo from "../assets/logo.webp"
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import "../CSS/NavBar.css"
 import { useEffect, useState } from "react"
@@ -29,25 +29,25 @@ const NavBar = () => {
   }, [clicked]);
 
   return (
-    <div className="navbar">
+    <header className="navbar">
       <div className="navbar-big">
-        <img className="logo" src={logo}/>
+        <img className="logo relative l-0" src={logo}/>
 
         <nav className="links-big">
           <a onClick={() => navigate(constants.root)} href=""> 
-            Inicio 
+            INICIO 
           </a>
           <a onClick={() => navigate(constants.root + "noticias")} href=""> 
-            Noticias
+            NOTICIAS
           </a>
           <a onClick={() => navigate(constants.root + "clases")} href=""> 
-            Clases
+            CLASES
           </a>
           <a onClick={() => navigate(constants.root + "informacion")} href=""> 
-            Información 
+            INFORMACIÓN 
           </a>
           <a href="#contacto"> 
-            Contacto 
+            CONTACTO 
           </a>
         </nav>
       </div>
@@ -66,23 +66,23 @@ const NavBar = () => {
 
       <div className={`menu-little${clicked ? '-clicked' : ''}`}>
         <a onClick={() => navigate(constants.root)} href=""> 
-          Inicio 
+          INICIO 
         </a>
         <a onClick={() => navigate(constants.root + "noticias")} href=""> 
-          Noticias
+          NOTICIAS
         </a>
         <a onClick={() => navigate(constants.root + "clases")} href=""> 
-            Clases
+          CLASES
         </a>
         <a onClick={() => navigate(constants.root + "informacion")} href=""> 
-            Información 
+          INFORMACIÓN 
         </a>
         <a href="#contacto" onClick={handleClick}> 
-          Contacto 
+          CONTACTO 
         </a>
 
       </div>
-    </div>
+    </header>
   )
 }
 

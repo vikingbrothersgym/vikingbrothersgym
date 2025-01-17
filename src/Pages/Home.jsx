@@ -1,32 +1,30 @@
 import "../CSS/Home.css"
 
 import NavBar from "../Components/NavBar"
-import Contacto from "../Components/Contacto"
+import Contacto from "../Components/Footer"
 import Carrusel from "../Components/Carrusel"
 import Video from "../Components/Video"
-import Texto from "../Components/Texto"
+import Footer from "../Components/Ubicacion"
 import Servicios from "../Components/Servicios"
 import UltimasNoticias from "../Components/UltimasNoticias"
 import Competidores from "../Components/Competidores"
 
-import Gym0 from "../assets/Gym/Gym_0.webp"
-import Gym1 from "../assets/Gym/Gym_1.jpg"
-import Gym2 from "../assets/Gym/Gym_2.jpg"
-import Gym3 from "../assets/Gym/Gym_3.jpg"
-import Gym4 from "../assets/Gym/Gym_4.jpg"
-import Gym5 from "../assets/Gym/Gym_5.jpg"
-import Gym6 from "../assets/Gym/Gym_6.jpg"
-import Gym7 from "../assets/Gym/Gym_7.jpg"
-import Gym8 from "../assets/Gym/Gym_8.jpg"
-import Gym9 from "../assets/Gym/Gym_9.jpg"
-import Gym10 from "../assets/Gym/Gym_10.jpg"
+import Gym1 from "../assets/Gym/Gym_1.webp"
+import Gym2 from "../assets/Gym/Gym_2.webp"
+import Gym3 from "../assets/Gym/Gym_3.webp"
+import Gym4 from "../assets/Gym/Gym_4.webp"
+import Gym5 from "../assets/Gym/Gym_5.webp"
+import Gym6 from "../assets/Gym/Gym_6.webp"
+import Gym7 from "../assets/Gym/Gym_7.webp"
+import Gym8 from "../assets/Gym/Gym_8.webp"
+import Gym9 from "../assets/Gym/Gym_9.webp"
+import Gym10 from "../assets/Gym/Gym_10.webp"
 
 import { FaArrowCircleDown } from "react-icons/fa";
 import Profesores from "../Components/Profesores"
 
 const Home = () => {
     const images = [
-        { original: Gym0 },
         { original: Gym1 },
         { original: Gym2 }, 
         { original: Gym3 }, 
@@ -41,9 +39,7 @@ const Home = () => {
 
     return (
         <div className="home-page">
-            <header className="header-navbar" id="inicio">
-                <NavBar/>
-            </header>
+            <NavBar/>
             <div className="home">
                 <div className="carrusel-home">
                     <Carrusel images={images}/>
@@ -54,16 +50,14 @@ const Home = () => {
                 <hr id="profesores"/>
                 <Profesores/>
                 <hr className="mb-0"/>
-                <div>
-                    <Servicios/>
-                </div>
+                <Servicios/>
                 <hr className="mt-0"/>
-                <div className="video">
+                {/* <div className="video">
                     <Video url={"https://www.youtube.com/watch?v=1OiH3hK8ihc"}/>
-                </div>
+                </div> */}
                 {/* <hr className="mb-0"/> */}
                 <div className="ubi-con mb-0">
-                    <Texto texto={"ubicacion"}/>
+                    <Footer />
                 </div>
                 {/* <hr className="mt-0"/> */}
                 <UltimasNoticias/>

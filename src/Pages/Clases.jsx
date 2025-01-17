@@ -1,6 +1,6 @@
 import "../CSS/Clases.css"
 import Semana from "../Components/Calendario/Semana"
-import Contacto from "../Components/Contacto"
+import Contacto from "../Components/Footer"
 import NavBar from "../Components/NavBar"
 import Texto from "../Components/Texto"
 import {Tabs, Tab} from "@nextui-org/react";

@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom"
 import NavBar from "../Components/NavBar"
-import Contacto from "../Components/Contacto"
+import Contacto from "../Components/Footer"
 import panedas from "../assets/info/Panedas.jpg"
 import bueno from "../assets/info/Bueno.jpg"
 import marquino from "../assets/info/Marquino.png"

@@ -2,7 +2,7 @@ import "../CSS/Informacion.css"
 
 import NavBar from "../Components/NavBar.jsx"
 import Presentacion from "../Components/Presentacion"
-import Contacto from "../Components/Contacto"
+import Contacto from "../Components/Footer.jsx"
 import Tarifas from "../Components/Tarifas.jsx"
 import Suplementacion from "../Components/Suplementacion.jsx"
 import CBImperial from "../Components/CBImperial.jsx"

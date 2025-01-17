@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom"
 import NavBar from "../Components/NavBar.jsx"
-import Contacto from "../Components/Contacto"
+import Contacto from "../Components/Footer.jsx"
 import news from "../Noticias/news.js"
 import { useEffect, useState } from "react"
 import Carrusel from "../Components/Carrusel.jsx"

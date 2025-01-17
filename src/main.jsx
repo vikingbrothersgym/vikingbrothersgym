@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import {NextUIProvider} from "@nextui-org/react";
 import App from './App.jsx';
 import "./index.css"
-import '@fontsource/macondo';
+import '@fontsource-variable/exo-2';
 import "./CSS/main.css"
 
 ReactDOM.createRoot(document.getElementById('root')).render(

@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "../Components/NavBar.jsx"
-import Contacto from "../Components/Contacto"
+import Contacto from "../Components/Footer.jsx"
 import news from "../Noticias/news.js"
 import "../CSS/Noticias.css"
 import { useNavigate } from "react-router-dom";

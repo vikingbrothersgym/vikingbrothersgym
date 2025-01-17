@@ -2,7 +2,6 @@
     position: sticky;
     top: 0;
     z-index: 1000000000;
-    background-color: white; /* Asegúrate de que el fondo no sea transparente */
 }
 
 body, html {
@@ -12,12 +11,12 @@ body, html {
     height: fit-content;
     width: 100%;
     background-color: var(--color-background); /* Elige el color que desees */
-    font-family: 'Macondo', system-ui; /* Opcional, para asegurar la consistencia tipográfica */
+    font-family: 'Exo 2 Variable', sans-serif;
     scroll-behavior: smooth;
 }
 
 :root {
-    --color-background: #202020;
+    --color-background: #151515;
     --color-primary: #303030;
     --color-second: #d9d9d9;
     --color-third: #FBA92C;

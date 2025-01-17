@@ -4,8 +4,13 @@
 }
 
 .navbar {
-    background-color: #101010;
+    position: sticky;
+    top: 0;
+    z-index: 1000000000;
+    background: #00000080; /* Fondo semitransparente */
+    backdrop-filter: saturate(200%) blur(10px);
     padding: 10px;
+    height: 5vh;
 }
 
 .navbar-big {
@@ -14,13 +19,13 @@
     }
     @media (min-width: 760px) {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         text-align: center;            
     }
 }
 
 .logo {
-    max-width: 12vh;
+    max-height: 5vh;
 }
 
 .links-big {
@@ -28,7 +33,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 150%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 50px;
     a {
         color: var(--color-text1);
         text-decoration: none;
@@ -41,6 +48,10 @@
         opacity: 50%;
     }
 }
+
+/*******************************************************************************
+ * Móvil
+*******************************************************************************/
 
 .navbar-little {
     @media (min-width: 760px) {
@@ -111,9 +122,10 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    font-size: 160%;    
+    font-size: 160%;
 
     a {
+        font-weight: bold;
         display: block;
         margin: 5px 0; /* Espacio entre los enlaces */
         color: white;

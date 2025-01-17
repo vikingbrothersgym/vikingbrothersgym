@@ -1,38 +1,82 @@
-.servicios-back {
-    position: relative; /* Asegura que el pseudo-elemento ::before esté contenido en este div */
-    background-image: url("../assets/iconmap.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position:center;
-    overflow: hidden; /* Evita que el ::before se extienda fuera del div */
+.clases {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 3/4;
+    overflow: hidden;
+
+    h1 {
+        font-weight: 800;
+        font-size: 2.5rem;
+    }
 }
 
-.servicios-back::before {
-    content: "";
+.servi-text {
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.8); /* Ajusta el nivel de oscuridad */
-    z-index: 1;
+    width: 90%;
+    z-index: 2;
+    margin-left: 20px;
+    color: white;
 }
 
-/* Estilo para el contenido dentro del div */
-.servicios-back > * {
+.servi-description {
     position: relative;
-    z-index: 2; /* Coloca el contenido del div encima del overlay */
+    font-size: 1.2rem;
+
+    @media (min-width: 900px) {
+        left: 500px;
+        transition: left 0.3s ease;
+    }
+}
+
+.img-clases {
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.clases::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    @media (max-width: 900px) {
+        background-color: #00000090;
+        backdrop-filter: blur(2px);
+    }
+    @media (min-width: 900px) {
+        opacity: 0;
+        backdrop-filter: blur(10px);
+        transition: opacity .3s ease;
+        background-color: #00000070;
+    }
+    
+}
+
+.clases:hover::after {
+    opacity: 1;
+}
+
+.clases:hover .img-clases {
+    transform: scale(1.3);
+}
+
+.clases:hover .servi-description {
+    left: 0;
 }
 
 
 .servicios-container {
-
-    @media (min-width: 1000px) {
-        display: flex;
-        flex-wrap:wrap;
-        align-items: start;    
-    }
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    width: 90vw;
+    max-width: 1000px;
+    min-width: 0px;
 }
 
 .servi-title {
@@ -44,58 +88,4 @@
     span {
         color: var(--color-third);
     }
-}
-
-.servicio {
-    /* @media (min-width: 1500px) {
-        max-width: 25%;
-        min-height: 10vw;    
-    }
-    @media (min-width: 700px) {
-        width: 30%;
-        min-height: 10vw;    
-    }
-    @media (max-width: 700px) {
-        width: 75%;
-        min-height: 10vw;    
-    } */
-    @media (min-width: 1000px) {
-        width: 25%;        
-    }
-    @media (max-width: 1000px) {
-        width: 75%;
-    }
-
-    /* background-color: black; */
-    /* border-width: 2px; */
-    /* border-color: var(--color-third); */
-    /* border-style: solid; */
-
-    color: var(--color-text1);
-    border-radius: 10px;
-    padding: 15px;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 2vh;
-    transition: all .6s ease ;
-    
-
-    h2 {
-        margin-top: 0;
-        color: var(--color-third);
-    }
-
-    p {
-        font-size: 1.15rem;
-    }
-
-    hr {
-        margin: 0;
-        width: 100%;
-    }
-}
-
-.icon-service {
-    color: white;
-    font-size: 5rem;
 }
