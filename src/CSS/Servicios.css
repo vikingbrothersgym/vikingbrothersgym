@@ -45,18 +45,24 @@
     left: 0;
     width: 100%;
     height: 100%;
-
-    @media (max-width: 900px) {
-        background-color: rgb(0,0,0);
-        opacity: 0.7;
-    }
-    @media (min-width: 900px) {
-        opacity: 0;
-        transition: opacity 0.3s ease;
-        background-color: rgb(0,0,0);
-    }
-    
+    z-index: 1;
 }
+
+@media (max-width: 900px) {
+.clases::after {
+    background-color: rgb(0,0,0);
+    opacity: 0.7;
+}
+}
+
+@media (min-width: 900px) {
+.clases::after {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    background-color: rgb(0,0,0);
+}
+}
+
 
 .clases:hover::after {
     opacity: 0.7;
@@ -70,7 +76,6 @@
 .clases:hover .servi-description {
     left: 0;
 }
-
 
 .servicios-container {
     display: grid;
