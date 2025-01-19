@@ -14,8 +14,11 @@
 }
 
 .competidores {
+    width: 100vw;
     @media (min-width: 1000px) { /* Pantalla grande */
         display: flex;
+        flex-wrap: wrap;
+        columns: 3;
         align-items: center;
         justify-content: center;            
     }

@@ -1,5 +1,8 @@
-import C1 from "../assets/campeones/Andrea.jpg"
-import C2 from "../assets/campeones/Lucia.jpg"
+import C1 from "../assets/campeones/Andrea.webp"
+import C2 from "../assets/campeones/Lucia.webp"
+import C3 from "../assets/campeones/Tatiana.webp"
+import C4 from "../assets/campeones/Alex.webp"
+import C5 from "../assets/campeones/Camelia.webp"
 import "../CSS/Competidores.css"
 
 const Competidores = () => {
@@ -13,6 +16,21 @@ const Competidores = () => {
             image: C2,
             name: "LUCÍA CASTELLS",
             text: "Competidora Natural"
+        },
+        {
+            image: C3,
+            name: "TATIANA REY",
+            text: "WORLD CHAMPIONSHIP 2022 Wabba international, Olimpiawabba2022 CopaEspañaIFBB2019, Cataluña IFBB2019"
+        },
+        {
+            image: C4,
+            name: "ÁLEX AROZ",
+            text: "Mens Physique IFBB ELITE PRO"
+        },
+        {
+            image: C5,
+            name: "CAMELIA ARIÑO",
+            text: "Competidora"
         }
     ]
     
