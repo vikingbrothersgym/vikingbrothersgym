@@ -7,7 +7,6 @@ const horarios = {
     martes: [
         ["Boxeo", "10:30", "11:30", "Bueno"],
         ["", ""],
-
         ["Boxeo", "19:00", "20:00", "Marquino"],
         ["Boxeo", "20:30", "21:30", "Marquino"],
     ],

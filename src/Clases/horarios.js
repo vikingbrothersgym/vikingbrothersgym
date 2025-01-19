@@ -60,7 +60,7 @@ const horarios = {
         ["", ""],
         ["", ""],
         ["Zumba", "18:00"],
-        ["HIT + Avanzado 45 min", "18:00"],
+        ["HIT + Avanzado 45 min", "19:00"],
     ],
     sabado: [
         ["Viking Box", "10:00"],
