@@ -15,7 +15,7 @@ const news = [
         date: "19/01/2025",
         text: [
             "¿Qué hay mejor que empezar el año con grandes propósitos?",
-            "En el Viking Brothers Gym tenemos muchas maneras para que las cumplas y una de ellas es con nuestras clases de Boxeo, Kick Boxing, Kick Boxing Infantil y Defensa Personal.",
+            "En Viking Brothers Gym tenemos muchas maneras para que las cumplas y una de ellas es con nuestras clases de Boxeo, Kick Boxing, Kick Boxing Infantil y Defensa Personal.",
             "Nuestros excelentes profes estarán encantados de recibirte, tengas el nivel que tengas.",
             "Consulta en esta web horarios y precios o acércate al gimnasio para contarte más sobre nuestras clases."
         ],
