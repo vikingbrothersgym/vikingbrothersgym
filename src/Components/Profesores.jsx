@@ -9,10 +9,10 @@ const Profesores = () => {
             url: "https://www.youtube.com/watch?v=CX6E4xWbxJY",
             nombre: "Fran Marquino"
         },
-        {
-            url: "https://www.youtube.com/watch?v=fwjkrcr3Iow",
-            nombre: "Felipe Panedas"
-        },
+        // {
+        //     url: "https://www.youtube.com/watch?v=fwjkrcr3Iow",
+        //     nombre: "Felipe Panedas"
+        // },
         {
             url: "https://www.youtube.com/watch?v=p9N6B0RB1P0&t=90s",
             nombre: "José Antonio López Bueno"
