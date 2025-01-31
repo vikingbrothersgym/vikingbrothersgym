@@ -54,3 +54,64 @@
     /* margin-left: 1vw; */
     margin-bottom: 5vh ;
 }
+
+.poema {
+    width: 100vw;
+    height: auto;
+    margin-top: 20px;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    a {
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        padding-bottom: 5px;
+        right: 10px;
+
+        @media (min-width: 900px) {
+            font-size: 2rem;            
+        }
+        @media (max-width: 900px) {
+            font-size: 1rem;
+        }
+
+        font-weight: bold;
+        color: black;
+
+        background-color: var(--color-third);
+        border-radius: 10px;
+
+        position: absolute;
+        bottom: 10px;
+        color: white;
+
+        svg {
+            color: black;
+        }
+    
+        p {
+            margin: 0;
+            color: black;
+        }
+    }
+
+
+    a:hover {
+        background-color: var(--color-background);
+        opacity: 1;
+        color: var(--color-third);
+        svg {
+            color: var(--color-third);
+        }
+
+        p {
+            color: var(--color-third);
+        }
+
+        
+    }
+}
+

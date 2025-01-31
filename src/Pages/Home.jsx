@@ -4,7 +4,7 @@ import NavBar from "../Components/NavBar"
 import Contacto from "../Components/Footer"
 import Carrusel from "../Components/Carrusel"
 import Video from "../Components/Video"
-import Footer from "../Components/Ubicacion"
+import Ubicacion from "../Components/Ubicacion"
 import Servicios from "../Components/Servicios"
 import UltimasNoticias from "../Components/UltimasNoticias"
 import Competidores from "../Components/Competidores"
@@ -20,7 +20,9 @@ import Gym8 from "../assets/Gym/Gym_8.webp"
 import Gym9 from "../assets/Gym/Gym_9.webp"
 import Gym10 from "../assets/Gym/Gym_10.webp"
 
-import { FaArrowCircleDown } from "react-icons/fa";
+import poema from "../assets/poema_vikingo_web.webp"
+
+import { FaArrowCircleDown, FaInstagram } from "react-icons/fa";
 import Profesores from "../Components/Profesores"
 
 const Home = () => {
@@ -51,13 +53,20 @@ const Home = () => {
                 <Profesores/>
                 <hr className="mb-0"/>
                 <Servicios/>
-                <hr className="mt-0"/>
+                {/* <hr className="mt-0"/> */}
                 {/* <div className="video">
                     <Video url={"https://www.youtube.com/watch?v=1OiH3hK8ihc"}/>
                 </div> */}
                 {/* <hr className="mb-0"/> */}
                 <div className="ubi-con mb-0">
-                    <Footer />
+                    <Ubicacion />
+                </div>
+                <div className="poema">
+                    <a href="https://www.instagram.com/vikingbrothersgym/"> 
+                        <FaInstagram  />
+                        <p> &nbsp; ¡Síguenos en Instagram!</p>
+                    </a>
+                    <img className="w-[100vw] mt-[20px]" src={poema}/>
                 </div>
                 {/* <hr className="mt-0"/> */}
                 <UltimasNoticias/>

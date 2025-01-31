@@ -4,7 +4,7 @@ import { FaInstagram, FaYoutube, FaTiktok } from "react-icons/fa";
 import "../CSS/Footer.css"
 
 
-const Contacto = () => {
+const Footer = () => {
     return (
         <div className="contacto">
             <div className="texto">
@@ -43,4 +43,4 @@ const Contacto = () => {
     )
 }
 
-export default Contacto
+export default Footer
