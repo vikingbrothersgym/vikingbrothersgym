@@ -62,7 +62,11 @@ const Home = () => {
                     <Ubicacion />
                 </div>
                 <div className="poema">
-                    <a href="https://www.instagram.com/vikingbrothersgym/"> 
+                    <a 
+                     href="https://www.instagram.com/vikingbrothersgym/"
+                     target="_blank" 
+                     rel="noopener noreferrer"
+                    > 
                         <FaInstagram  />
                         <p> &nbsp; ¡Síguenos en Instagram!</p>
                     </a>
