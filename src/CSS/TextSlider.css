@@ -1,0 +1,9 @@
+.texto-slider {
+  @media (min-width: 1050px) {
+    font-size: large;
+  }
+
+  @media (max-width: 1050px) {
+    font-size: 2vw;
+  }
+}

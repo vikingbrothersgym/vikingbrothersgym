@@ -20,10 +20,11 @@ import Gym8 from "../assets/Gym/Gym_8.webp"
 import Gym9 from "../assets/Gym/Gym_9.webp"
 import Gym10 from "../assets/Gym/Gym_10.webp"
 
-import poema from "../assets/poema_vikingo_web.webp"
+import poema from "../assets/vikingo_mamado.webp"
 
 import { FaArrowCircleDown, FaInstagram } from "react-icons/fa";
 import Profesores from "../Components/Profesores"
+import TextSlider from "../Components/TextSlider"
 
 const Home = () => {
     const images = [
@@ -62,6 +63,7 @@ const Home = () => {
                     <Ubicacion />
                 </div>
                 <div className="poema">
+                    <TextSlider/>
                     <a 
                      href="https://www.instagram.com/vikingbrothersgym/"
                      target="_blank" 
