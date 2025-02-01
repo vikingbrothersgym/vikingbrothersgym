@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@nextui-org/react";
 import poemas from "../constants/Poemas";
+import "../CSS/TextSlider.css"
 
 export default function TextSlider() {
   const [index, setIndex] = useState(0);
@@ -31,7 +32,7 @@ export default function TextSlider() {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -20 }}
           transition={{ duration: 0.5 }}
-          className="texto-slider font-semibold"
+          className="texto-slider"
         >
           {poemas[index].map((p, idx) => (
             <p key={idx}> {p} </p>
