@@ -15,7 +15,7 @@ export default function TextSlider() {
   }, []);
 
   return (
-    <div className="absolute top-0 flex items-center w-[40%] h-full mx-auto p-4 text-center text-white">
+    <div className="absolute top-0 flex justify-center items-center w-[40%] h-full mx-auto p-4 text-center text-white">
         {/* <Button 
          onClick={() => {
           setIndex((index - 1 + poemas.length) % poemas.length);

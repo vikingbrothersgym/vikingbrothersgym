@@ -8,6 +8,27 @@ const poemas = [
     "El cielo se tiñe anaranjado y un día más está por terminar.",
     "Con la caída del sol, tras un día duro algunos buscan descanso en el hidromiel, mientras observan el majestuoso paisaje que les rodea, entendiendo así, que solo somos peones ante el inmenso mundo que nos rodea."
   ],
+  [
+    "El hombre sabio no confía en la fuerza, sino en la sabiduría"
+  ],
+  [
+    "Es mejor morir con honor que vivir en la vergüenza"
+  ],
+  [
+    "La valentía no es la ausencia de miedo, sino la capacidad de superarlo"
+  ],
+  [
+    "El necio se entromete en los asuntos de todos, menos en los suyos propios"
+  ],
+  [
+    "No todo el que anda a tu lado es tu amigo"
+  ],
+  [
+    "El hombre sabio es dueño de sus palabras; el necio es esclavo de ellas"
+  ],
+  [
+    "La fuerza está en ti"
+  ]
 ];
 
 export default poemas
