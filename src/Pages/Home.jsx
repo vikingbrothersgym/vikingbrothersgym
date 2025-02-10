@@ -54,11 +54,11 @@ const Home = () => {
                 <Profesores/>
                 <hr className="mb-0"/>
                 <Servicios/>
-                {/* <hr className="mt-0"/> */}
-                {/* <div className="video">
-                    <Video url={"https://www.youtube.com/watch?v=1OiH3hK8ihc"}/>
-                </div> */}
-                {/* <hr className="mb-0"/> */}
+                <hr className="mt-0"/>
+                <div className="video">
+                    <Video url={"https://www.youtube.com/watch?v=GNsp74QBxzo"}/>
+                </div>
+                <hr className="mb-0"/>
                 <div className="ubi-con mb-0">
                     <Ubicacion />
                 </div>
