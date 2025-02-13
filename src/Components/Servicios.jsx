@@ -44,8 +44,9 @@ const Servicio = ({index = 1}) => {
                     <div className="servi-text">
                         <h1> Asesoría Vikinga </h1>
                         <p className="servi-description"> 
-                            Nuestro personal estará siempre dispuesto a ayudarte a
-                            lograr tus objetivos
+                            Nuestros entrenadores personales del Templo te llevarán
+                            a alcanzar tus objetivos. Ven y pregúntanos sin ningún
+                            compromiso. ¡Estamos para ayudarte!
                         </p>
                     </div>
                 </div>            
