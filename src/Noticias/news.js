@@ -9,6 +9,18 @@ text: [""],
 
 const news = [
     {
+        id: 9,
+        image: "/vikingbrothersgym/news/new9.webp",
+        title: "¡No dejes pasar tu Drakkar!",
+        date: "02/03/2025",
+        text: [
+            "Si has llegado hasta aquí, estás de suerte.",
+            "En nuestro Templo te ofrecemos una gran variedad de servicios: sala de musculación, clases dirigidas, entrenadores personales que te llevarán al máximo nivel, y Boxeo y Kick Boxing.",
+            "Pero esto no es lo mejor: ¡hazlo por tan solo 27.50€ al mes!",
+            "¿De verdad estás dudando? Consulta para más informaciín en esta web y/o acércate al gimnasio para contarte más sobre él."
+        ],
+    },
+    {
         id: 8,
         image: "/vikingbrothersgym/news/new8.png",
         title: "Boxeo, Kick Boxing, Kick Boxing Infantil y Defensa Personal",

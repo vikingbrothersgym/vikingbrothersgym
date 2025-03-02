@@ -21,6 +21,7 @@ import Gym9 from "../assets/Gym/Gym_9.webp"
 import Gym10 from "../assets/Gym/Gym_10.webp"
 
 import poema from "../assets/vikingo_mamado.webp"
+import drakkar from "../assets/drakkar.webp"
 
 import { FaArrowCircleDown, FaInstagram } from "react-icons/fa";
 import Profesores from "../Components/Profesores"
@@ -50,6 +51,8 @@ const Home = () => {
                         <FaArrowCircleDown />                    
                     </a>
                 </div>
+                <hr/>
+                <img className="w-[100vw] mt-[20px]" src={drakkar} />
                 <hr id="profesores"/>
                 <Profesores/>
                 <hr className="mb-0"/>
