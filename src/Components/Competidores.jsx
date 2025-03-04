@@ -67,7 +67,7 @@ const Competidores = () => {
                 ))}
             </div>
         </div>
-    )
+    );
 }
 
-export default Competidores
+export default Competidores;
