@@ -16,7 +16,6 @@ const Semana = ({ gimnasio = true }) => {
                     <Dia dia="Jue" clases={horariosGym.jueves}/>
                     <Dia dia="Vie" clases={horariosGym.viernes}/>
                     <Dia dia="Sáb" clases={horariosGym.sabado}/>
-                    <Dia dia="Dom" clases={horariosGym.domingo}/>
                 </>
             )}
 
