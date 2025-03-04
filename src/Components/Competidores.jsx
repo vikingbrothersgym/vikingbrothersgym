@@ -20,7 +20,7 @@ const Competidores = () => {
         {
             image: C3,
             name: "TATIANA REY",
-            text: "WORLD CHAMPIONSHIP 2022 Wabba international, Olimpiawabba2022 CopaEspañaIFBB2019, Cataluña IFBB2019"
+            text: "WORLD CHAMPIONSHIP 2022 Wabba international, Olimpia Wabba 2022, Copa España IFBB 2019, Cataluña IFBB 2019"
         },
         {
             image: C4,

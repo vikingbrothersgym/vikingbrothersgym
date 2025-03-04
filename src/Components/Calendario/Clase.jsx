@@ -23,6 +23,7 @@ const Clase = ({nombre, inicio, final = "", trainer}) => {
         nombre === "Viking Box + Flexibilidad"      ? 14 :
         nombre === "Body Pump"                      ? 15 :
         nombre === "Espalda sana + core"            ? 16 :
+        nombre === "HIT"                            ? 11 :
         nombre === "Boxeo"                          ? 1 :
         nombre === "King Boxing / Defensa Personal" ? 2 :
         nombre === "Kick boxing infantil" ? 3 :

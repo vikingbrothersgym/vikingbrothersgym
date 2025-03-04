@@ -29,7 +29,7 @@ const horarios = {
         ["Funcional", "17:00"],
         ["Espalda sana", "18:00"],
         ["Body Pump", "19:00"],
-        ["", ""],
+        ["HIT", "20:00"],
         ["Yoga", "20:30"],
     ],
     miercoles: [
@@ -50,7 +50,7 @@ const horarios = {
         ["Espalda sana + core", "17:00"],
         ["Modelaje", "18:00"],
         ["Pilates", "19:00"],
-        ["", ""],
+        ["HIT", "20:00"],
         ["Yoga", "20:30"],
     ],
     viernes: [
