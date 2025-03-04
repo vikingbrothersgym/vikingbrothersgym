@@ -11,9 +11,9 @@ const Semana = ({ gimnasio = true }) => {
             {gimnasio && (
                 <>
                     <Dia dia="Lun" clases={horariosGym.lunes}/>
-                    {/* <Dia dia="Mar" clases={horariosGym.martes}/> */}
+                    <Dia dia="Mar" clases={horariosGym.martes}/>
                     <Dia dia="Mié" clases={horariosGym.miercoles}/>
-                    {/* <Dia dia="Jue" clases={horariosGym.jueves}/> */}
+                    <Dia dia="Jue" clases={horariosGym.jueves}/>
                     <Dia dia="Vie" clases={horariosGym.viernes}/>
                     <Dia dia="Sáb" clases={horariosGym.sabado}/>
                     <Dia dia="Dom" clases={horariosGym.domingo}/>
