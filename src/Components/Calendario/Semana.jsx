@@ -1,6 +1,6 @@
 import Dia from "./Dia"
-import horariosGym from "../../Clases/horarios"
-import horariosBox from "../../Clases/boxeo"
+import horariosGym from "../../Clases/horarios.js"
+import horariosBox from "../../Clases/boxeo.js"
 
 import "../../CSS/Calendario/Semana.css"
 
