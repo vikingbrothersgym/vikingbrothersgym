@@ -2,10 +2,9 @@ import YoutubePlayer from "react-player/youtube"
 import "../CSS/Video.css"
 import { useState } from "react";
 
-const Video = ({ url, w = "normal" }) => {
+const Video = ({ url, w = 0 }) => {
     const [width, setWidth] = useState(
-        w == "normal" ? (window.innerWidth > 1000 ? 50 : 90) 
-        : (window.innerWidth > 1000 ? 90 : 90)
+        w == 0 ? (window.innerWidth > 1000 ? 50 : 90) : w
     );
 
     return (
@@ -25,4 +24,4 @@ const Video = ({ url, w = "normal" }) => {
     )
 }
 
-export default Video
+export default Video;

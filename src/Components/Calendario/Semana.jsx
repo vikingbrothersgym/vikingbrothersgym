@@ -5,30 +5,30 @@ import horariosBox from "../../Clases/boxeo.js"
 import "../../CSS/Calendario/Semana.css"
 
 const Semana = ({ gimnasio = true }) => {
-
+    console.log(horariosGym)
     return (
         <div className="semana">
             {gimnasio && (
                 <>
-                    <Dia dia="Lun" clases={horariosGym.lunes}/>
-                    <Dia dia="Mar" clases={horariosGym.martes}/>
-                    <Dia dia="Mié" clases={horariosGym.miercoles}/>
-                    <Dia dia="Jue" clases={horariosGym.jueves}/>
-                    <Dia dia="Vie" clases={horariosGym.viernes}/>
-                    <Dia dia="Sáb" clases={horariosGym.sabado}/>
-                    <Dia dia="Dom" clases={horariosGym.domingo}/>
+                    <Dia dia="Lun" clasesDia={horariosGym.lunes}/>
+                    <Dia dia="Mar" clasesDia={horariosGym.martes}/>
+                    <Dia dia="Mié" clasesDia={horariosGym.miercoles}/>
+                    <Dia dia="Jue" clasesDia={horariosGym.jueves}/>
+                    <Dia dia="Vie" clasesDia={horariosGym.viernes}/>
+                    <Dia dia="Sáb" clasesDia={horariosGym.sabado}/>
+                    <Dia dia="Dom" clasesDia={horariosGym.domingo}/>
                 </>
             )}
 
             {!gimnasio && (
                 <>
-                    <Dia dia="Lun" clases={horariosBox.lunes}/>
-                    <Dia dia="Mar" clases={horariosBox.martes}/>
-                    <Dia dia="Mié" clases={horariosBox.miercoles}/>
-                    <Dia dia="Jue" clases={horariosBox.jueves}/>
-                    <Dia dia="Vie" clases={horariosBox.viernes}/>
-                    <Dia dia="Sáb" clases={horariosBox.sabado}/>
-                    <Dia dia="Dom" clases={horariosBox.domingo}/>
+                    <Dia dia="Lun" clasesDia={horariosBox.lunes}/>
+                    <Dia dia="Mar" clasesDia={horariosBox.martes}/>
+                    <Dia dia="Mié" clasesDia={horariosBox.miercoles}/>
+                    <Dia dia="Jue" clasesDia={horariosBox.jueves}/>
+                    <Dia dia="Vie" clasesDia={horariosBox.viernes}/>
+                    <Dia dia="Sáb" clasesDia={horariosBox.sabado}/>
+                    <Dia dia="Dom" clasesDia={horariosBox.domingo}/>
                 </>
             )}
         </div>

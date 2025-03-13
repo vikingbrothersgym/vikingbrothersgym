@@ -1,31 +1,33 @@
+import { enum_clases } from "./clases"
+
 const horarios = {
     lunes: [
-        ["", ""],
-        ["Boxeo", "18:00", "19:00", "Chamón"],
-        ["King Boxing / Defensa Personal", "19:00", "20:00", "Panedas"],
+        {clase: enum_clases.NULL, inicio: ""},
+        {clase: enum_clases.BOXEO_CHAMON, inicio: "18:00", final: "19:00", profesor: "Chamón"},
+        {clase: enum_clases.KICK_PANEDAS, inicio: "19:00", final: "20:00", profesor: "Panedas"},
     ],
     martes: [
-        ["Boxeo", "10:30", "11:30", "Bueno"],
-        ["", ""],
-        ["Boxeo", "19:00", "20:00", "Marquino"],
-        ["Boxeo", "20:30", "21:30", "Marquino"],
+        {clase: enum_clases.BOXEO_BUENO, inicio: "10:30", final: "11:30", profesor: "Bueno"},
+        {clase: enum_clases.NULL, inicio: ""},
+        {clase: enum_clases.BOXEO_MARQUINO, inicio: "19:00", final: "20:00", profesor: "Marquino"},
+        {clase: enum_clases.BOXEO_MARQUINO, inicio: "20:30", final: "21:30", profesor: "Marquino"},
     ],
     miercoles: [
-        ["", ""],
-        ["Boxeo", "18:00", "19:00", "Chamón"],
-        ["King Boxing / Defensa Personal", "19:00", "20:00", "Panedas"],
+        {clase: enum_clases.NULL, inicio: ""},
+        {clase: enum_clases.BOXEO_CHAMON, inicio: "18:00", final: "19:00", profesor: "Chamón"},
+        {clase: enum_clases.KICK_PANEDAS, inicio: "19:00", final: "20:00", profesor: "Panedas"},
     ],
     jueves: [
-        ["Boxeo", "10:30", "11:30", "Bueno"],
-        ["", ""],
-        ["Boxeo", "19:00", "20:00", "Marquino"],
-        ["Boxeo", "20:30", "21:30", "Marquino"],
+        {clase: enum_clases.BOXEO_BUENO, inicio: "10:30", final: "11:30", profesor: "Bueno"},
+        {clase: enum_clases.NULL, inicio: ""},
+        {clase: enum_clases.BOXEO_MARQUINO, inicio: "19:00", final: "20:00", profesor: "Marquino"},
+        {clase: enum_clases.BOXEO_MARQUINO, inicio: "20:30", final: "21:30", profesor: "Marquino"},
     ],
     viernes: [
-        ["", ""],
-        ["", ""],
-        ["Kick boxing infantil", "19:00", "20:00", "Álex Clandestino"],
-        ["Kick boxing infantil", "20:15", "21:15", "Álex Clandestino"],
+        {clase: enum_clases.NULL, inicio: ""},
+        {clase: enum_clases.NULL, inicio: ""},
+        {clase: enum_clases.KICK_INFANTIL, inicio: "19:00", final: "20:00", profesor: "Álex Clandestino"},
+        {clase: enum_clases.KICK_INFANTIL, inicio: "20:15", final: "21:15", profesor: "Álex Clandestino"},
     ],
     sabado: [
     ],
