@@ -5,7 +5,6 @@ import horariosBox from "../../Clases/boxeo.js"
 import "../../CSS/Calendario/Semana.css"
 
 const Semana = ({ gimnasio = true }) => {
-    console.log(horariosGym)
     return (
         <div className="semana">
             {gimnasio && (
