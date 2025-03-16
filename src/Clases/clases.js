@@ -62,7 +62,7 @@ export const clases = [
       "El entrenamiento perfecto para quienes buscan ponerse en forma mientras disfrutan de un ambiente vibrante y contagioso.",
       "¡Siente la música, libera el estrés y baila mientras entrenas! 🔥💃🕺"
     ],
-    url: "",
+    url: "https://youtube.com/shorts/XbKAZngUriQ",
     color: "#046C7A"
   },
   { // SALSA_BACHATA
