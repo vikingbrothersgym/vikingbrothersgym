@@ -1,4 +1,4 @@
-import cbimperial from "../assets/cbimperial/cbimperial.jpg"
+import cbimperial from "../assets/cbimperial/vikingos_imperial.webp"
 import vbg_cbi from "../assets/cbimperial/vbg_cbi.png"
 import {Image} from "@nextui-org/react";
 
