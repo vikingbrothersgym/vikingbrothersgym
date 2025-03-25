@@ -9,6 +9,22 @@ text: [""],
 
 const news = [
     {
+        id: 10,
+        image: "/vikingbrothersgym/news/new10.webp",
+        title: "💪🔥 ¡La Batalla Ha Comenzado en Viking Brothers Gym! 🔥💪",
+        date: "25/03/2025",
+        text: [
+            "En Viking Brothers Gym, cada entrenamiento es una oportunidad para superarte. Nos enfocamos en brindar el mejor ambiente, equipo y motivación para que logres tus objetivos físicos y mentales.",
+            "🔹 Entrenamiento para Todos 🏋️‍♂️",
+            "No importa tu nivel, aquí encontrarás el espacio perfecto para mejorar tu fuerza, resistencia y bienestar.",
+            "🔹 Unidos por la Disciplina ⚔️",
+            "Forma parte de una comunidad que te impulsa a dar lo mejor de ti en cada sesión.",
+            "🔹 Siente el Espíritu Viking 🛡️",
+            "Sumérgete en una atmósfera llena de energía y determinación, donde cada entrenamiento es un paso más hacia tu mejor versión.",
+            "👉 ¿Listo para el desafío? Ven a entrenar con nosotros y forja tu propio camino. ¡Nos vemos en Viking Brothers Gym! 💀🔥",
+        ]
+    },
+    {
         id: 9,
         image: "/vikingbrothersgym/news/new9.webp",
         title: "¡No dejes pasar tu Drakkar!",
