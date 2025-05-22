@@ -67,7 +67,7 @@ const Home = () => {
                         🥋 Seminario de Krav Maga en Viking Brother Gym – 21 de Junio <br/>
                         🕒 Horario: De 10:00 h a 12:30 h <br/>
                         📍 Lugar: Viking Brother Gym, C/ Miraflores 12-14, Zaragoza <br/>
-                        💶 Precio: 20 €
+                        💶 Precio: 20 € <br/>
                         📋 Inscripciones: En la recepción del gimnasio. <br/>
                     </p>
                     <Button 
