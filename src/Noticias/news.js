@@ -9,6 +9,22 @@ text: [""],
 
 const news = [
     {
+        id: 11,
+        image: "/vikingbrothersgym/news/new11.webp",
+        title: "🥋 Seminario de Krav Maga en Viking Brother Gym – 21 de Junio",
+        date: "22/05/2025",
+        text: [
+            "El próximo 21 de junio, Viking Brother Gym acogerá un seminario exclusivo de Krav Maga, una disciplina enfocada en la defensa personal femenina y el desarrollo de habilidades para prevenir y afrontar situaciones de peligro real.",
+            "La actividad será dirigida por José A. Ramos, Instructor y Árbitro Nacional de la Federación Española de Lucha (F.E.L.), reconocido por su amplia experiencia en técnicas de defensa personal, especialmente frente a amenazas como agresiones con cuchillo o agarres.",
+            "🕒 Horario: De 10:00 h a 12:30 h",
+            "📍 Lugar: Viking Brother Gym, C/ Miraflores 12-14, Zaragoza",
+            "💶 Precio: 20 €",
+            "📋 Inscripciones: En la recepción del gimnasio.",
+            "Este seminario está orientado especialmente a mujeres, pero es abierto a todo el público interesado en mejorar su autoestima, su preparación física y su capacidad de respuesta ante situaciones de riesgo.",
+            "¡No te lo pierdas! Una oportunidad única para entrenar con un profesional de primer nivel y aprender técnicas reales de defensa que pueden marcar la diferencia."
+        ]
+    },
+    {
         id: 10,
         image: "/vikingbrothersgym/news/new10.webp",
         title: "💪🔥 ¡La Batalla Ha Comenzado en Viking Brothers Gym! 🔥💪",
@@ -82,17 +98,6 @@ const news = [
             "Esta campeona vikinga es un diamante del boxeo aragonés.",
             "¿Sabías que también entrena y da clases junto con su padre en el Viking Brothers Gym?",
             "Consulta en esta web y/o ven a preguntarnos para saber más. ¡Apúntate a nuestras clases tengas el nivel que tengas!"
-        ],
-    },
-    {
-        id: 4,
-        image: "/vikingbrothersgym/news/new4.jpeg",
-        title: "El cachirulo más vikingo con tu matrícula",
-        date: "25/09/2024",
-        text: [
-            "Como todos los meses de octubre sacamos a lucir nuestro cachirulo.",
-            "Pero este año, los vikingos de Viking Brothers Gym resaltarán con el cachirulo más chulo de todos.😛",
-            "Apúntate este mes y llévate gratis el cachirulo de Odín."
         ],
     },
     {

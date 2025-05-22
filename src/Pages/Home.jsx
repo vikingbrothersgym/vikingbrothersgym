@@ -22,12 +22,17 @@ import Gym10 from "../assets/Gym/Gym_10.webp"
 
 import poema from "../assets/vikingo_mamado.webp"
 import drakkar from "../assets/drakkar.webp"
+import krav_maga from "../assets/krav_maga.webp"
 
 import { FaArrowCircleDown, FaInstagram } from "react-icons/fa";
 import Profesores from "../Components/Profesores"
 import TextSlider from "../Components/TextSlider"
+import { Button } from "@nextui-org/react"
+import { useNavigate } from "react-router-dom"
+import constants from "../constants/Constants"
 
 const Home = () => {
+    const navigate = useNavigate();
     const images = [
         { original: Gym1 },
         { original: Gym2 }, 
@@ -50,6 +55,27 @@ const Home = () => {
                     <a className="button-down" href="#profesores">
                         <FaArrowCircleDown />                    
                     </a>
+                </div>
+                <hr/>
+                <div className="flex flex-col items-center w-[100vw]">
+                    <h1 className="sec-tit"> 
+                        <span>SEMINARIO</span> <br/>
+                        KRAV MAGA 
+                    </h1>
+                    <img className="w-[50%]" src={krav_maga} />
+                    <p className="text-[#fff] text-[20px] text-center ml-[20px] mr-[20px]"> 
+                        🥋 Seminario de Krav Maga en Viking Brother Gym – 21 de Junio <br/>
+                        🕒 Horario: De 10:00 h a 12:30 h <br/>
+                        📍 Lugar: Viking Brother Gym, C/ Miraflores 12-14, Zaragoza <br/>
+                        💶 Precio: 20 €
+                        📋 Inscripciones: En la recepción del gimnasio. <br/>
+                    </p>
+                    <Button 
+                        className="cursor-pointer bg-black border-0 text-third font-bold text-lg mt-2 mr-7 hover:bg-third hover:text-black"
+                        onClick={() => navigate(constants.root + "noticia/11")}
+                    >
+                        Leer más
+                    </Button>
                 </div>
                 <hr/>
                 <img className="w-[100vw] mt-[20px]" src={drakkar} />
