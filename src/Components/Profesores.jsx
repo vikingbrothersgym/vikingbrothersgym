@@ -13,10 +13,10 @@ const Profesores = () => {
         //     url: "https://www.youtube.com/watch?v=fwjkrcr3Iow",
         //     nombre: "Felipe Panedas"
         // },
-        {
-            url: "https://www.youtube.com/watch?v=p9N6B0RB1P0&t=90s",
-            nombre: "José Antonio López Bueno"
-        },
+        // {
+        //     url: "https://www.youtube.com/watch?v=p9N6B0RB1P0&t=90s",
+        //     nombre: "José Antonio López Bueno"
+        // },
         {
             url: "https://www.youtube.com/watch?v=BHuGHNBE10o",
             nombre: "José María Gómez Chamón"

@@ -77,18 +77,6 @@ const news = [
         ],
     },
     {
-        id: 6,
-        image: "/vikingbrothersgym/news/new6.jpeg",
-        title: "El 9º campeón español del mundo (y nuestro profesor), José Antonio López Bueno",
-        date: "11/11/2024",
-        text: [
-            "José Antonio es uno de nuestros profesores de boxeo del Viking Brothers Gym.",
-            "En su carrera profesional, se convirtió en el noveno campeón mundial del boxeo español tras: Baltasar Berenguer, José Legrá, Pedro Carrasco, Perico Fernández, Miguel Velázquez, José Manuel Durán, Cecilio Lastra y Javier Castillejo.",
-            "¿Qué puede haber mejor que entrenar y aprender de un campeón como José Antonio?",
-            "Consulta en esta web y/o ven a preguntarnos para saber más. ¡Apúntate a nuestras clases tengas el nivel que tengas!"
-        ],
-    },
-    {
         id: 5,
         image: "/vikingbrothersgym/news/new5.jpeg",
         title: "Nuestra campeona de boxeo del templo",

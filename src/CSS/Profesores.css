@@ -7,6 +7,10 @@
     --_spacer: var(--size-3);
     display: grid;
     gap: var(--_spacer);
+
+    @media (min-width: 768px) {
+      justify-content: center;
+    }
     grid-auto-flow: column;
     /* grid-auto-columns: 21%; */
     width: 100vw;
