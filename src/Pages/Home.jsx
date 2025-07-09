@@ -30,6 +30,7 @@ import TextSlider from "../Components/TextSlider"
 import { Button } from "@nextui-org/react"
 import { useNavigate } from "react-router-dom"
 import constants from "../constants/Constants"
+import PromoJefes from "../Components/PromoJefes"
 
 const Home = () => {
     const navigate = useNavigate();
@@ -56,7 +57,7 @@ const Home = () => {
                         <FaArrowCircleDown />                    
                     </a>
                 </div>
-                <hr/>
+                {/* <hr/>
                 <div className="flex flex-col items-center w-[100vw]">
                     <h1 className="sec-tit"> 
                         <span>SEMINARIO</span> <br/>
@@ -76,7 +77,9 @@ const Home = () => {
                     >
                         Leer más
                     </Button>
-                </div>
+                </div> */}
+                {/* <hr/>
+                <PromoJefes/> */}
                 <hr/>
                 <img className="w-[100vw] mt-[20px]" src={drakkar} />
                 <hr id="profesores"/>

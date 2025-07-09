@@ -20,7 +20,7 @@ const horarios = {
     {clase: enum_clases.ESPALDA_SANA, inicio: "18:00"},
     {clase: enum_clases.BODY_PUMP, inicio: "19:00"},
     {clase: enum_clases.HIT, inicio: "20:00"},
-    {clase: enum_clases.YOGA, inicio: "20:30"},
+    // {clase: enum_clases.YOGA, inicio: "20:30"},
   ],
   miercoles: [
     {clase: enum_clases.MODELAJE, inicio: "9:30"},
@@ -41,7 +41,7 @@ const horarios = {
     {clase: enum_clases.MODELAJE, inicio: "18:00"},
     {clase: enum_clases.PILATES, inicio: "19:00"},
     {clase: enum_clases.HIT, inicio: "20:00"},
-    {clase: enum_clases.YOGA, inicio: "20:30"},
+    // {clase: enum_clases.YOGA, inicio: "20:30"},
   ],
   viernes: [
     {clase: enum_clases.MODELAJE, inicio: "9:30"},

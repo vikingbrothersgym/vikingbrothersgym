@@ -1,0 +1,120 @@
+.promo-container {
+  background: radial-gradient(ellipse, var(--color-primary), #090909);
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .mejora-tit {
+    width: 100%;
+    text-align: center;
+    color: var(--color-third);
+  }
+}
+
+.jefes-container {
+  overflow: hidden;
+  height: 90%;
+  position: relative;
+
+  .jefe-hector, .jefe-dani {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .jefe-dani {
+    img {
+      height: 100%;
+      transition: 0.3s transform;
+    }
+    img:hover {
+      transform: scale(1.02);
+    }
+    img:hover + .info-dani {
+      transform: translateX(0);
+    }
+
+    .vb-der-img {
+      height: 50%;
+      position: absolute;
+      right: 0;
+      transform: translateX(0px);
+      transition: transform 0.3s ease-in-out;
+    }
+  
+    .dani-img:hover ~ .vb-der-img {
+      transform: translateX(1500px);
+    }
+
+  }
+
+  .jefe-hector {
+    .hector-img {
+      height: 100%;
+      transition: 0.3s transform;
+      order: 2;
+    }
+    .hector-img:hover {
+      transform: scale(1.02);
+    }
+    .hector-img:hover + .info-hector {
+      transform: translateX(0);
+    }
+
+    .vb-izq-img {
+      height: 50%;
+      position: absolute;
+      transform: translateX(0px);
+      transition: transform 0.3s ease-in-out;
+    }
+  
+    .hector-img:hover ~ .vb-izq-img {
+      transform: translateX(-1500px);
+    }
+
+  }
+
+  .vb-izq-img {
+    height: 50%;
+    position: absolute;
+    transform: translateX(-1500px);
+    transition: transform 0.3s ease-in-out;
+  }
+
+
+  .info-hector, .info-dani {
+    color: white;
+    h2 {
+      font-size: 50px;
+      color: var(--color-third);
+    }
+    p {
+      font-size: 25px;
+    }
+  }
+
+  .info-hector {
+    text-align: center;
+    padding-left: 5vw;
+    position: relative;
+    transform: translateX(-1500px);
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease-in-out;
+
+  }
+
+  .info-dani {
+    text-align: center;
+    padding-right: 5vw;
+    position: relative;
+    transform: translateX(1500px);
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease-in-out;
+  }
+
+}

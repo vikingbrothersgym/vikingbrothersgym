@@ -9,6 +9,20 @@ text: [""],
 
 const news = [
     {
+        id: 12,
+        image: "/vikingbrothersgym/news/new12.webp",
+        title: "Descanso Yoga: Volvemos en Septiembre",
+        date: "10/07/2025",
+        text: [
+            "Querida comunidad de Viking Brothers Gym:",
+            "Les informamos que durante los meses de verano no habrá clases de yoga, ya que nuestro equipo tomará un merecido descanso.",
+            "⛱️ Pausa de verano: Julio y agosto",
+            "📅 Reanudación de clases: 2 de septiembre",
+            "Agradecemos su comprensión y esperamos que disfruten del verano. ¡Nos vemos renovados en septiembre para seguir fortaleciendo cuerpo y mente juntos!",
+            "El equipo de Viking Brothers Gym 🧘‍♂️💪"
+        ]
+    },
+    {
         id: 11,
         image: "/vikingbrothersgym/news/new11.webp",
         title: "🥋 Seminario de Krav Maga en Viking Brother Gym – 21 de Junio",
