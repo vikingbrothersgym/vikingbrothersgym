@@ -4,7 +4,7 @@ import {NextUIProvider} from "@nextui-org/react";
 import App from './App.jsx';
 import "./index.css"
 import '@fontsource-variable/exo-2';
-import "./CSS/main.css"
+import "./main.css"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   

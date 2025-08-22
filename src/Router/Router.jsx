@@ -1,10 +1,10 @@
 import {Route, BrowserRouter, Routes} from "react-router-dom"
-import constants from "../constants/Constants";
-import Home from "../Pages/Home";
-import Informacion from "../Pages/Informacion";
-import Clases from "../Pages/Clases";
-import Noticias from "../Pages/Noticias";
-import Noticia from "../Pages/Noticia";
+import constants from "@constants/Constants";
+import Home from "@pages/home/Home";
+import Informacion from "@pages/informacion/Informacion";
+import Clases from "@pages/clases/Clases";
+import Noticias from "@pages/noticias/Noticias";
+import Noticia from "@pages/noticia/Noticia";
 
 const RouterComponent = () => {
     return (

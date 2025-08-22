@@ -1,0 +1,67 @@
+.contacto {
+    background-color: #101010;
+    color: var(--color-text1);
+    padding: 1vh;
+    color: var(--color-text1);
+    justify-content: center;
+    align-items: center;
+}
+
+.con-logo-container {
+    margin-top: 1vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.con-logo {
+    max-width: 10%;
+}
+
+.texto {
+    font-size: 1.25rem;
+}
+
+.siguenos {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.viking-brothers {
+    color: var(--color-text1);
+    text-align: center;
+    font-weight: bold;
+}
+
+.carrusel-button-single {
+    color: var(--color-third);
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.red {
+    list-style: none;
+    list-style-type: none;
+}
+
+.red-a {
+    font-size: 200%;
+    display: flex;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 50%;
+}
