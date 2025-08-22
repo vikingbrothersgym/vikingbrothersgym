@@ -1,11 +1,10 @@
 import "./PromoJefes.css"
 import hector from "../assets/jefes/hector.png"
 import dani from "../assets/jefes/dani.png"
-import logo from "../assets/logo.webp"
 
 const PromoJefes = () => {
   return (
-    <div className="promo-container">
+    <section className="promo-container">
       <h1 className="sec-tit"> MEJORA TU ENTRENAMIENTO </h1>
       <div className="jefes-container">
         <div className="jefe-hector">
@@ -17,7 +16,6 @@ const PromoJefes = () => {
               cada repetición para ayudarte a alcanzar tus objetivos. 
             </p>
           </div>
-          {/* <img className="vb-izq-img" src={logo} alt="Viking Brothers Gym Logo"/> */}
         </div>
         <div className="jefe-dani">
           <img className="dani-img" src={dani} alt="Dani" />
@@ -28,10 +26,15 @@ const PromoJefes = () => {
               Sus conocimientos harán que saques tu mejor versión.
             </p>
           </div>
-          {/* <img className="vb-der-img" src={logo} alt="Viking Brothers Gym Logo"/> */}
         </div>
       </div>
-    </div>
+      <h2 className="info-jefes-movil text-third"> Héctor y Dani </h2>
+      <p className="info-jefes-movil text-white text-center px-3">
+        Nuestros entrenadores personales y jefes del templo son especialistas de
+        cada uno de los ejercicios que te llevarán a conseguir tu mejor versión.
+        ¡Siempre dispuestos a personalizar tus entrenamientos!
+      </p>
+    </section>
   );
 }
 

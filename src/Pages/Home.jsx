@@ -53,7 +53,7 @@ const Home = () => {
             <div className="home">
                 <div className="carrusel-home">
                     <Carrusel images={images}/>
-                    <a className="button-down" href="#profesores">
+                    <a className="button-down" href="#entrenadores">
                         <FaArrowCircleDown />                    
                     </a>
                 </div>
@@ -78,8 +78,8 @@ const Home = () => {
                         Leer más
                     </Button>
                 </div> */}
-                {/* <hr/>
-                <PromoJefes/> */}
+                <hr id="entrenadores"/>
+                <PromoJefes/>
                 <hr/>
                 <img className="w-[100vw] mt-[20px]" src={drakkar} />
                 <hr id="profesores"/>

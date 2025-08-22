@@ -1,6 +1,7 @@
 .promo-container {
   background: radial-gradient(ellipse, var(--color-primary), #090909);
   height: 90vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,14 +15,21 @@
 
 .jefes-container {
   overflow: hidden;
-  height: 90%;
+  width: 100%;
+  @media (width >= 600px) {
+    height: 90%;    
+  }
+  @media (width < 600px) {
+    height: 50%;
+  }
   position: relative;
+  display: flex;
+  justify-content: space-between;
 
   .jefe-hector, .jefe-dani {
-    height: 100%;
-    width: 50%;
+    max-height: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
 
@@ -29,6 +37,8 @@
     img {
       height: 100%;
       transition: 0.3s transform;
+      display: flex;
+      justify-content: start;
     }
     img:hover {
       transform: scale(1.02);
@@ -36,19 +46,6 @@
     img:hover + .info-dani {
       transform: translateX(0);
     }
-
-    .vb-der-img {
-      height: 50%;
-      position: absolute;
-      right: 0;
-      transform: translateX(0px);
-      transition: transform 0.3s ease-in-out;
-    }
-  
-    .dani-img:hover ~ .vb-der-img {
-      transform: translateX(1500px);
-    }
-
   }
 
   .jefe-hector {
@@ -56,6 +53,9 @@
       height: 100%;
       transition: 0.3s transform;
       order: 2;
+      display: flex;
+      justify-content: end;
+
     }
     .hector-img:hover {
       transform: scale(1.02);
@@ -63,29 +63,15 @@
     .hector-img:hover + .info-hector {
       transform: translateX(0);
     }
-
-    .vb-izq-img {
-      height: 50%;
-      position: absolute;
-      transform: translateX(0px);
-      transition: transform 0.3s ease-in-out;
-    }
-  
-    .hector-img:hover ~ .vb-izq-img {
-      transform: translateX(-1500px);
-    }
-
   }
-
-  .vb-izq-img {
-    height: 50%;
-    position: absolute;
-    transform: translateX(-1500px);
-    transition: transform 0.3s ease-in-out;
-  }
-
 
   .info-hector, .info-dani {
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease-in-out;
+
     color: white;
     h2 {
       font-size: 50px;
@@ -97,24 +83,35 @@
   }
 
   .info-hector {
-    text-align: center;
-    padding-left: 5vw;
-    position: relative;
     transform: translateX(-1500px);
-    top: 0;
-    left: 0;
-    transition: transform 0.3s ease-in-out;
+    padding-left: 5vw;
 
   }
 
   .info-dani {
-    text-align: center;
+    transform: translateX(1800px);
     padding-right: 5vw;
-    position: relative;
-    transform: translateX(1500px);
-    top: 0;
-    left: 0;
-    transition: transform 0.3s ease-in-out;
   }
+
+
+}
+
+.info-jefes-movil {
+  display: none;
+  @media (max-width: 600px) {
+    display: block;
+  }
+  
+  text-align: center;
+
+  h2 {
+    color: var(--color-third);
+  }
+  p {
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
 
 }
