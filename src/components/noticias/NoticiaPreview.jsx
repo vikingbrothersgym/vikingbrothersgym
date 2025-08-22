@@ -1,36 +1,34 @@
-import { useNavigate } from "react-router-dom"
-import {Card, CardHeader, CardBody, Image, Button} from "@nextui-org/react";
+import { Link, useNavigate } from "react-router-dom"
+import {Card, CardHeader, CardBody, Image, Button, CardFooter} from "@nextui-org/react";
 import "./NoticiaPreview.css"
 import constants from "@constants/Constants"
 
 const NoticiaPreview = ({ultimas, not }) => {
-    const navigate = useNavigate()
-    return (
-        <Card 
-          className="card bg-primary m-0 mb-7 "
-        >
-            <CardHeader className="text-third pb-0 pt-2 px-4 flex-col items-center">
-              <p className="text-white font-bold mr-7"> {not.date} </p>
-              <h4 className="font-bold text-xl text-center text-large m-0 mr-7"> {not.title} </h4>
-            </CardHeader>
-            <CardBody className="overflow-visible py-2 flex-col items-center">
-                <div className="mr-6">
-                <Image
-                  alt="Card background"
-                  className="object-cover rounded-xl"
-                  src={not.image}
-                  width={270}
-                />
-                </div>
-                <Button 
-                  className="bg-black border-0 text-third font-bold text-lg mt-2 mr-7 hover:bg-third hover:text-black"
-                  onClick={() => navigate(constants.root + "noticia/" + not.id)}
-                >
-                    Leer más
-                </Button>
-            </CardBody>
-        </Card>
-    )
+  const navigate = useNavigate()
+  return (
+    <Card 
+      as={Link}
+      to={`${constants.root}noticia/${not.id}`}
+      className="w-full bg-zinc-900 max-w-sm shadow-lg rounded-2xl hover:scale-[102%] cursor-pointer"
+    >
+      {/* Imagen */}
+      <Image
+        alt={not.title}
+        src={not.image}
+        className="object-cover rounded-t-2xl w-full"
+      />
+
+      {/* Contenido */}
+      <CardBody className="w-full p-0">
+        <h3 className="px-5 text-lg font-semibold text-third">{not.title}</h3>
+      </CardBody>
+
+      {/* Footer con la fecha */}
+      <CardFooter className="p-4 pt-0 text-base text-gray-300 font-bold">
+        {not.date}
+      </CardFooter>
+    </Card>
+  )
 }
 
-export default NoticiaPreview
+export default NoticiaPreview;

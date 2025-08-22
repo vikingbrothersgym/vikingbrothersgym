@@ -128,20 +128,3 @@
     mask-image: radial-gradient(circle, white, transparent);
 }
 
-.news-container {
-    @media (max-width: 900px) { /* Pantalla pequeña */
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 5vh;
-        margin-bottom: 5vh;
-    }
-    @media (min-width: 900px) { /* Pantalla grande */
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 5vh;
-        align-items: center;
-        justify-content: space-evenly;            
-    }
-}
