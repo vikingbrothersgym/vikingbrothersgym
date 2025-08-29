@@ -15,10 +15,10 @@ const Profesores = () => {
         //     url: "https://www.youtube.com/watch?v=p9N6B0RB1P0&t=90s",
         //     nombre: "José Antonio López Bueno"
         // },
-        {
-            url: "https://www.youtube.com/watch?v=BHuGHNBE10o",
-            nombre: "José María Gómez Chamón"
-        },
+        // {
+        //     url: "https://www.youtube.com/watch?v=BHuGHNBE10o",
+        //     nombre: "José María Gómez Chamón"
+        // },
     ]
 
 
@@ -27,7 +27,8 @@ const Profesores = () => {
         <h1 className="sec-tit"> 
             NUESTROS PROFESIONALES DE <br/>
             <span>
-                BOXEO Y KICK BOXING
+                BOXEO
+                {/* Y KICK BOXING */}
             </span>
         </h1>
         {/* <div className="profesores flex w-full items-center justify-around text-center">

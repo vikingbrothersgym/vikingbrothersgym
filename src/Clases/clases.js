@@ -107,7 +107,7 @@ export const clases = [
     color: "#002210"
   },
   { // HIT
-    name: "HIT",
+    name: "HIT-BOX + Core",
     info: [
       ""
     ],

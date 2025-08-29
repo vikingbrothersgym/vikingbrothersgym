@@ -66,18 +66,18 @@ const news = [
             "¿De verdad estás dudando? Consulta para más informaciín en esta web y/o acércate al gimnasio para contarte más sobre él."
         ],
     },
-    {
-        id: 8,
-        image: "/vikingbrothersgym/news/new8.png",
-        title: "Boxeo, Kick Boxing, Kick Boxing Infantil y Defensa Personal",
-        date: "19/01/2025",
-        text: [
-            "¿Qué hay mejor que empezar el año con grandes propósitos?",
-            "En Viking Brothers Gym tenemos muchas maneras para que las cumplas y una de ellas es con nuestras clases de Boxeo, Kick Boxing, Kick Boxing Infantil y Defensa Personal.",
-            "Nuestros excelentes profes estarán encantados de recibirte, tengas el nivel que tengas.",
-            "Consulta en esta web horarios y precios o acércate al gimnasio para contarte más sobre nuestras clases."
-        ],
-    },
+    // {
+    //     id: 8,
+    //     image: "/vikingbrothersgym/news/new8.png",
+    //     title: "Boxeo, Kick Boxing, Kick Boxing Infantil y Defensa Personal",
+    //     date: "19/01/2025",
+    //     text: [
+    //         "¿Qué hay mejor que empezar el año con grandes propósitos?",
+    //         "En Viking Brothers Gym tenemos muchas maneras para que las cumplas y una de ellas es con nuestras clases de Boxeo, Kick Boxing, Kick Boxing Infantil y Defensa Personal.",
+    //         "Nuestros excelentes profes estarán encantados de recibirte, tengas el nivel que tengas.",
+    //         "Consulta en esta web horarios y precios o acércate al gimnasio para contarte más sobre nuestras clases."
+    //     ],
+    // },
     {
         id: 7,
         image: "/vikingbrothersgym/news/new7.jpeg",
