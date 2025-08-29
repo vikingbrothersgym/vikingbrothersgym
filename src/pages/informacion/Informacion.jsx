@@ -8,6 +8,7 @@ import Suplementacion from "@components/informacion/Suplementacion.jsx"
 import CBImperial from "@components/informacion/CBImperial.jsx"
 
 import salsa from "@assets/salsa.webp"
+import jose_krav_maga from "@assets/jose_krav_maga.webp"
 import {Image} from "@nextui-org/react";
 
 const Informacion = () => {
@@ -23,6 +24,40 @@ const Informacion = () => {
                 </div>
                 <hr/>
                 <Tarifas/>
+                <hr/>
+                <h1 className="sec-tit"> 
+                    🥋 KRAV MAGA Y <br/> 
+                    <span> DEFENSA PERSONAL </span>
+                </h1>
+                <div className="suple-container">
+                    <p className="suple">  
+                    En Viking Brothers Gym contamos con clases de Krav Maga y Defensa Personal, impartidas por José Ramos, profesor federado con amplia experiencia en estas disciplinas.
+                    <br/> <br/>
+                    El Krav Maga es un sistema de defensa personal de origen israelí, reconocido mundialmente por su eficacia y simplicidad. Está diseñado para que cualquier persona, sin importar su edad o condición física, pueda aprender técnicas útiles para desenvolverse en situaciones de riesgo real.
+                    <br/> <br/>
+                    📅 Consulta nuestros horarios en esta misma web y apúntate hoy mismo.
+                    <br/> <br/>
+                    👊 Beneficios de practicar Krav Maga
+                    <br/>
+                    - Mejorar tu seguridad y confianza personal.
+                    <br/>
+                    - Desarrollar fuerza, agilidad y reflejos.
+                    <br/>
+                    - Aprender técnicas efectivas de defensa.
+                    <br/>
+                    - Entrenar en un ambiente motivador y seguro.
+                    <br/> <br/>
+                    👉 Inscripciones abiertas. Ven a entrenar con nosotros y aprende a defenderte mientras mejoras tu forma física.
+                    <br/> <br/>
+                    </p>
+                    <div className="suple-im-container">
+                        <Image 
+                            className="suple-im" 
+                            src={jose_krav_maga}
+                            isBlurred
+                            isZoomed/>
+                    </div>
+                </div>
                 <hr/>
                 <h1 className="sec-tit"> 
                     SALSA Y BACHATA <br/> 

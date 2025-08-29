@@ -9,6 +9,20 @@ text: [""],
 
 const news = [
     {
+        id: 13,
+        image: "/vikingbrothersgym/news/new13.webp",
+        title: "🥋💥¡Nuevo! Krav Maga y Defensa Personal",
+        date: "10/07/2025",
+        text: [
+            "🥋💥 ¡Nuevas Clases de Krav Maga y Defensa Personal en Viking Brothers Gym! 💥🥋",
+            "Nos complace anunciar que a partir de la segunda quincena de septiembre incorporamos a nuestra programación las clases de Krav Maga y Defensa Personal, impartidas por José Ramos, profesor federado y experto en estas disciplinas.",
+            "📅 Días: Lunes y Miércoles",
+            "⏰ Horario: 10:00 a 11:00",
+            "El Krav Maga es un sistema de defensa personal reconocido por su efectividad y practicidad en situaciones reales. Una oportunidad única para mejorar tu seguridad, confianza y condición física con la guía de un instructor cualificado.",
+            "👉 ¡Reserva tu plaza y forma parte de esta nueva experiencia en Viking Brothers Gym!"
+        ]
+    },
+    {
         id: 12,
         image: "/vikingbrothersgym/news/new12.webp",
         title: "Descanso Yoga: Volvemos en Septiembre",
@@ -78,18 +92,18 @@ const news = [
     //         "Consulta en esta web horarios y precios o acércate al gimnasio para contarte más sobre nuestras clases."
     //     ],
     // },
-    {
-        id: 7,
-        image: "/vikingbrothersgym/news/new7.jpeg",
-        title: "¡NUEVO! Kick boxing infantil",
-        date: "11/11/2024",
-        text: [
-            "Si tienes entre 6 y 14 años estás de suerte, ¡comienzan las clases de Kick boxing infantil!",
-            "Tenemos el lujo de contar con Álex Clandestino para poder aprender de la mejor manera las bases del Kick boxing.",
-            "Los horarios son los viernes de 19:00-20:00 y 20:15-21:15.",
-            "Consulta en esta web y/o ven a preguntarnos para saber más. ¡Apúntate a nuestras clases y conviértete en un Vikingo!"
-        ],
-    },
+    // {
+    //     id: 7,
+    //     image: "/vikingbrothersgym/news/new7.jpeg",
+    //     title: "¡NUEVO! Kick boxing infantil",
+    //     date: "11/11/2024",
+    //     text: [
+    //         "Si tienes entre 6 y 14 años estás de suerte, ¡comienzan las clases de Kick boxing infantil!",
+    //         "Tenemos el lujo de contar con Álex Clandestino para poder aprender de la mejor manera las bases del Kick boxing.",
+    //         "Los horarios son los viernes de 19:00-20:00 y 20:15-21:15.",
+    //         "Consulta en esta web y/o ven a preguntarnos para saber más. ¡Apúntate a nuestras clases y conviértete en un Vikingo!"
+    //     ],
+    // },
     {
         id: 5,
         image: "/vikingbrothersgym/news/new5.jpeg",
