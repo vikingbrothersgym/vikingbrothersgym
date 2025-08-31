@@ -9,10 +9,24 @@ text: [""],
 
 const news = [
     {
+        id: 14,
+        image: "/vikingbrothersgym/news/new14.webp",
+        title: "🥊 ¡Vuelven las Clases de Boxeo en Viking Brothers Gym!",
+        date: "31/08/2025",
+        text: [
+            "Nos alegra anunciar que a partir del lunes 1 de septiembre se reanudan las clases de Boxeo con nuestro profesor Fran Marquino, quien regresa para seguir formando y motivando a todos los apasionados de este deporte.",
+            "📅 Horarios de las clases:",
+            "- Lunes y Miércoles: 19:00 – 20:00",
+            "- Martes y Jueves: 19:00 – 20:00 y 20:30 – 21:30",
+            "El boxeo es una de las disciplinas más completas: mejora la resistencia, la fuerza, la coordinación y la disciplina mental. Tanto si eres principiante como si ya tienes experiencia, encontrarás un entrenamiento adaptado a tu nivel.",
+            "👉 ¡No pierdas la oportunidad de entrenar con un gran profesional y llevar tu boxeo al siguiente nivel en Viking Brothers Gym!",
+        ]
+    },
+    {
         id: 13,
         image: "/vikingbrothersgym/news/new13.webp",
         title: "🥋💥¡Nuevo! Krav Maga y Defensa Personal",
-        date: "10/07/2025",
+        date: "30/08/2025",
         text: [
             "🥋💥 ¡Nuevas Clases de Krav Maga y Defensa Personal en Viking Brothers Gym! 💥🥋",
             "Nos complace anunciar que a partir de la segunda quincena de septiembre incorporamos a nuestra programación las clases de Krav Maga y Defensa Personal, impartidas por José Ramos, profesor federado y experto en estas disciplinas.",

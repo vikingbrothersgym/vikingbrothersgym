@@ -3,6 +3,7 @@ import { enum_clases } from "./clases"
 const horarios = {
     lunes: [
         // {clase: enum_clases.BOXEO_CHAMON, inicio: "18:00", final: "19:00", profesor: "Chamón"},
+        {clase: enum_clases.BOXEO_MARQUINO, inicio: "19:00", final: "20:00", profesor: "Marquino"},
         // {clase: enum_clases.KICK_PANEDAS, inicio: "19:00", final: "20:00", profesor: "Panedas"},
     ],
     martes: [
@@ -12,6 +13,7 @@ const horarios = {
     ],
     miercoles: [
         // {clase: enum_clases.BOXEO_CHAMON, inicio: "18:00", final: "19:00", profesor: "Chamón"},
+        {clase: enum_clases.BOXEO_MARQUINO, inicio: "19:00", final: "20:00", profesor: "Marquino"},
         // {clase: enum_clases.KICK_PANEDAS, inicio: "19:00", final: "20:00", profesor: "Panedas"},
     ],
     jueves: [
