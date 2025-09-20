@@ -65,15 +65,15 @@ const Home = () => {
                         🥋 SEMINARIO <br/> 
                         <span> KRAV MAGÁ </span>
                     </h1>
-                    <div className="flex items-center">
-                        <p className="text-[#fff] text-[25px] text-center ml-[20px] mr-[20px]"> 
+                    <div className="xl:flex items-center">
+                        <p className="text-[#fff] text-[25px] text-center xl:ml-[20px] xl:mr-[20px]"> 
                             🥋 Seminario de Krav Maga en Viking Brother Gym – 18 de Octubre <br/><br/>
                             🕒 Horario: De 10:00 h a 13:00 h <br/><br/>
                             📍 Lugar: Viking Brother Gym, C/ Miraflores 12-14, Zaragoza <br/><br/>
                             💶 Precio: 25 € <br/><br/>
                             📋 Inscripciones: En la recepción del gimnasio. <br/><br/>
                         </p>
-                        <div className="suple-im-container">
+                        <div className="flex justify-center">
                             <Image
                                 className="suple-im" 
                                 src={krav_maga}
