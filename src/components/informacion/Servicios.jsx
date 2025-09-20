@@ -53,9 +53,9 @@ const Servicio = ({index = 1}) => {
                 <div className="clases">
                     <img className="img-clases" src={boxeo}/>
                     <div className="servi-text">
-                        <h1> Boxeo y Krav Maga </h1>
+                        <h1> Boxeo y Krav Magá </h1>
                         <p className="servi-description"> 
-                            Clases de Boxeo, Krav Maga y Defensa Personal. 
+                            Clases de Boxeo, Krav Magá y Defensa Personal. 
                             ¡Consulta horarios en esta web o ven a preguntarnos!
                         </p>
                     </div>

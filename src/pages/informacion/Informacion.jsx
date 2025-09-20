@@ -26,18 +26,18 @@ const Informacion = () => {
                 <Tarifas/>
                 <hr/>
                 <h1 className="sec-tit"> 
-                    🥋 KRAV MAGA Y <br/> 
+                    🥋 KRAV MAGÁ Y <br/> 
                     <span> DEFENSA PERSONAL </span>
                 </h1>
                 <div className="suple-container">
                     <p className="suple">  
-                    En Viking Brothers Gym contamos con clases de Krav Maga y Defensa Personal, impartidas por José Ramos, profesor federado con amplia experiencia en estas disciplinas.
+                    En Viking Brothers Gym contamos con clases de Krav Magá y Defensa Personal, impartidas por José Ramos, profesor federado con amplia experiencia en estas disciplinas.
                     <br/> <br/>
-                    El Krav Maga es un sistema de defensa personal de origen israelí, reconocido mundialmente por su eficacia y simplicidad. Está diseñado para que cualquier persona, sin importar su edad o condición física, pueda aprender técnicas útiles para desenvolverse en situaciones de riesgo real.
+                    El Krav Magá es un sistema de defensa personal de origen israelí, reconocido mundialmente por su eficacia y simplicidad. Está diseñado para que cualquier persona, sin importar su edad o condición física, pueda aprender técnicas útiles para desenvolverse en situaciones de riesgo real.
                     <br/> <br/>
                     📅 Consulta nuestros horarios en esta misma web y apúntate hoy mismo.
                     <br/> <br/>
-                    👊 Beneficios de practicar Krav Maga
+                    👊 Beneficios de practicar Krav Magá
                     <br/>
                     - Mejorar tu seguridad y confianza personal.
                     <br/>

@@ -25,10 +25,10 @@ import Gym10 from "@assets/Gym/Gym_10.webp"
 
 import poema from "@assets/vikingo_mamado.webp"
 import drakkar from "@assets/drakkar.webp"
-import krav_maga from "@assets/krav_maga.webp"
+import krav_maga from "/news/new15.webp"
 
 import { FaArrowCircleDown, FaInstagram } from "react-icons/fa";
-import { Button } from "@nextui-org/react"
+import { Button, Image } from "@nextui-org/react"
 import { useNavigate } from "react-router-dom"
 import constants from "../../constants/Constants"
 
@@ -59,6 +59,29 @@ const Home = () => {
                 </div>
                 <hr id="entrenadores"/>
                 <PromoJefes/>
+                <hr/>
+                <div className="flex flex-col items-center w-[100vw]">
+                    <h1 className="sec-tit"> 
+                        🥋 SEMINARIO <br/> 
+                        <span> KRAV MAGÁ </span>
+                    </h1>
+                    <div className="flex items-center">
+                        <p className="text-[#fff] text-[25px] text-center ml-[20px] mr-[20px]"> 
+                            🥋 Seminario de Krav Maga en Viking Brother Gym – 18 de Octubre <br/><br/>
+                            🕒 Horario: De 10:00 h a 13:00 h <br/><br/>
+                            📍 Lugar: Viking Brother Gym, C/ Miraflores 12-14, Zaragoza <br/><br/>
+                            💶 Precio: 25 € <br/><br/>
+                            📋 Inscripciones: En la recepción del gimnasio. <br/><br/>
+                        </p>
+                        <div className="suple-im-container">
+                            <Image
+                                className="suple-im" 
+                                src={krav_maga}
+                                isBlurred
+                                isZoomed/>
+                        </div>
+                    </div>
+                </div>
                 <hr/>
                 <img className="w-[100vw] mt-[20px]" src={drakkar} />
                 <hr id="profesores"/>

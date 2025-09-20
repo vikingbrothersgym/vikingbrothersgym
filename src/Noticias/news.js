@@ -9,6 +9,22 @@ text: [""],
 
 const news = [
     {
+        id: 15,
+        image: "/vikingbrothersgym/news/new15.webp",
+        title: "🥋 Seminario de Krav Magá en Viking Brother Gym – 18 de Octubre",
+        date: "20/09/2025",
+        text: [
+            "El próximo 18 de octubre, Viking Brother Gym acogerá un seminario exclusivo de Krav Magá, una disciplina enfocada en la defensa personal femenina y el desarrollo de habilidades para prevenir y afrontar situaciones de peligro real.",
+            "La actividad será dirigida por José A. Ramos, Instructor y Árbitro Nacional de la Federación Española de Lucha (F.E.L.), reconocido por su amplia experiencia en técnicas de defensa personal, especialmente frente a amenazas como agresiones con cuchillo o agarres.",
+            "🕒 Horario: De 10:00 h a 13:00 h",
+            "📍 Lugar: Viking Brother Gym, C/ Miraflores 12-14, Zaragoza",
+            "💶 Precio: 25 €",
+            "📋 Inscripciones: En la recepción del gimnasio.",
+            "Este seminario está orientado especialmente a mujeres, pero es abierto a todo el público interesado en mejorar su autoestima, su preparación física y su capacidad de respuesta ante situaciones de riesgo.",
+            "¡No te lo pierdas! Una oportunidad única para entrenar con un profesional de primer nivel y aprender técnicas reales de defensa que pueden marcar la diferencia."
+        ]
+    },
+    {
         id: 14,
         image: "/vikingbrothersgym/news/new14.webp",
         title: "🥊 ¡Vuelven las Clases de Boxeo en Viking Brothers Gym!",
@@ -25,14 +41,14 @@ const news = [
     {
         id: 13,
         image: "/vikingbrothersgym/news/new13.webp",
-        title: "🥋💥¡Nuevo! Krav Maga y Defensa Personal",
+        title: "🥋💥¡Nuevo! Krav Magá y Defensa Personal",
         date: "30/08/2025",
         text: [
-            "🥋💥 ¡Nuevas Clases de Krav Maga y Defensa Personal en Viking Brothers Gym! 💥🥋",
-            "Nos complace anunciar que a partir de la segunda quincena de septiembre incorporamos a nuestra programación las clases de Krav Maga y Defensa Personal, impartidas por José Ramos, profesor federado y experto en estas disciplinas.",
+            "🥋💥 ¡Nuevas Clases de Krav Magá y Defensa Personal en Viking Brothers Gym! 💥🥋",
+            "Nos complace anunciar que a partir de la segunda quincena de septiembre incorporamos a nuestra programación las clases de Krav Magá y Defensa Personal, impartidas por José Ramos, profesor federado y experto en estas disciplinas.",
             "📅 Días: Lunes y Miércoles",
             "⏰ Horario: 10:00 a 11:00",
-            "El Krav Maga es un sistema de defensa personal reconocido por su efectividad y practicidad en situaciones reales. Una oportunidad única para mejorar tu seguridad, confianza y condición física con la guía de un instructor cualificado.",
+            "El Krav Magá es un sistema de defensa personal reconocido por su efectividad y practicidad en situaciones reales. Una oportunidad única para mejorar tu seguridad, confianza y condición física con la guía de un instructor cualificado.",
             "👉 ¡Reserva tu plaza y forma parte de esta nueva experiencia en Viking Brothers Gym!"
         ]
     },
@@ -53,10 +69,10 @@ const news = [
     {
         id: 11,
         image: "/vikingbrothersgym/news/new11.webp",
-        title: "🥋 Seminario de Krav Maga en Viking Brother Gym – 21 de Junio",
+        title: "🥋 Seminario de Krav Magá en Viking Brother Gym – 21 de Junio",
         date: "22/05/2025",
         text: [
-            "El próximo 21 de junio, Viking Brother Gym acogerá un seminario exclusivo de Krav Maga, una disciplina enfocada en la defensa personal femenina y el desarrollo de habilidades para prevenir y afrontar situaciones de peligro real.",
+            "El próximo 21 de junio, Viking Brother Gym acogerá un seminario exclusivo de Krav Magá, una disciplina enfocada en la defensa personal femenina y el desarrollo de habilidades para prevenir y afrontar situaciones de peligro real.",
             "La actividad será dirigida por José A. Ramos, Instructor y Árbitro Nacional de la Federación Española de Lucha (F.E.L.), reconocido por su amplia experiencia en técnicas de defensa personal, especialmente frente a amenazas como agresiones con cuchillo o agarres.",
             "🕒 Horario: De 10:00 h a 12:30 h",
             "📍 Lugar: Viking Brother Gym, C/ Miraflores 12-14, Zaragoza",
