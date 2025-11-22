@@ -24,13 +24,13 @@ import Gym9 from "@assets/Gym/Gym_9.webp"
 import Gym10 from "@assets/Gym/Gym_10.webp"
 
 import poema from "@assets/vikingo_mamado.webp"
-import drakkar from "@assets/drakkar.webp"
 import krav_maga from "/news/new15.webp"
 
 import { FaArrowCircleDown, FaInstagram } from "react-icons/fa";
 import { Button, Image } from "@nextui-org/react"
 import { useNavigate } from "react-router-dom"
 import constants from "../../constants/Constants"
+import HiperVideo from "../../components/video/HiperVideo";
 
 const Home = () => {
     const navigate = useNavigate();
@@ -51,16 +51,11 @@ const Home = () => {
         <div className="home-page">
             <NavBar/>
             <div className="home">
-                <div className="carrusel-home">
-                    <Carrusel images={images}/>
-                    <a className="button-down" href="#entrenadores">
-                        <FaArrowCircleDown />                    
-                    </a>
-                </div>
-                <hr id="entrenadores"/>
+                <HiperVideo/>
                 <PromoJefes/>
+                <Carrusel images={images}/>
                 <hr/>
-                <div className="flex flex-col items-center w-[100vw]">
+                {/* <div className="flex flex-col items-center w-[100vw]">
                     <h1 className="sec-tit"> 
                         🥋 SEMINARIO <br/> 
                         <span> KRAV MAGÁ </span>
@@ -70,7 +65,7 @@ const Home = () => {
                             🥋 Seminario de Krav Maga en Viking Brother Gym – 18 de Octubre <br/><br/>
                             🕒 Horario: De 10:00 h a 13:00 h <br/><br/>
                             📍 Lugar: Viking Brother Gym, C/ Miraflores 12-14, Zaragoza <br/><br/>
-                            💶 Precio: 25 € <br/><br/>
+                            💶 Precio: 30 € <br/><br/>
                             📋 Inscripciones: En la recepción del gimnasio. <br/><br/>
                         </p>
                         <div className="flex justify-center">
@@ -81,10 +76,7 @@ const Home = () => {
                                 isZoomed/>
                         </div>
                     </div>
-                </div>
-                <hr/>
-                <img className="w-[100vw] mt-[20px]" src={drakkar} />
-                <hr id="profesores"/>
+                </div> */}
                 <Profesores/>
                 <hr className="mb-0"/>
                 <Servicios/>

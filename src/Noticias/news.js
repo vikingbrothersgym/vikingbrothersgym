@@ -18,7 +18,7 @@ const news = [
             "La actividad será dirigida por José A. Ramos, Instructor y Árbitro Nacional de la Federación Española de Lucha (F.E.L.), reconocido por su amplia experiencia en técnicas de defensa personal, especialmente frente a amenazas como agresiones con cuchillo o agarres.",
             "🕒 Horario: De 10:00 h a 13:00 h",
             "📍 Lugar: Viking Brother Gym, C/ Miraflores 12-14, Zaragoza",
-            "💶 Precio: 25 €",
+            "💶 Precio: 30 €",
             "📋 Inscripciones: En la recepción del gimnasio.",
             "Este seminario está orientado especialmente a mujeres, pero es abierto a todo el público interesado en mejorar su autoestima, su preparación física y su capacidad de respuesta ante situaciones de riesgo.",
             "¡No te lo pierdas! Una oportunidad única para entrenar con un profesional de primer nivel y aprender técnicas reales de defensa que pueden marcar la diferencia."

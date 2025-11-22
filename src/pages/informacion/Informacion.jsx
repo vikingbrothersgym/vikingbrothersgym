@@ -7,6 +7,7 @@ import Tarifas from "@components/informacion/Tarifas.jsx"
 import Suplementacion from "@components/informacion/Suplementacion.jsx"
 import CBImperial from "@components/informacion/CBImperial.jsx"
 
+import drakkar from "@assets/drakkar.webp"
 import salsa from "@assets/salsa.webp"
 import jose_krav_maga from "@assets/jose_krav_maga.webp"
 import {Image} from "@nextui-org/react";
@@ -24,6 +25,7 @@ const Informacion = () => {
                 </div>
                 <hr/>
                 <Tarifas/>
+                <img className="w-[100vw] mt-[20px]" src={drakkar} />
                 <hr/>
                 <h1 className="sec-tit"> 
                     🥋 KRAV MAGÁ Y <br/> 
