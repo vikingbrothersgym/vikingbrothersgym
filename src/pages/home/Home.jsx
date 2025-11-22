@@ -24,6 +24,7 @@ import Gym9 from "@assets/Gym/Gym_9.webp"
 import Gym10 from "@assets/Gym/Gym_10.webp"
 
 import poema from "@assets/vikingo_mamado.webp"
+import hiper_video from "@assets/HiperVideo.mp4";
 import krav_maga from "/news/new15.webp"
 
 import { FaArrowCircleDown, FaInstagram } from "react-icons/fa";
@@ -51,7 +52,7 @@ const Home = () => {
         <div className="home-page">
             <NavBar/>
             <div className="home">
-                <HiperVideo/>
+                <HiperVideo video={hiper_video} />
                 <PromoJefes/>
                 <Carrusel images={images}/>
                 <hr/>

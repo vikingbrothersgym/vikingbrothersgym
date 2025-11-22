@@ -1,8 +1,8 @@
-const HiperVideo = () => {
+const HiperVideo = ({video}) => {
     return (
         <video
             className="w-full h-full object-cover"
-            src="src/assets/HiperVideo.mp4"
+            src={video}
             autoPlay
             loop
             muted
