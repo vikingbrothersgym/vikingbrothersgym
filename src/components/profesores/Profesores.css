@@ -13,7 +13,7 @@
     }
     grid-auto-flow: column;
     /* grid-auto-columns: 21%; */
-    width: 100vw;
+    width: 100%;
     padding: 0 var(--_spacer) var(--_spacer);
   
     overflow-x: auto;

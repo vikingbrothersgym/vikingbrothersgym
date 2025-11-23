@@ -25,7 +25,7 @@ const Informacion = () => {
                 </div>
                 <hr/>
                 <Tarifas/>
-                <img className="w-[100vw] mt-[20px]" src={drakkar} />
+                <img className="w-[100%] mt-[20px]" src={drakkar} />
                 <hr/>
                 <h1 className="sec-tit"> 
                     🥋 KRAV MAGÁ Y <br/> 

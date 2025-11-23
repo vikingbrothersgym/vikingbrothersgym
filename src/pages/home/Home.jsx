@@ -56,7 +56,7 @@ const Home = () => {
                 <PromoJefes/>
                 <Carrusel images={images}/>
                 <hr/>
-                {/* <div className="flex flex-col items-center w-[100vw]">
+                {/* <div className="flex flex-col items-center w-[100%]">
                     <h1 className="sec-tit"> 
                         🥋 SEMINARIO <br/> 
                         <span> KRAV MAGÁ </span>
@@ -99,7 +99,7 @@ const Home = () => {
                         <FaInstagram  />
                         <p> &nbsp; ¡Síguenos en Instagram!</p>
                     </a>
-                    <img className="w-[100vw] mt-[20px]" src={poema}/>
+                    <img className="w-full mt-[20px]" src={poema}/>
                 </div>
                 {/* <hr className="mt-0"/> */}
                 <UltimasNoticias/>

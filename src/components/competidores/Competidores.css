@@ -14,7 +14,7 @@
 }
 
 .competidores {
-    width: 100vw;
+    width: 100%;
     @media (min-width: 1000px) { /* Pantalla grande */
         display: flex;
         flex-wrap: wrap;
