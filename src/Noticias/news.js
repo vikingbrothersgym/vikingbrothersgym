@@ -8,6 +8,22 @@ text: [""],
 */
 
 const news = [
+        {
+        id: 16,
+        image: "/vikingbrothersgym/news/new16.webp",
+        title: "🥋 Seminario de Krav Magá en Viking Brother Gym – 13 de Diciembre",
+        date: "08/12/2025",
+        text: [
+            "El próximo 18 de octubre, Viking Brother Gym acogerá un seminario exclusivo de Krav Magá, una disciplina enfocada en la defensa personal femenina y el desarrollo de habilidades para prevenir y afrontar situaciones de peligro real.",
+            "La actividad será dirigida por José A. Ramos, Instructor y Árbitro Nacional de la Federación Española de Lucha (F.E.L.), reconocido por su amplia experiencia en técnicas de defensa personal, especialmente frente a amenazas como agresiones con cuchillo o agarres.",
+            "🕒 Horario: De 10:00 h a 12:30 h",
+            "📍 Lugar: Viking Brother Gym, C/ Miraflores 12-14, Zaragoza",
+            "💶 Precio: 25 €",
+            "📋 Inscripciones: En la recepción del gimnasio.",
+            "Este seminario está orientado especialmente a mujeres, pero es abierto a todo el público interesado en mejorar su autoestima, su preparación física y su capacidad de respuesta ante situaciones de riesgo.",
+            "¡No te lo pierdas! Una oportunidad única para entrenar con un profesional de primer nivel y aprender técnicas reales de defensa que pueden marcar la diferencia."
+        ]
+    },
     {
         id: 15,
         image: "/vikingbrothersgym/news/new15.webp",

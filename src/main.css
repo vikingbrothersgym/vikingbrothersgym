@@ -28,11 +28,11 @@ body, html {
 
 hr {
     margin-top: 5vh;
-    width: 90%;
+    width: 99%;
     color: white;
     border-style: solid;
-    -webkit-mask-image: radial-gradient(circle, white, transparent);
-    mask-image: radial-gradient(circle, white, transparent);
+    -webkit-mask-image: radial-gradient(circle, white, rgba(255, 255, 255, 0.2));
+    mask-image: radial-gradient(circle, white, rgba(255, 255, 255, 0.05));
 }
 
 a {

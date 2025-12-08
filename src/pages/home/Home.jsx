@@ -7,34 +7,30 @@ import Video from "@components/video/Video";
 import Ubicacion from "@components/ubicacion/Ubicacion";
 import Servicios from "@components/informacion/Servicios";
 import UltimasNoticias from "@components/noticias/UltimasNoticias";
-import Competidores from "@components/competidores/Competidores"
-import Profesores from "@components/profesores/Profesores"
-import TextSlider from "@components/poemas/TextSlider"
-import PromoJefes from "@components/promo-jefes/PromoJefes"
+import Competidores from "@components/competidores/Competidores";
+import Profesores from "@components/profesores/Profesores";
+import TextSlider from "@components/poemas/TextSlider";
+import PromoJefes from "@components/promo-jefes/PromoJefes";
 
 import Gym1 from "@assets/Gym/Gym_1.webp";
-import Gym2 from "@assets/Gym/Gym_2.webp"
-import Gym3 from "@assets/Gym/Gym_3.webp"
-import Gym4 from "@assets/Gym/Gym_4.webp"
-import Gym5 from "@assets/Gym/Gym_5.webp"
-import Gym6 from "@assets/Gym/Gym_6.webp"
-import Gym7 from "@assets/Gym/Gym_7.webp"
-import Gym8 from "@assets/Gym/Gym_8.webp"
-import Gym9 from "@assets/Gym/Gym_9.webp"
-import Gym10 from "@assets/Gym/Gym_10.webp"
+import Gym2 from "@assets/Gym/Gym_2.webp";
+import Gym3 from "@assets/Gym/Gym_3.webp";
+import Gym4 from "@assets/Gym/Gym_4.webp";
+import Gym5 from "@assets/Gym/Gym_5.webp";
+import Gym6 from "@assets/Gym/Gym_6.webp";
+import Gym7 from "@assets/Gym/Gym_7.webp";
+import Gym8 from "@assets/Gym/Gym_8.webp";
+import Gym9 from "@assets/Gym/Gym_9.webp";
+import Gym10 from "@assets/Gym/Gym_10.webp";
 
-import poema from "@assets/vikingo_mamado.webp"
+import poema from "@assets/vikingo_mamado.webp";
 import hiper_video from "@assets/HiperVideo.mp4";
-import krav_maga from "/news/new15.webp"
+import krav_maga from "/news/new15.webp";
 
-import { FaArrowCircleDown, FaInstagram } from "react-icons/fa";
-import { Button, Image } from "@nextui-org/react"
-import { useNavigate } from "react-router-dom"
-import constants from "../../constants/Constants"
+import { FaInstagram } from "react-icons/fa";
 import HiperVideo from "../../components/video/HiperVideo";
 
 const Home = () => {
-    const navigate = useNavigate();
     const images = [
         { original: Gym1 },
         { original: Gym2 }, 
@@ -55,7 +51,6 @@ const Home = () => {
                 <HiperVideo video={hiper_video} />
                 <PromoJefes/>
                 <Carrusel images={images}/>
-                <hr/>
                 {/* <div className="flex flex-col items-center w-[100%]">
                     <h1 className="sec-tit"> 
                         🥋 SEMINARIO <br/> 
@@ -78,8 +73,8 @@ const Home = () => {
                         </div>
                     </div>
                 </div> */}
-                <Profesores/>
-                <hr className="mb-0"/>
+                {/* <Profesores/>
+                <hr className="mb-0"/> */}
                 <Servicios/>
                 <hr className="mt-0"/>
                 <div className="video">

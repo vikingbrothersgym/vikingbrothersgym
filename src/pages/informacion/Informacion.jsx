@@ -15,17 +15,15 @@ import {Image} from "@nextui-org/react";
 const Informacion = () => {
 
     return (
-        <div className="info-page">
-            <header className="header-navbar">
-                <NavBar/>
-            </header>
+        <div className="w-full">
+            <NavBar/>
             <div>
                 <div className="presen-container">
                     <Presentacion/>
                 </div>
                 <hr/>
                 <Tarifas/>
-                <img className="w-[100%] mt-[20px]" src={drakkar} />
+                <img className="w-full mt-[20px]" src={drakkar} />
                 <hr/>
                 <h1 className="sec-tit"> 
                     🥋 KRAV MAGÁ Y <br/> 
@@ -54,7 +52,7 @@ const Informacion = () => {
                     </p>
                     <div className="suple-im-container">
                         <Image 
-                            className="suple-im" 
+                            className="suple-im"
                             src={jose_krav_maga}
                             isBlurred
                             isZoomed/>
@@ -65,7 +63,7 @@ const Informacion = () => {
                     SALSA Y BACHATA <br/> 
                     <span> CON ELPIDIO COBLEY </span>
                 </h1>
-                <div className="suple-container">
+                {/* <div className="suple-container">
                     <p className="suple">  
                         ¿Listo para moverte con ritmo? En nuestro gimnasio ofrecemos clases de salsa y bachata dirigidas por el gran Elpidio Cobley, un profesor con amplia experiencia que hará que aprendas mientras te diviertes.
                         <br/> <br/>
@@ -82,15 +80,15 @@ const Informacion = () => {
                         ¡No pierdas la oportunidad de transformar tus tardes en una experiencia llena de ritmo y energía!
                         <br/> <br/>
                         📅 Consulta nuestros horarios en esta misma web y apúntate hoy mismo.
-                    </p>
-                    <div className="suple-im-container">
+                    </p> */}
+                    {/* <div className="suple-im-container">
                         <Image 
                             className="suple-im" 
                             src={salsa}
                             isBlurred
                             isZoomed/>
-                    </div>
-                </div>
+                    </div> */}
+                {/* </div> */}
                 <hr/>
                 <Suplementacion/>
                 <hr/>
