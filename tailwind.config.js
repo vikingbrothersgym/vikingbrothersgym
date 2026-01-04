@@ -11,6 +11,7 @@ export default {
     extend: {
       colors: {
         primary: "#303030",
+        secondary: "#FF0000",
         third: "#FBA92C",
       },
       animation: {
