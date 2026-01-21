@@ -19,7 +19,7 @@ export const enum_clases = {
   KICK_PANEDAS: 17,
   BOXEO_BUENO: 18,
   BOXEO_MARQUINO: 19,
-  KICK_INFANTIL: 20
+  BOXEO_INFANTIL: 20
 };
 
 export const clases = [
@@ -206,12 +206,12 @@ export const clases = [
     url: "https://youtu.be/CX6E4xWbxJY",
     color: "#38933A"
   },
-  {// KICK_INFANTIL
-    name: "Kick boxing infantil",
+  {// BOXEO_INFANTIL
+    name: "Boxeo infantil",
     info: [
-      "Las clases de defensa personal para niños están diseñadas para enseñar habilidades básicas de defensa, mejorar su confianza, disciplina y conciencia de seguridad.",
-      "Con un enfoque en técnicas no violentas y de control, nuestros instructores capacitan a los niños para protegerse de una manera segura y respetuosa, mientras desarrollan habilidades físicas y mentales valiosas.",
-      "Estaremos encantados de recibir a nuestros mini-vikingos de 6 a 14 años."
+        "Clases de Boxeo Infantil diseñadas para que los niños se diviertan mientras hacen deporte, mejoran su coordinación y ganan confianza en sí mismos.",
+        "Entrenamientos adaptados a su edad, en un entorno seguro y guiados por profesionales.",
+        "Una actividad ideal para aprender disciplina, respeto y hábitos saludables desde pequeños. 🥊💪"
     ],
     url: "",
     color: "#363F0A"

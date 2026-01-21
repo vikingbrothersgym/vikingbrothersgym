@@ -29,27 +29,6 @@ export default function Tarifas() {
         },
         {
             id: 'b',
-            icon: <GiTwoHandedSword/>,
-            title: "2 Meses",
-            color: 'third',
-            price: 76,
-            originalPrice: null,
-            monthPrice: 38,
-            originalMonthPrice: null,
-            extraInfo: null,
-            included: [
-                "Sala de musculación",
-                "Todas las clases"
-            ],
-            notIncluded: [
-                "Boxeo",
-                "King Boxing",
-                "Defensa Personal",
-                "Hit-Box"
-            ]
-        },
-        {
-            id: 'c',
             icon: <GiBattleAxe/>,
             title: "3 Meses",
             color: 'third',
@@ -70,7 +49,7 @@ export default function Tarifas() {
             ]
         },
         {
-            id: 'd',
+            id: 'c',
             icon: <GiShieldBash/>,
             title: "6 Meses",
             color: 'third',
@@ -91,7 +70,7 @@ export default function Tarifas() {
             ]
         },
         {
-            id: 'e',
+            id: 'd',
             icon: <GiVikingHead/>,
             title: "1 Año",
             color: 'third',
@@ -112,7 +91,7 @@ export default function Tarifas() {
             ]
         },
         {
-            id: 'f',
+            id: 'e',
             icon: <GiBoxingGlove/>,
             title: "1 Mes",
             color: 'secondary',
@@ -133,28 +112,7 @@ export default function Tarifas() {
             ]
         },
         {
-            id: 'g',
-            icon: <GiBoxingGlove/>,
-            title: "1 Mes",
-            color: 'secondary',
-            price: 30,
-            originalPrice: null,
-            monthPrice: null,
-            originalMonthPrice: null,
-            extraInfo: "Kick Boxing Infantil",
-            notIncluded: [
-                "Sala de musculación",
-                "Todas las clases",
-                "Boxeo",
-                "Defensa Personal",
-                "Hit-Box"
-            ],
-            included: [
-                "King Boxing",
-            ]
-        },
-        {
-            id: 'h',
+            id: 'f',
             icon: <GiBoxingGlove/>,
             title: "1 Mes",
             color: 'success',
@@ -175,7 +133,27 @@ export default function Tarifas() {
             ]
         },
         {
-            id: 'i',
+            id: 'g',
+            icon: <GiBoxingGlove/>,
+            title: "1 Mes",
+            color: 'secondary',
+            price: 25,
+            originalPrice: null,
+            monthPrice: null,
+            originalMonthPrice: null,
+            extraInfo: "Boxeo Infantil (Viernes de 18:00 a 19:30)",
+            notIncluded: [
+                "Sala de musculación",
+                "Todas las clases",
+                "Defensa Personal",
+                "Hit-Box"
+            ],
+            included: [
+                "Boxeo",
+            ]
+        },
+        {
+            id: 'h',
             icon: <GiAxeInLog/>,
             title: "1 Mes",
             color: 'white',

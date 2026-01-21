@@ -8,7 +8,28 @@ text: [""],
 */
 
 const news = [
-        {
+    {
+        id: 17,
+        image: "/vikingbrothersgym/news/new17.webp",
+        title: "🥊 ¡Nuevas clases de Boxeo Infantil a partir de febrero!",
+        date: "21/01/2026",
+        text: [
+            "En febrero arrancamos una nueva actividad pensada para los más pequeños: Clases de Boxeo Infantil, una forma divertida y segura de introducir a los niños en el deporte, fomentando valores como la disciplina, el respeto y la confianza en sí mismos.",
+            "🗓 Cuándo: Todos los viernes, de 18:00 a 19:30",
+            "👦👧 Dirigido a: Niños y niñas que quieran iniciarse en el boxeo de forma adaptada a su edad.",
+            "💶 Precio: 25 € al mes",
+            "🥊 ¿Qué trabajamos en las clases?",
+            "  - Coordinación y psicomotricidad",
+            "  - Condición física general",
+            "  - Autocontrol y disciplina",
+            "  - Iniciación técnica al boxeo",
+            "Las clases estarán dirigidas por entrenadores cualificados y se desarrollarán en un entorno seguro y motivador.",
+            "📩 Plazas limitadas",
+            "Para más información o inscripciones, contacta con nosotros o pásate por el gimnasio.",
+            "¡Te esperamos para empezar febrero a lo grande! 💪"
+        ]
+    },
+    {
         id: 16,
         image: "/vikingbrothersgym/news/new16.webp",
         title: "🥋 Seminario de Krav Magá en Viking Brother Gym – 13 de Diciembre",
