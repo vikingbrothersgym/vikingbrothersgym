@@ -141,7 +141,7 @@ export default function Tarifas() {
             originalPrice: null,
             monthPrice: null,
             originalMonthPrice: null,
-            extraInfo: "Boxeo Infantil (Viernes de 18:00 a 19:30)",
+            extraInfo: "Boxeo Infantil (Miércoles de 17:30 a 18:30)",
             notIncluded: [
                 "Sala de musculación",
                 "Todas las clases",

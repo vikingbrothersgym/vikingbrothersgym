@@ -209,9 +209,9 @@ export const clases = [
   {// BOXEO_INFANTIL
     name: "Boxeo infantil",
     info: [
-        "Clases de Boxeo Infantil diseñadas para que los niños se diviertan mientras hacen deporte, mejoran su coordinación y ganan confianza en sí mismos.",
-        "Entrenamientos adaptados a su edad, en un entorno seguro y guiados por profesionales.",
-        "Una actividad ideal para aprender disciplina, respeto y hábitos saludables desde pequeños. 🥊💪"
+        "Clases de Boxeo Infantil de iniciación para niños y niñas de 5–6 a 12–13 años, pensadas para aprender y disfrutar del deporte.",
+        "Entrenamientos basados en técnicas básicas, juegos y trabajo con saco, adaptados a cada edad.",
+        "Sin sparring, en un entorno seguro que fomenta la confianza, la disciplina y la diversión. 🥊💪"
     ],
     url: "",
     color: "#363F0A"
