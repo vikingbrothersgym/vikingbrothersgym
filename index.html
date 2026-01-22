@@ -1,30 +1,43 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="/icon.ico" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="google-site-verification" content="pNPCC0FZ6rABBU6UXnOc3VBRFeUvbaFF8Szys7a5PY4" />
-    <meta http-equiv="Content-Security-Policy" content="img-src 'self' data: https:;">
-    <meta name="description" content="Web Viking Brothers Gym Zaragoza. ¡Bienvenid@ a The Viking Brothers Gym! Somos más que un gimnasio, somos una hermandad de guerrer@s en busca de la excelencia física. Únete a nuestra comunidad y forja tu cuerpo y mente con entrenamientos épicos y apoyo inquebrantable. ¡Prepárate para liberar al viking@ que llevas dentro! Te esperamos en el TEMPLO.">
-    <title> Viking Brothers Gym | Zaragoza </title>
-  </head>
-  <script type="text/javascript">
-    (function (l) {
-      if (l.search[1] === "/") {
-        var decoded = l.search
-          .slice(1)
-          .split("&")
-          .map(function (s) {
-            return s.replace(/~and~/g, "&");
-          })
-          .join("?");
-        window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
-      }
-    })(window.location);
-  </script>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" href="/icon.ico" type="image/x-icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="google-site-verification" content="pNPCC0FZ6rABBU6UXnOc3VBRFeUvbaFF8Szys7a5PY4" />
+        <meta http-equiv="Content-Security-Policy" content="img-src 'self' data: https:;">
+        <meta name="description" content="Web Viking Brothers Gym Zaragoza. ¡Bienvenid@ a The Viking Brothers Gym! Somos más que un gimnasio, somos una hermandad de guerrer@s en busca de la excelencia física. Únete a nuestra comunidad y forja tu cuerpo y mente con entrenamientos épicos y apoyo inquebrantable. ¡Prepárate para liberar al viking@ que llevas dentro! Te esperamos en el TEMPLO.">
+        <title> Viking Brothers Gym | Zaragoza </title>
+
+        <!-- Open Graph -->
+        <meta property="og:site_name" content="Viking Brothers Gym">
+        <meta property="og:title" content="Viking Brothers Gym | Zaragoza">
+        <meta property="og:description" content="Gimnasio, Boxeo, Krav Magá y Defensa Personal en Zaragoza. Gimnasio familiar con espíritu vikingo.">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://vikingbrothersgym.github.io/vikingbrothersgym/">
+
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="Viking Brothers Gym | Zaragoza">
+        <meta name="twitter:description" content="Boxeo, Krav Magá y Defensa Personal en Zaragoza">
+
+    </head>
+    <script type="text/javascript">
+        (function (l) {
+        if (l.search[1] === "/") {
+            var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+                return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+            window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+        }
+        })(window.location);
+    </script>
+    <body>
+        <div id="root"></div>
+        <script type="module" src="/src/main.jsx"></script>
+    </body>
 </html>
