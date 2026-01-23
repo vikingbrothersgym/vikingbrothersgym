@@ -9,6 +9,18 @@ text: [""],
 
 const news = [
     {
+        id: 18,
+        image: "/vikingbrothersgym/news/new18.webp",
+        title: "❗ Cancelación del Seminario Femenino de Defensa Personal",
+        date: "21/01/2026",
+        text: [
+            "Informamos que el seminario femenino de defensa personal previsto para mañana ha sido cancelado por motivos personales.",
+            "Lamentamos las molestias que esto pueda ocasionar y agradecemos vuestra comprensión.",
+            "Próximamente comunicaremos una nueva fecha para la realización del seminario.",
+            "Para cualquier duda o consulta, podéis contactar con nosotros directamente."
+        ]
+    },
+    {
         id: 17,
         image: "/vikingbrothersgym/news/new17.webp",
         title: "🥊 ¡Nuevas clases de Boxeo Infantil a partir de febrero!",
