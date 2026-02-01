@@ -19,7 +19,8 @@ export const enum_clases = {
   KICK_PANEDAS: 17,
   BOXEO_BUENO: 18,
   BOXEO_MARQUINO: 19,
-  BOXEO_INFANTIL: 20
+  BOXEO_INFANTIL: 20,
+  ESTIRAMIENTOS: 21
 };
 
 export const clases = [
@@ -215,5 +216,15 @@ export const clases = [
     ],
     url: "",
     color: "#363F0A"
+  },
+  {// ESTIRAMIENTOS
+    name: "Estiramientos",
+    info: [
+        "Clase de estiramientos de cuerpo completo enfocada en mejorar la movilidad, la flexibilidad y la recuperación muscular.",
+        "Ideal para aliviar tensiones, prevenir lesiones y cuidar el cuerpo tras el entrenamiento."
+    ],
+    url: "",
+    color: "#1E6AE8"
   }
+
 ];
