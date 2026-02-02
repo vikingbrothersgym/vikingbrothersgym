@@ -152,28 +152,6 @@ export default function Tarifas() {
                 "Boxeo",
             ]
         },
-        {
-            id: 'h',
-            icon: <GiAxeInLog/>,
-            title: "1 Mes",
-            color: 'white',
-            price: 40,
-            originalPrice: null,
-            monthPrice: null,
-            originalMonthPrice: null,
-            extraInfo: "Hit-Box (Lunes y Miércoles de 18:00 a 19:00 y 19:00 a 20:00)",
-            notIncluded: [
-                "Sala de musculación",
-                "Todas las clases",
-                "Boxeo",
-                "Defensa Personal",
-                "King Boxing",
-            ],
-            included: [
-                "Hit-Box"
-            ]
-        },
-
     ]
 
     return (
