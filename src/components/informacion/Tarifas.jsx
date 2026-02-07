@@ -24,7 +24,6 @@ export default function Tarifas() {
                 "Boxeo",
                 "King Boxing",
                 "Defensa Personal",
-                "Hit-Box"
             ]
         },
         {
@@ -45,7 +44,6 @@ export default function Tarifas() {
                 "Boxeo",
                 "King Boxing",
                 "Defensa Personal",
-                "Hit-Box"
             ]
         },
         {
@@ -66,7 +64,6 @@ export default function Tarifas() {
                 "Boxeo",
                 "King Boxing",
                 "Defensa Personal",
-                "Hit-Box"
             ]
         },
         {
@@ -87,7 +84,6 @@ export default function Tarifas() {
                 "Boxeo",
                 "King Boxing",
                 "Defensa Personal",
-                "Hit-Box"
             ]
         },
         {
@@ -103,7 +99,6 @@ export default function Tarifas() {
             notIncluded: [
                 "Sala de musculación",
                 "Todas las clases",
-                "Hit-Box"
             ],
             included: [
                 "Boxeo",
@@ -122,7 +117,6 @@ export default function Tarifas() {
             originalMonthPrice: null,
             extraInfo: "Gimnasio + Boxeo, King Boxing o Defensa Personal",
             notIncluded: [
-                "Hit-Box"
             ],
             included: [
                 "Sala de musculación",
@@ -146,7 +140,6 @@ export default function Tarifas() {
                 "Sala de musculación",
                 "Todas las clases",
                 "Defensa Personal",
-                "Hit-Box"
             ],
             included: [
                 "Boxeo",
