@@ -42,8 +42,8 @@ const horarios = {
   viernes: [
     {clase: enum_clases.MODELAJE, inicio: "9:30"},
     {clase: enum_clases.MODELAJE, inicio: "11:00"},
+    {clase: enum_clases.ESTIRAMIENTOS, inicio: "14:15"},
     {clase: enum_clases.NULL, inicio: "11:45"},
-    {clase: enum_clases.NULL, inicio: ""},
     {clase: enum_clases.ZUMBA, inicio: "18:00"},
     {clase: enum_clases.HIT, inicio: "19:00"},
   ],
