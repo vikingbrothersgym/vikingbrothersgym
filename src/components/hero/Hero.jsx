@@ -1,3 +1,4 @@
+import logo from "@assets/logo.webp";
 import './Hero.css';
 
 const Hero = () => {
@@ -8,7 +9,7 @@ const Hero = () => {
             <div className="hero-content animate-fadeIn">
                 <img
                     className="hero-icon"
-                    src='src/assets/logo.webp'
+                    src={logo}
                 />
                 <h1>
                     VIKING BROTHERS <br/> 
