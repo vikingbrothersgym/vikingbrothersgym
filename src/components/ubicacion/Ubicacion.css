@@ -31,3 +31,8 @@
     color: black; /* Texto blanco al pasar el mouse */
     text-decoration: underline; /* Subrayado al pasar el mouse */
 }
+
+.text {
+    color: var(--color-text1);
+    text-align: center;
+}

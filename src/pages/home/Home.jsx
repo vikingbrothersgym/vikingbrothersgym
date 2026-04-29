@@ -5,12 +5,13 @@ import Contacto from "@components/footer/Footer";
 import Carrusel from "@components/carrusel/Carrusel";
 import Video from "@components/video/Video";
 import Ubicacion from "@components/ubicacion/Ubicacion";
-import Servicios from "@components/informacion/Servicios";
+import Servicios from "@components/servicios/Servicios";
 import UltimasNoticias from "@components/noticias/UltimasNoticias";
 import Competidores from "@components/competidores/Competidores";
 import Profesores from "@components/profesores/Profesores";
 import TextSlider from "@components/poemas/TextSlider";
 import PromoJefes from "@components/promo-jefes/PromoJefes";
+import Hero from "@components/hero/Hero";
 
 import Gym1 from "@assets/Gym/Gym_1.webp";
 import Gym2 from "@assets/Gym/Gym_2.webp";
@@ -48,7 +49,9 @@ const Home = () => {
         <div className="home-page">
             <NavBar/>
             <div className="home">
-                <HiperVideo video={hiper_video} />
+                <Hero/>
+                <Servicios/>
+                {/* <HiperVideo video={hiper_video} /> */}
                 <PromoJefes/>
                 <Carrusel images={images}/>
                 {/* <div className="flex flex-col items-center w-[100%]">
@@ -75,8 +78,6 @@ const Home = () => {
                 </div> */}
                 {/* <Profesores/>
                 <hr className="mb-0"/> */}
-                <Servicios/>
-                <hr className="mt-0"/>
                 <div className="video">
                     <Video url={"https://www.youtube.com/watch?v=GNsp74QBxzo"}/>
                 </div>
