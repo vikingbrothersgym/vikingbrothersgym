@@ -1,6 +1,6 @@
 .hero {
     position: relative;
-    height: 80vh;
+    min-height: 80vh;
     background: url('/src/assets/Gym/Gym_2.webp') center/cover no-repeat;
     background-attachment: fixed;
     display: flex;
@@ -28,7 +28,7 @@
 }
 
 .hero-icon {
-    width: 200px;
+    width: clamp(50px, 100%, 200px);
 }
 
 .hero h1 {
