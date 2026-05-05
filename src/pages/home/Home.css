@@ -34,18 +34,6 @@
     margin-top: 0;
 }
 
-
-.old {
-    display: flex;
-    justify-content: space-around;
-    /* background-color: black; */
-    margin-top: 10vh;
-}
-
-.old-img {
-    max-width: 40%;
-}
-
 .ubi-con {
     display: flex;
     justify-content: space-around;

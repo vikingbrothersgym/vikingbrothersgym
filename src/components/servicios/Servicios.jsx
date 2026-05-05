@@ -25,8 +25,8 @@ const Servicios = () => {
             image: asesoria
         },
         {
-            title: "Boxeo y Krav Magá",
-            description: "Clases de Boxeo, Krav Magá y Defensa Personal. ¡Consulta horarios en esta web o ven a preguntarnos!",
+            title: "Boxeo",
+            description: "Clases de Boxeo y Boxeo infantil. ¡Consulta horarios en esta web o ven a preguntarnos!",
             image: boxeo
         },
         {

@@ -1,67 +1,43 @@
-/******************************* Tarifas **************************************/
-/* .tarifas-container {
-    margin-bottom: 5vh;
+.pricing {
+  position: relative;
+  padding: 0px 50px;
+  /* background: url('/src/assets/Gym/Gym_2.webp') center/cover no-repeat; */
 }
 
-.tar-tit {
+/* Overlay oscuro PRO */
+.pricing-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+}
+
+/* Contenido */
+.pricing-container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Título */
+.pricing-title {
+    color: var(--color-text1);
     text-align: center;
-    font-weight: bold;
-    font-size: 3rem;
-    color: white;
-
-    span {
-        color: var(--color-third);
-    }
-} */
-
-.tarifas-container {
-    background: url('/src/assets/tarifas.webp');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    font-size: clamp(40px, 5vw, 60px);
 }
 
-.cuotas {
-    max-width: 100%;
-    margin-top: 2vh;
-    padding: 2rem;
+.pricing-title span {
+  color: var(--color-third);
 }
 
-/* Pantallas grandes */
-@media (min-width: 1400px) {
-    .cuotas {
+/* GRID */
+.pricing-grid {
+    @media (min-width: 1100px) {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-areas:
-            "a b"
-            "c d"
-            "e f"
-            "g ."
-        ;
-        gap: 2rem;
-        width: 40%;
+        justify-content: center;
+        grid-template-columns: repeat(4, 1fr);
+        margin: 0 auto;
     }
-
-    .tarifas-container {
-        display: flex;
-        justify-content: end;
-    }
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
-/* Pantallas pequeñas */
-@media (max-width: 1399px) {
-    .cuotas {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-areas: "a" "b" "c" "d" "e" "f" "g" "h" "i";
-        justify-content: center;
-        align-items: center;
-        gap: 2rem;
-    }
-
-    .tarifas-container {
-        display: flex;
-        justify-content: center;
-    }
-}
