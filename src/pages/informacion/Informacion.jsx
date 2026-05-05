@@ -30,7 +30,7 @@ const Informacion = () => {
                 </h1>
                 <div className="suple-container">
                     <p className="suple">  
-                    En Viking Brothers Gym contamos con clases de Krav Magá y Defensa Personal, impartidas por José Ramos, profesor federado con amplia experiencia en estas disciplinas.
+                    En Viking Brothers Gym ofrecemos seminarios mensuales de Krav Magá y Defensa Personal para mujeres, impartidos por José Ramos, profesor federado con amplia experiencia en estas disciplinas.
                     <br/> <br/>
                     El Krav Magá es un sistema de defensa personal de origen israelí, reconocido mundialmente por su eficacia y simplicidad. Está diseñado para que cualquier persona, sin importar su edad o condición física, pueda aprender técnicas útiles para desenvolverse en situaciones de riesgo real.
                     <br/> <br/>
@@ -46,7 +46,7 @@ const Informacion = () => {
                     <br/>
                     - Entrenar en un ambiente motivador y seguro.
                     <br/> <br/>
-                    👉 Inscripciones abiertas. Ven a entrenar con nosotros y aprende a defenderte mientras mejoras tu forma física.
+                    👉 Ven a entrenar con nosotros y aprende a defenderte mientras mejoras tu forma física.
                     <br/> <br/>
                     </p>
                     <div className="suple-im-container">
