@@ -22,16 +22,16 @@ const Competidores = () => {
             name: "TATIANA REY",
             text: "WORLD CHAMPIONSHIP 2022 Wabba international, Olimpia Wabba 2022, Copa España IFBB 2019, Cataluña IFBB 2019"
         },
-        {
-            image: C4,
-            name: "ÁLEX AROZ",
-            text: "Mens Physique IFBB ELITE PRO"
-        },
-        {
-            image: C5,
-            name: "CAMELIA ARIÑO",
-            text: "Competidora"
-        }
+        // {
+        //     image: C4,
+        //     name: "ÁLEX AROZ",
+        //     text: "Mens Physique IFBB ELITE PRO"
+        // },
+        // {
+        //     image: C5,
+        //     name: "CAMELIA ARIÑO",
+        //     text: "Competidora"
+        // }
     ]
     
     return (

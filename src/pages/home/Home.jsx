@@ -52,7 +52,7 @@ const Home = () => {
                 <Hero/>
                 <Servicios/>
                 {/* <HiperVideo video={hiper_video} /> */}
-                <PromoJefes/>
+                {/* <PromoJefes/> */}
                 <Carrusel images={images}/>
                 {/* <div className="flex flex-col items-center w-[100%]">
                     <h1 className="sec-tit"> 

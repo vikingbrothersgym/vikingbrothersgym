@@ -1,4 +1,4 @@
-import jefes from "@assets/presentacion/jefes.jpg"
+import clases from "@assets/servicios/clases.webp"
 import exterior from "@assets/presentacion/gimasio_exterior.jpg"
 import {Image} from "@nextui-org/react";
 import "./Presentacion.css"
@@ -26,7 +26,7 @@ const Presentacion = () => {
                 <div className="im-jefes-container">
                     <Image 
                         className="im-jefes" 
-                        src={jefes}
+                        src={clases}
                         isBlurred
                         isZoomed />
                 </div>

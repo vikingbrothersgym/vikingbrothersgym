@@ -1,6 +1,6 @@
 import "./Servicios.css"
 import clases from "@assets/servicios/clases.webp"
-import asesoria from "@assets/presentacion/jefes.jpg"
+import asesoria from "@assets/servicios/jefes.webp"
 import boxeo from "@assets/servicios/boxeo.webp"
 import familia from "@assets/servicios/familia.webp"
 import todos from "@assets/servicios/todos.webp"

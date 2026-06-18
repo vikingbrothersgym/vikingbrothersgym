@@ -90,8 +90,8 @@ const Informacion = () => {
                 </div>
                 <hr/>
                 <Suplementacion/>
-                <hr/>
-                <CBImperial/>
+                {/* <hr/> */}
+                {/* <CBImperial/> */}
             </div>
             <div id="contacto">
                 <Contacto/>
