@@ -1,0 +1,66 @@
+.clase-container {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s all ease-in-out;
+}
+
+
+.modal-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media (min-width: 950px) {
+        justify-content: space-around;
+    }
+}
+
+.clases-modal {
+    button {
+        background-color: var(--color-third);
+        border: 0;
+        color: black;
+        cursor: pointer;
+        transition: opacity 0.3s ease;
+    }
+    button:hover {
+        background-color: var(--color-third);
+        border: 0;
+        color: black;
+        cursor: pointer;
+        opacity: 0.8;
+    }
+}
+
+.nombre-clase {
+    font-weight: bold;
+    color: var(--color-text1);
+}
+
+.link-clase-vacio {
+    @media (max-width:1400px) {
+        display: none;
+    }
+    opacity: 0;
+    padding: 10px 20px;
+    font-weight: bold; /* Hace el enlace más prominente */
+    font-size: 110%; /* Asegura que el tamaño de la fuente sea consistente */
+    text-decoration: none;
+}
+
+.link-clase {
+    padding: 10px 20px;
+    font-weight: bold; /* Hace el enlace más prominente */
+    font-size: 20px; /* Asegura que el tamaño de la fuente sea consistente */
+    text-decoration: none;
+    color: var(--color-third); /* Azul vibrante para el enlace */
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s !important;
+}
+

@@ -1,0 +1,41 @@
+.schedule-mobile {
+    padding: 5px;
+}
+
+.schedule-mobile .day-lessons {
+    list-style: none;
+    padding: 0;
+}
+
+.day-lessons {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.day-lessons li {
+    border-bottom: 1px solid rgba(255,255,255,.06);
+    margin-bottom: 5px;
+}
+
+.schedule-mobile .day {
+    padding: 10px;
+    color:#e9e2d0;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-family: var(--font-viking);
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 5px;
+
+    background:
+        radial-gradient(circle at 20% 20%, rgba(46, 20, 20, 0.08), transparent 45%),
+        repeating-linear-gradient(
+            -45deg,
+            rgba(255,255,255,.1) 0px,
+            rgba(255,255,255,.1) 2px,
+            transparent 2px,
+            transparent 6px
+        ),
+
+        linear-gradient(#4b2e1b,#5f3b22);
+}

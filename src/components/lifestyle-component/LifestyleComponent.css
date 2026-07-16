@@ -1,0 +1,87 @@
+.lifestyle{
+    padding: 60px 20px 10px;
+    color:#c7b8a5;
+    background: linear-gradient(var(--color-background), #101010);
+    text-align:center;
+}
+
+.lifestyle-grid{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:40px;
+    margin-bottom:40px;
+}
+
+.lifestyle-item{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:8px;
+}
+
+.lifestyle-icon{
+    font-size:58px;
+    color:#ceb8a3;
+    margin-bottom:10px;
+}
+
+.lifestyle-item p{
+    margin:0;
+    font-weight:600;
+    letter-spacing:1px;
+}
+
+.lifestyle-message{
+    display:flex;
+    align-items:center;
+    gap:25px;
+    margin-bottom:20px;
+}
+
+.lifestyle-message span{
+    flex:1;
+    height:2px;
+    background:#5f5246;
+}
+
+.lifestyle-message h2{
+    margin:0;
+    font-family: var(--font-viking);
+    letter-spacing:3px;
+    color: #ceb8a3;
+    font-size:34px;
+}
+
+.instagram{
+    font-size:22px;
+    letter-spacing:2px;
+    color:#9b8b79;
+}
+
+@media (max-width:768px){
+    .lifestyle-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .lifestyle-item {
+        flex: 1 1 180px;
+        max-width: 220px;
+    }
+
+    .lifestyle-message{
+        flex-direction:column;
+    }
+
+    .lifestyle-message span{
+        width:100px;
+        flex:none;
+    }
+
+    .lifestyle-message h2{
+        font-size:26px;
+    }
+
+}

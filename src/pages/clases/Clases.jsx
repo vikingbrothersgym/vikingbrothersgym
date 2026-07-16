@@ -1,8 +1,11 @@
 import "./Clases.css"
-import Semana from "@components/calendario/Semana"
+import Schedule from "@components/calendar/Schedule"
 import Contacto from "@components/footer/Footer"
 import NavBar from "@components/navbar/NavBar"
 import {Tabs, Tab} from "@nextui-org/react";
+import { horarios as timetableGym } from "../../constants/lessons/horarios";
+import { horarios as timetableBoxing } from "../../constants/lessons/boxeo";
+import Lifestyle from "../../components/lifestyle-component/LifestyleComponent";
 
 const Clases = () => {
     return (
@@ -24,14 +27,15 @@ const Clases = () => {
                           color="warning"
                           aria-label="Options">
                         <Tab key="gimnasio" title="Gimnasio">
-                            <Semana gimnasio={true}/>
+                            <Schedule timetable={timetableGym} />
                         </Tab>
                         <Tab key="boxeo" title="Boxeo / Defensa Personal">
-                            <Semana gimnasio={false}/>
+                            <Schedule timetable={timetableBoxing}/>
                         </Tab>
                     </Tabs>
                 </div>
             </div>
+            <Lifestyle/>
             <div id="contacto">
                 <Contacto/>
             </div>

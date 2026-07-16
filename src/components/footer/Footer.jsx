@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
-
+import './Footer.css';
 
 const Footer = () => {
 
@@ -32,7 +32,7 @@ const Footer = () => {
     ]
 
     return (
-        <footer className="bg-[#101010] text-white p-4 flex flex-col justify-center lg:flex-row lg:items-start lg:justify-center lg:gap-10">
+        <footer className="footer bg-[#101010] text-white p-4 flex flex-col justify-center lg:flex-row lg:items-start lg:justify-center lg:gap-10">
             <div className="flex items-center justify-center gap-4">
                 <img src={logo} className="w-1/2 max-w-40"/>
                 <h1>
@@ -44,7 +44,7 @@ const Footer = () => {
             <div className="flex flex-col justify-center sm:flex-row sm:items-start sm:justify-evenly sm:gap-10">
                 <nav>
                     <h3>ENLACES</h3>
-                    <ul>
+                    <ul className="flex flex-col gap-2">
                         {navLinks.map((navLink, idx) => (
                             <li key={idx}>
                                 <Link 
@@ -81,7 +81,7 @@ const Footer = () => {
                     </ul>
 
                     <h3 className="mt-10 mb-0">SÍGUENOS</h3>
-                    <ul className="mt-0 flex gap-10">
+                    <ul className="social-media mt-2 flex gap-10">
                         {socialMediaLinks.map((socialMedia, idx) => (
                             <li key={idx}>
                                 <a

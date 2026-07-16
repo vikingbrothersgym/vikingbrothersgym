@@ -1,0 +1,73 @@
+.schedule-desktop {
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow-x: auto;
+    color: #f2efe8;
+    box-shadow: inset 0 0 8px rgba(255,220,120,.05);
+    background:
+        /* Viñeteado */
+        radial-gradient(circle at center, transparent 40%, rgba(0,0,0,.45) 100%),
+
+        /* Rayas muy finas */
+        repeating-linear-gradient(
+            45deg,
+            rgba(255,255,255,.015) 0px,
+            rgba(255,255,255,.015) 2px,
+            transparent 2px,
+            transparent 6px
+        ),
+
+        /* Color base */
+        linear-gradient(#272727, #171717);
+}
+
+/****************************************/
+/* CABECERAS                            */
+/****************************************/
+.horario-grid thead th {
+    padding: 12px;
+    color:#e9e2d0;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-family: var(--font-viking);
+    font-size: 30px;
+
+    background:
+        radial-gradient(circle at 20% 20%, rgba(46, 20, 20, 0.08), transparent 45%),
+        repeating-linear-gradient(
+            -45deg,
+            rgba(255,255,255,.1) 0px,
+            rgba(255,255,255,.1) 2px,
+            transparent 2px,
+            transparent 6px
+        ),
+
+        linear-gradient(#4b2e1b,#5f3b22);
+}
+
+.horario-grid thead th{
+    border-right:1px solid rgba(255,255,255,.15);
+}
+
+.horario-grid thead th:last-child{
+    border-right:none;
+}
+
+.horario-grid{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout:fixed;
+    min-width: 900px; /* o el ancho que necesites */
+}
+
+.horario-grid th,
+.horario-grid td{
+    border:1px solid rgba(255,255,255,.06);
+    transition: .3s all ease-in-out;
+}
+
+.horario-grid td:hover {
+    background-color: rgba(51, 51, 51, 0.63) !important; /* Fondo azul vibrante al pasar el mouse */
+    color: black; /* Texto blanco al pasar el mouse */
+    opacity: 1;
+}

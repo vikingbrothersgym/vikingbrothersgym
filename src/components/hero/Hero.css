@@ -33,6 +33,7 @@
 
 .hero h1 {
     color: var(--color-text1);
+    font-family: var(--font-viking);
     font-size: clamp(36px, 8vw, 72px);
     font-weight: 800;
     line-height: 1;
