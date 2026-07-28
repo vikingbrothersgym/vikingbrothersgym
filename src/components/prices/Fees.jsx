@@ -1,10 +1,14 @@
-import {Tabs, Tab} from "@nextui-org/react";
-import { GiBoxingGlove, GiChestArmor, GiTwoHandedSword, GiBattleAxe, GiShieldBash, GiVikingHead, GiAxeInLog } from "react-icons/gi";
-import "./Tarifas.css"
-import Cuota from "./precios/Cuota.jsx";
-import { icon } from "leaflet";
+import { 
+    GiBoxingGlove, 
+    GiChestArmor, 
+    GiBattleAxe, 
+    GiShieldBash, 
+    GiVikingHead 
+} from "react-icons/gi";
+import "./Fees.css"
+import Fee from "./Fee.jsx";
 
-export default function Tarifas() {
+export default function Fees() {
     const gym = [
         {
             icon: <GiChestArmor/>,
@@ -140,7 +144,7 @@ export default function Tarifas() {
                 </h2>
 
                 <div className="pricing-grid">
-                    {gym.map((cuota, idx) => <Cuota key={idx} {...cuota} />)}
+                    {gym.map((cuota, idx) => <Fee key={idx} {...cuota} />)}
                 </div>
             </div>
         </section>

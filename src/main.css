@@ -12,7 +12,15 @@ body, html {
     box-sizing: border-box;
     height: fit-content;
     width: 100%;
-    background-color: var(--color-background); /* Elige el color que desees */
+    background:
+        repeating-linear-gradient(
+            45deg,
+            rgba(255,255,255,.007) 0px,
+            rgba(255,255,255,.007) 2px,
+            transparent 2px,
+            transparent 12px
+        ),
+        #202020;    
     font-family: 'Exo 2 Variable', sans-serif;
     scroll-behavior: smooth;
 }

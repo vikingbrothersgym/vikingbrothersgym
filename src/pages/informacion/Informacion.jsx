@@ -3,14 +3,14 @@ import "./Informacion.css"
 import NavBar from "@components/navbar/NavBar.jsx"
 import Presentacion from "@components/informacion/Presentacion.jsx"
 import Contacto from "@components/footer/Footer.jsx"
-import Tarifas from "@components/informacion/Tarifas.jsx"
+import Fees from "@components/prices/Fees.jsx"
 import Suplementacion from "@components/informacion/Suplementacion.jsx"
 import CBImperial from "@components/informacion/CBImperial.jsx"
 
 import drakkar from "@assets/drakkar.webp"
 import salsa from "@assets/salsa.webp"
-import jose_krav_maga from "@assets/jose_krav_maga.webp"
 import {Image} from "@nextui-org/react";
+import KravInfo from "../../components/informacion/krav_maga/KravInfo"
 
 const Informacion = () => {
 
@@ -21,42 +21,10 @@ const Informacion = () => {
                 <div className="presen-container">
                     <Presentacion/>
                 </div>
-                <Tarifas/>
+                <Fees/>
                 {/* <img className="w-full mt-[20px]" src={drakkar} /> */}
                 {/* <hr/> */}
-                <h1 className="sec-tit"> 
-                    🥋 KRAV MAGÁ Y <br/> 
-                    <span> DEFENSA PERSONAL </span>
-                </h1>
-                <div className="suple-container">
-                    <p className="suple">  
-                    En Viking Brothers Gym ofrecemos seminarios mensuales de Krav Magá y Defensa Personal para mujeres, impartidos por José Ramos, profesor federado con amplia experiencia en estas disciplinas.
-                    <br/> <br/>
-                    El Krav Magá es un sistema de defensa personal de origen israelí, reconocido mundialmente por su eficacia y simplicidad. Está diseñado para que cualquier persona, sin importar su edad o condición física, pueda aprender técnicas útiles para desenvolverse en situaciones de riesgo real.
-                    <br/> <br/>
-                    📅 Consulta nuestros horarios en esta misma web y apúntate hoy mismo.
-                    <br/> <br/>
-                    👊 Beneficios de practicar Krav Magá
-                    <br/>
-                    - Mejorar tu seguridad y confianza personal.
-                    <br/>
-                    - Desarrollar fuerza, agilidad y reflejos.
-                    <br/>
-                    - Aprender técnicas efectivas de defensa.
-                    <br/>
-                    - Entrenar en un ambiente motivador y seguro.
-                    <br/> <br/>
-                    👉 Ven a entrenar con nosotros y aprende a defenderte mientras mejoras tu forma física.
-                    <br/> <br/>
-                    </p>
-                    <div className="suple-im-container">
-                        <Image 
-                            className="suple-im"
-                            src={jose_krav_maga}
-                            isBlurred
-                            isZoomed/>
-                    </div>
-                </div>
+                <KravInfo/>
                 <hr/>
                 <h1 className="sec-tit"> 
                     SALSA Y BACHATA <br/> 
