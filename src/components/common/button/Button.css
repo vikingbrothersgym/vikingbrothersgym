@@ -1,0 +1,25 @@
+.button {
+    /* Display */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+
+    /* Font */
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+
+    /* Styles */
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: opacity .2s ease-in-out;
+}
+
+.button:hover {
+    opacity: 0.8;
+}

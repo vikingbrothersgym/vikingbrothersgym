@@ -4,4 +4,4 @@ const constants = {
     root: '/vikingbrothersgym/',
 }
 
-export default constants
+export default constants;

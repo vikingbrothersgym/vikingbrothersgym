@@ -1,6 +1,9 @@
 import Card from "../../common/card/Card";
 import InfoSection from "../../common/info-component/InfoSectionComponent";
-import jose_krav_maga from "@assets/jose_krav_maga.webp"
+import ImageCard from "../../common/image-card/ImageCard";
+import jose_krav_maga from "@assets/informacion/jose_krav_maga.webp";
+
+// Iconos
 import { MdOutlineShield, MdOutlineSportsMartialArts } from "react-icons/md";
 import { FaRegCalendarAlt, FaShieldAlt } from "react-icons/fa";
 import { PiHandFistLight } from "react-icons/pi";
@@ -8,7 +11,6 @@ import { GiStrong, GiKimono, GiBackup } from "react-icons/gi";
 import { LiaHandPointRight } from "react-icons/lia";
 import { IoStar } from "react-icons/io5";
 import { CgGym } from "react-icons/cg";
-import ImageCard from "../../common/image-card/ImageCard";
 
 export default function KravInfo() {
     return (

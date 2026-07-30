@@ -4,6 +4,7 @@
     
     display: flex;
     align-items: start;
+    justify-content: space-between;
     gap: 50px;
 }
 
@@ -83,11 +84,12 @@
 }
 
 .info-container {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
+    flex: 0 0 35%;
+}
+
+.info-content {
+    flex: 1;
+
 }
 
 @media (max-width: 1300px) {
@@ -99,14 +101,8 @@
     }
 
     .info-container {
-        display: flex;
-        justify-content: center;
         width: 70%;
         max-width: 500px;
-    }
-
-    .info-content {
-        width: 100%;
     }
 
     .info-section > div > .title > h1 {

@@ -11,6 +11,7 @@ import drakkar from "@assets/drakkar.webp"
 import salsa from "@assets/salsa.webp"
 import {Image} from "@nextui-org/react";
 import KravInfo from "../../components/informacion/krav_maga/KravInfo"
+import Taekwondo from "../../components/informacion/taekwondo/Taekwondo"
 
 const Informacion = () => {
 
@@ -25,7 +26,7 @@ const Informacion = () => {
                 {/* <img className="w-full mt-[20px]" src={drakkar} /> */}
                 {/* <hr/> */}
                 <KravInfo/>
-                <hr/>
+                <Taekwondo />
                 <h1 className="sec-tit"> 
                     SALSA Y BACHATA <br/> 
                     <span> CON ELPIDIO COBLEY </span>

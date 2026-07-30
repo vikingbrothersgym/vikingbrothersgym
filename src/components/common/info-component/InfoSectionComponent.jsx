@@ -4,7 +4,7 @@ import "./InfoSectionComponent.css";
 export default function InfoSection({iconTitle, title, imgCard, left = false, children}) {
     return (
         <section className="info-section">
-            <div>
+            <div className="info-content">
                 <div className="title m-0">
                     {iconTitle &&
                         <h1 className="title-icon">{iconTitle}</h1>
