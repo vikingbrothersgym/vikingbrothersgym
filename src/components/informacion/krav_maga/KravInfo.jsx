@@ -79,58 +79,48 @@ export default function KravInfo() {
                         en situaciones de riesgo real.
                     </p>
                 </Card>
-                <Card
-                    className="mt-2"
-                    title={
-                        <>
-                            <PiHandFistLight className="text-third text-[30px] mr-2" /> 
-                            Beneficios de practicar Krav Magá
-                        </>
-                    }
-                >
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 justify-around gap-3 w-full mt-4">
-                        <Card
-                            icon={<FaShieldAlt className="text-third text-[75px]"/>}
-                            title={"Más seguridad y confianza"}
-                            vertical
-                        >
-                            <p className="opacity-85">
-                                Aprende a protegerte para ganar confianza y seguridad en ti mismo.
-                            </p>
-                        </Card>
-                        <Card
-                            icon={<GiStrong className="text-third text-[75px]"/>}
-                            title={"Fuerza, agilidad y reflejos"}
-                            vertical
-                        >
-                            <p className="opacity-85">
-                                Mejora tu condición física, desarrolla tu cuerpo y tus reflejos.
-                            </p>
-                        </Card>
-                        <Card
-                            icon={<GiKimono className="text-third text-[75px]"/>}
-                            title={
-                                <>
-                                   Técnicas <br/> efectivas
-                                </>
-                            }
-                            vertical
-                        >
-                            <p className="opacity-85">
-                                Métodos simples y realistas para situaciones de peligro real.
-                            </p>
-                        </Card>
-                        <Card
-                            icon={<GiBackup className="text-third text-[75px]"/>}
-                            title={"Ambiente motivador y seguro"}
-                            vertical
-                        >
-                            <p className="opacity-85">
-                                Entrena en un entorno de respeto, apoyo y superación personal.
-                            </p>
-                        </Card>
-                    </div>
-                </Card>
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 justify-around gap-3 w-full mt-4">
+                    <Card
+                        icon={<FaShieldAlt className="text-third text-[75px]"/>}
+                        title={"Más seguridad y confianza"}
+                        vertical
+                    >
+                        <p className="opacity-85">
+                            Aprende a protegerte para ganar confianza y seguridad en ti mismo.
+                        </p>
+                    </Card>
+                    <Card
+                        icon={<GiStrong className="text-third text-[75px]"/>}
+                        title={"Fuerza, agilidad y reflejos"}
+                        vertical
+                    >
+                        <p className="opacity-85">
+                            Mejora tu condición física, desarrolla tu cuerpo y tus reflejos.
+                        </p>
+                    </Card>
+                    <Card
+                        icon={<GiKimono className="text-third text-[75px]"/>}
+                        title={
+                            <>
+                                Técnicas <br/> efectivas
+                            </>
+                        }
+                        vertical
+                    >
+                        <p className="opacity-85">
+                            Métodos simples y realistas para situaciones de peligro real.
+                        </p>
+                    </Card>
+                    <Card
+                        icon={<GiBackup className="text-third text-[75px]"/>}
+                        title={"Ambiente motivador y seguro"}
+                        vertical
+                    >
+                        <p className="opacity-85">
+                            Entrena en un entorno de respeto, apoyo y superación personal.
+                        </p>
+                    </Card>
+                </div>
             </>
         </InfoSection>
     )

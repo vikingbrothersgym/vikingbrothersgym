@@ -70,13 +70,7 @@
     font-weight: bold;
     text-align: start;
     margin-top: 0;
-
-    @media (min-width: 1000px) {
-        font-size: 50px;
-    }
-    @media (max-width: 1000px) {
-        font-size: 2rem;
-    }
+    font-size: 50px;
 
     span {
         color: var(--color-third);
@@ -101,7 +95,7 @@
     }
 
     .info-container {
-        width: 70%;
+        width: 100%;
         max-width: 500px;
     }
 
@@ -111,7 +105,10 @@
 
     .info-section > .info-content > div > h1 {
         text-align: center;
-        font-size: 2.3rem;
+    }
+
+    .info-section .title {
+        gap: 10px;
     }
 
     .title .title-icon {

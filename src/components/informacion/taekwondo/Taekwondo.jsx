@@ -93,58 +93,48 @@ export default function Taekwondo() {
                         o defensa personal."
                     </p>
                 </Card>
-                <Card
-                    className="mt-2"
-                    title={
-                        <>
-                            <PiHandFistLight className="text-third text-[30px] mr-2" /> 
-                            Taekwondo en el Viking Brothers GYM
-                        </>
-                    }
-                >
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 justify-around gap-3 w-full mt-4">
-                        <Card
-                            icon={<MdSelfImprovement className="text-third text-[75px]"/>}
-                            title={"Disciplina y respeto"}
-                            vertical
-                        >
-                            <p className="opacity-85">
-                                Desarrolla la constancia, la concentración y el respeto.
-                            </p>
-                        </Card>
-                        <Card
-                            icon={<RiMentalHealthFill className="text-third text-[75px]"/>}
-                            title={"Mejora física y mental"}
-                            vertical
-                        >
-                            <p className="opacity-85">
-                                Aumenta tu fuerza, flexibilidad, coordinación y agilidad.
-                            </p>
-                        </Card>
-                        <Card
-                            icon={<FaChild className="text-third text-[75px]"/>}
-                            title={
-                                <>
-                                   Confianza y seguridad
-                                </>
-                            }
-                            vertical
-                        >
-                            <p className="opacity-85">
-                                Gana seguridad en ti mismo y aprende técnicas de defensa personal.
-                            </p>
-                        </Card>
-                        <Card
-                            icon={<GiBackup className="text-third text-[75px]"/>}
-                            title={"Ambiente motivador y seguro"}
-                            vertical
-                        >
-                            <p className="opacity-85">
-                                Entrena en un entorno de respeto, apoyo y superación personal.
-                            </p>
-                        </Card>
-                    </div>
-                </Card>
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 justify-around gap-3 w-full mt-4">
+                    <Card
+                        icon={<MdSelfImprovement className="text-third text-[75px]"/>}
+                        title={"Disciplina y respeto"}
+                        vertical
+                    >
+                        <p className="opacity-85">
+                            Desarrolla la constancia, la concentración y el respeto.
+                        </p>
+                    </Card>
+                    <Card
+                        icon={<RiMentalHealthFill className="text-third text-[75px]"/>}
+                        title={"Mejora física y mental"}
+                        vertical
+                    >
+                        <p className="opacity-85">
+                            Aumenta tu fuerza, flexibilidad, coordinación y agilidad.
+                        </p>
+                    </Card>
+                    <Card
+                        icon={<FaChild className="text-third text-[75px]"/>}
+                        title={
+                            <>
+                                Confianza y seguridad
+                            </>
+                        }
+                        vertical
+                    >
+                        <p className="opacity-85">
+                            Gana seguridad en ti mismo y aprende técnicas de defensa personal.
+                        </p>
+                    </Card>
+                    <Card
+                        icon={<GiBackup className="text-third text-[75px]"/>}
+                        title={"Ambiente motivador y seguro"}
+                        vertical
+                    >
+                        <p className="opacity-85">
+                            Entrena en un entorno de respeto, apoyo y superación personal.
+                        </p>
+                    </Card>
+                </div>
             </>
         </InfoSection>
     )
