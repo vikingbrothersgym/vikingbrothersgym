@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from "react"
-import news from "@noticias/news"
+import news from "@noticias/News.jsx"
 import "./UltimasNoticias.css"
 import NoticiaPreview from "./NoticiaPreview"
 

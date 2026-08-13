@@ -1,0 +1,21 @@
+.tab {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: clamp(10px, 2vw, 18px);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.tab-active {
+    color: var(--color-third);
+    border-bottom: 1px solid var(--color-third);
+}
+
+@media (max-width: 640px) {
+    .tab {
+        flex-direction: column;
+    }
+}

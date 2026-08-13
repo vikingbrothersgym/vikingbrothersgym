@@ -1,0 +1,28 @@
+@keyframes showCard {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.blog-news {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: showCard .6s ease forwards;
+}
+
+.blog-viking-icon {
+    color: var(--color-third);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 50px;
+
+    hr {
+        margin: 0;
+        -webkit-mask-image: none;
+        mask-image: none;
+        color: var(--color-third);
+    }
+
+}

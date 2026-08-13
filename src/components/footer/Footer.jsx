@@ -12,10 +12,10 @@ const Footer = () => {
 
     const navLinkClass = `text-white no-underline hover:text-orange-500 transition`;
     const navLinks = [
-        { text: "Inicio", sectionLink: "" },
-        { text: "Noticias", sectionLink: "noticias" },
-        { text: "Clases", sectionLink: "clases" },
-        { text: "Información", sectionLink: "informacion" },
+        { text: "Inicio", sectionLink: "/" },
+        { text: "Blog", sectionLink: "/blog" },
+        { text: "Clases", sectionLink: "/clases" },
+        { text: "Información", sectionLink: "/informacion" },
     ];
 
     const socialMediaClass = `text-3xl text-white no-underline hover:text-orange-500 transition`;

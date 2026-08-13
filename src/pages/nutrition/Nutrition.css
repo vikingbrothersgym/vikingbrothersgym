@@ -1,0 +1,177 @@
+.nutrition-page {
+    color: white;
+}
+
+/* =========================
+   HERO
+========================= */
+.nutrition-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+
+    margin-top: 30px;
+
+    color: rgba(255,255,255,.65);
+    font-size: 16px;
+}
+
+/* =========================
+   COMIDAS
+========================= */
+.nutrition-meals {
+    position: relative;
+
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+
+}
+
+.nutrition-meals::before {
+    content: "";
+
+    position: absolute;
+
+    left: 40px;
+    top: 30px;
+    bottom: 30px;
+
+    width: 1px;
+
+    background: rgba(255, 174, 0, .35);
+}
+
+/* =========================
+   NORMAS / OBJETIVO
+========================= */
+
+.nutrition-bottom {
+    padding: 0 24px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+    margin-top: 25px;
+}
+
+.nutrition-rules,
+.nutrition-goal {
+    padding: 35px;
+
+    border: 1px solid rgba(255,174,0,.35);
+    background: #151514;
+}
+
+.nutrition-rules h2,
+.nutrition-goal > span {
+    color: var(--color-third);
+
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.nutrition-rules > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    margin-top: 20px;
+}
+
+.nutrition-rules p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    margin: 7px 0;
+
+    color: rgba(255,255,255,.8);
+}
+
+.nutrition-rules svg {
+    flex-shrink: 0;
+    color: var(--color-third);
+}
+
+.nutrition-goal h2 {
+    margin: 15px 0;
+
+    font-size: clamp(1.7rem, 3vw, 2.5rem);
+    line-height: 1.1;
+}
+
+.nutrition-goal p {
+    color: var(--color-third);
+
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+/* =========================
+   CTA
+========================= */
+
+.nutrition-cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+    margin-top: 25px;
+    padding: 30px 35px;
+
+    border: 1px solid rgba(255,174,0,.35);
+    background: #151514;
+}
+
+.nutrition-cta > div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nutrition-cta > div > span {
+    color: var(--color-third);
+    font-size: 40px;
+}
+
+.nutrition-cta h2 {
+    margin: 0;
+
+    font-size: clamp(1.2rem, 2vw, 1.7rem);
+}
+
+.nutrition-cta p {
+    margin-top: 5px;
+
+    color: rgba(255,255,255,.6);
+}
+
+.nutrition-cta a {
+    padding: 13px 25px;
+
+    border: 1px solid var(--color-third);
+
+    color: white;
+
+    font-weight: 700;
+    text-transform: uppercase;
+
+    transition: .3s;
+}
+
+.nutrition-cta a:hover {
+    background: var(--color-third);
+    color: #151514;
+}

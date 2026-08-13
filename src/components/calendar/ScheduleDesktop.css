@@ -61,7 +61,8 @@
 }
 
 .horario-grid th,
-.horario-grid td{
+.horario-grid td {
+    text-align: center;
     border:1px solid rgba(255,255,255,.06);
     transition: .3s all ease-in-out;
 }

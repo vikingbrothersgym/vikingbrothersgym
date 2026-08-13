@@ -8,7 +8,7 @@ const NoticiaPreview = ({ultimas, not }) => {
   return (
     <Card 
       as={Link}
-      to={`${constants.root}noticia/${not.id}`}
+      to={`${constants.root}/noticia/${not.id}`}
       className="w-full bg-zinc-900 max-w-sm shadow-lg rounded-2xl hover:opacity-100 hover:scale-[1.02] cursor-pointer animate-fadeIn"
     >
       {/* Imagen */}

@@ -45,7 +45,7 @@ export default function SalsaBachata() {
                             </li>
                         </ul>
                     </ImageCard>
-                    <Button href={`${constants.root}clases`} className="mt-3">
+                    <Button href={`${constants.root}/clases`} className="mt-3">
                         Consulta horarios <FaChevronRight />
                     </Button>
                 </>

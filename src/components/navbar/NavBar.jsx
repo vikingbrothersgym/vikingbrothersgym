@@ -34,16 +34,16 @@ const NavBar = () => {
         <img className="logo relative l-0" src={logo}/>
 
         <nav className="links-big">
-          <a onClick={() => navigate(constants.root)} href=""> 
+          <a onClick={() => navigate(constants.root + "/")} href=""> 
             INICIO 
           </a>
-          <a onClick={() => navigate(constants.root + "noticias")} href=""> 
-            NOTICIAS
+          <a onClick={() => navigate(constants.root + "/blog")} href=""> 
+            BLOG
           </a>
-          <a onClick={() => navigate(constants.root + "clases")} href=""> 
+          <a onClick={() => navigate(constants.root + "/clases")} href=""> 
             CLASES
           </a>
-          <a onClick={() => navigate(constants.root + "informacion")} href=""> 
+          <a onClick={() => navigate(constants.root + "/informacion")} href=""> 
             INFORMACIÓN 
           </a>
           <a href="#contacto"> 
@@ -65,16 +65,16 @@ const NavBar = () => {
       </div>
 
       <div className={`menu-little${clicked ? '-clicked' : ''}`}>
-        <a onClick={() => navigate(constants.root)} href=""> 
+        <a onClick={() => navigate(constants.root + "/")} href=""> 
           INICIO 
         </a>
-        <a onClick={() => navigate(constants.root + "noticias")} href=""> 
-          NOTICIAS
+        <a onClick={() => navigate(constants.root + "/blog")} href=""> 
+          BLOG
         </a>
-        <a onClick={() => navigate(constants.root + "clases")} href=""> 
+        <a onClick={() => navigate(constants.root + "/clases")} href=""> 
           CLASES
         </a>
-        <a onClick={() => navigate(constants.root + "informacion")} href=""> 
+        <a onClick={() => navigate(constants.root + "/informacion")} href=""> 
           INFORMACIÓN 
         </a>
         <a href="#contacto" onClick={handleClick}> 

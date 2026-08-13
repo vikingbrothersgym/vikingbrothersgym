@@ -7,11 +7,108 @@ date: "",
 text: [""],
 */
 
+import {
+    LuSun,
+    LuSwords,
+    LuShield,
+    LuDrum,
+    LuFlame,
+    LuMoon,
+    LuCircleCheck,
+} from "react-icons/lu";
+
+import desayuno_19 from "@assets/blog/nutrition/19_desayuno.webp"
+import comida_19 from "@assets/blog/nutrition/19_comida.webp"
+import cena_19 from "@assets/blog/nutrition/19_cena.webp"
+
+import { category } from "../constants/news/news"
+
 const news = [
     {
+        id: 19,
+        category: category.nutrition,
+        image: "/vikingbrothersgym/news/new19.webp",
+        title: <>Dieta del <span className="text-third">Guerrero Vikingo</span></>,
+        date: "13/08/2026",
+        text: [
+            "La alimentación es tan importante como el entrenamiento. Esta dieta está diseñada para potenciar tu fuerza, aumentar tu masa muscular y mantener tu disciplina día tras día.",
+            "Sigue el plan como un verdadero guerrero y lleva tu alimentación al siguiente nivel."
+        ],
+        meals: [
+            {
+                number: "01",
+                icon: LuSun,
+                title: "Desayuno del Jarl",
+                subtitle: "Comienza el día",
+                foods: [
+                    "6 huevos enteros",
+                    "150 g de salmón ahumado",
+                    "Aguacate",
+                    "Café solo o té",
+                ],
+                image: desayuno_19,
+            },
+            {
+                number: "02",
+                icon: LuSwords,
+                title: "Media mañana",
+                foods: [
+                    "250 g de queso fresco batido o yogur griego",
+                    "30 g de nueces",
+                    "1 lata de atún al natural",
+                ],
+            },
+            {
+                number: "03",
+                icon: LuDrum,
+                title: "Banquete del Guerrero",
+                foods: [
+                    "300 g de carne roja magra o venado",
+                    "Ensalada verde abundante",
+                    "Aceite de oliva virgen extra",
+                    "Verduras asadas",
+                ],
+                image: comida_19,
+            },
+            {
+                number: "04",
+                icon: LuShield,
+                title: "Antes de la batalla",
+                subtitle: "Pre-entreno",
+                foods: [
+                    "200 g de pechuga de pollo",
+                    "1 pieza de fruta",
+                    "Agua abundante",
+                ],
+            },
+            {
+                number: "05",
+                icon: LuFlame,
+                title: "Después de la batalla",
+                subtitle: "Post-entreno",
+                foods: [
+                    "Batido de proteína",
+                    "200 g de pescado blanco o pollo",
+                ],
+            },
+            {
+                number: "06",
+                icon: LuMoon,
+                title: "Cena del Clan",
+                foods: [
+                    "300 g de salmón, merluza o carne magra",
+                    "Espárragos, brócoli o verduras verdes",
+                    "Aguacate o frutos secos",
+                ],
+                image: cena_19,
+            },
+        ]
+    },
+    {
         id: 18,
+        category: category.news,
         image: "/vikingbrothersgym/news/new18.webp",
-        title: "❗ Cancelación del Seminario Femenino de Defensa Personal",
+        title: "Cancelación del Seminario Femenino de Defensa Personal",
         date: "21/01/2026",
         text: [
             "Informamos que el seminario femenino de defensa personal previsto para mañana ha sido cancelado por motivos personales.",
@@ -22,8 +119,9 @@ const news = [
     },
     {
         id: 17,
+        category: category.news,
         image: "/vikingbrothersgym/news/new17.webp",
-        title: "🥊 ¡Nuevas clases de Boxeo Infantil a partir de febrero!",
+        title: "¡Nuevas clases de Boxeo Infantil a partir de febrero!",
         date: "21/01/2026",
         text: [
             "En febrero comenzamos con una nueva actividad pensada para los más pequeños: Boxeo Infantil de Iniciación, dirigida a niños y niñas de entre 5–6 años hasta 12–13 años.",
@@ -39,6 +137,7 @@ const news = [
     },
     {
         id: 16,
+        category: category.news,
         image: "/vikingbrothersgym/news/new16.webp",
         title: "🥋 Seminario de Krav Magá en Viking Brother Gym – 13 de Diciembre",
         date: "08/12/2025",
@@ -55,6 +154,7 @@ const news = [
     },
     {
         id: 15,
+        category: category.news,
         image: "/vikingbrothersgym/news/new15.webp",
         title: "🥋 Seminario de Krav Magá en Viking Brother Gym – 18 de Octubre",
         date: "20/09/2025",
@@ -71,6 +171,7 @@ const news = [
     },
     {
         id: 14,
+        category: category.news,
         image: "/vikingbrothersgym/news/new14.webp",
         title: "🥊 ¡Vuelven las Clases de Boxeo en Viking Brothers Gym!",
         date: "31/08/2025",
@@ -85,6 +186,7 @@ const news = [
     },
     {
         id: 13,
+        category: category.news,
         image: "/vikingbrothersgym/news/new13.webp",
         title: "🥋💥¡Nuevo! Krav Magá y Defensa Personal",
         date: "30/08/2025",
@@ -99,6 +201,7 @@ const news = [
     },
     {
         id: 12,
+        category: category.news,
         image: "/vikingbrothersgym/news/new12.webp",
         title: "Descanso Yoga: Volvemos en Septiembre",
         date: "10/07/2025",
@@ -113,6 +216,7 @@ const news = [
     },
     {
         id: 11,
+        category: category.news,
         image: "/vikingbrothersgym/news/new11.webp",
         title: "🥋 Seminario de Krav Magá en Viking Brother Gym – 21 de Junio",
         date: "22/05/2025",
@@ -129,6 +233,7 @@ const news = [
     },
     {
         id: 10,
+        category: category.news,
         image: "/vikingbrothersgym/news/new10.webp",
         title: "💪🔥 ¡La Batalla Ha Comenzado en Viking Brothers Gym! 🔥💪",
         date: "25/03/2025",
@@ -145,6 +250,7 @@ const news = [
     },
     {
         id: 9,
+        category: category.news,
         image: "/vikingbrothersgym/news/new9.webp",
         title: "¡No dejes pasar tu Drakkar!",
         date: "02/03/2025",
@@ -181,6 +287,7 @@ const news = [
     // },
     {
         id: 5,
+        category: category.news,
         image: "/vikingbrothersgym/news/new5.jpeg",
         title: "Nuestra campeona de boxeo del templo",
         date: "11/11/2024",
@@ -193,6 +300,7 @@ const news = [
     },
     {
         id: 1,
+        category: category.news,
         image: "/vikingbrothersgym/news/new1.png",
         title: "Web Viking Brothers Gym Zaragoza",
         date: "13/08/2024",

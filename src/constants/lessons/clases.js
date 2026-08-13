@@ -24,14 +24,14 @@ export const enum_clases = {
 };
 
 export const clases = {
-//   { // NULL
-//     name: "",
-//     info: [
-//       ""
-//     ],
-//     url: "",
-//     color: "none"
-//   },
+    [enum_clases.NULL]: { // NULL
+        name: "",
+        info: [
+        ""
+        ],
+        url: "",
+        color: "none"
+    },
     [enum_clases.MODELAJE]: {
         name: "Modelaje",
         info: [""],

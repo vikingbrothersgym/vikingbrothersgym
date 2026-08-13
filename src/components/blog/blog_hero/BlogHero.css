@@ -1,0 +1,36 @@
+.blog-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: clamp(180px, 28vw, 380px);
+    box-sizing: border-box;
+    
+    padding-left: 50px;
+
+    background-image: 
+        linear-gradient(
+            to right,
+            rgba(32, 32, 32, 1) 0%,
+            rgba(32, 32, 32, 0) 20%
+        ),
+        url("/src/assets/blog/blog_hero.webp");
+    background-size: cover;
+    background-position: right 20%;
+    background-repeat: no-repeat;
+    
+}
+
+.blog-hero-nutricion {
+    height: clamp(200px, 28vw, 400px);
+    background-image: 
+        linear-gradient(
+            to right,
+            rgba(32, 32, 32, 1) 0%,
+            rgba(32, 32, 32, 0) 60%
+        ),
+        url("/src/assets/blog/blog_hero_nutricion.webp");
+    background-size: cover;
+    background-position: right 45%;
+    background-repeat: no-repeat;
+}
