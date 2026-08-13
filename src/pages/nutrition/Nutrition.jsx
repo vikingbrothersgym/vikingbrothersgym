@@ -62,18 +62,19 @@ export default function Nutrition() {
                         <div className="nutrition-meta">
                             <span>⚔ Viking Brothers Gym</span>
                             <span>12 Mayo 2025</span>
-                            <span>6 min lectura</span>
                         </div>
                     </BlogHero>
 
-                    <Breadcrumbs
-                        className={"ml-6 mt-6"}
-                        path={[
-                            { label: "Blog", to: "/blog" },
-                            { label: "Nutrición", to: "/blog/nutricion" },
-                            { label: "Dieta del Guerrero Vikingo" },
-                        ]}
-                    />
+                    <div className="px-6">
+                        <Breadcrumbs
+                            className={"mt-6"}
+                            path={[
+                                { label: "Blog", to: "/blog" },
+                                { label: "Nutrición", to: "/blog/nutricion" },
+                                { label: "Dieta del Guerrero Vikingo" },
+                            ]}
+                        />
+                    </div>
 
                     {/* INTRODUCCIÓN */}
                     <section className="m-6 text-white text-[20px] opacity-90">
@@ -96,8 +97,8 @@ export default function Nutrition() {
                     </section>
 
                     {/* NORMAS + OBJETIVO */}
-                    <section className="nutrition-bottom">
-                        <article className="nutrition-rules">
+                    <section className="nutrition-bottom flex flex-col md:flex-row">
+                        <article className="nutrition-rules w-[100%] md:w-[50%]">
                             <h2>Normas del Clan</h2>
 
                             <div>
@@ -110,7 +111,7 @@ export default function Nutrition() {
                             </div>
                         </article>
 
-                        <article className="nutrition-goal">
+                        <article className="nutrition-goal w-[100%] md:w-[50%]">
                             <span>Objetivo:</span>
 
                             <h2>
@@ -127,7 +128,7 @@ export default function Nutrition() {
 
                     {/* CTA */}
                     <section className="px-6 mb-6">
-                        <div className="nutrition-cta">
+                        <div className="nutrition-cta flex flex-col md:flex-row">
                             <div>
                                 <span>⚔</span>
 

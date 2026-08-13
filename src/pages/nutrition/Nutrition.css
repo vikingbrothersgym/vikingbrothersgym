@@ -8,7 +8,7 @@
 .nutrition-meta {
     display: flex;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 15px;
 
     margin-top: 30px;
 
@@ -29,10 +29,7 @@
     width: fit-content;
 
     box-sizing: border-box;
-}
-
-@media (max-width: 768px) {
-
+    padding: 0 10px;
 }
 
 .nutrition-meals::before {
@@ -40,7 +37,7 @@
 
     position: absolute;
 
-    left: 40px;
+    left: 50px;
     top: 30px;
     bottom: 30px;
 
@@ -54,17 +51,17 @@
 ========================= */
 
 .nutrition-bottom {
+    max-width: 100%;
+    box-sizing: border-box;
     padding: 0 24px;
-    
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: 20px;
-
     margin-top: 25px;
 }
 
 .nutrition-rules,
 .nutrition-goal {
+    box-sizing: border-box;
+    width: 50%;
     padding: 35px;
 
     border: 1px solid rgba(255,174,0,.35);
@@ -83,8 +80,16 @@
 .nutrition-rules > div {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 10px;
 
     margin-top: 20px;
+}
+
+@media (max-width: 468px) {
+    .nutrition-rules > div {
+        grid-template-columns: 1fr;
+
+    }
 }
 
 .nutrition-rules p {

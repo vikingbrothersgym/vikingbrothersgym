@@ -107,7 +107,7 @@
     .nutrition-meal {
         display: grid;
 
-        grid-template-columns: 60px minmax(0, 1fr);
+        grid-template-columns: 50px minmax(0, 1fr);
 
         column-gap: 10px;
         row-gap: 15px;
@@ -123,6 +123,14 @@
 
         min-width: 0;
     }
+
+    .nutrition-meal-heading {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 15px;
+    }
+
 
     .nutrition-meal-image {
         grid-column: 2;

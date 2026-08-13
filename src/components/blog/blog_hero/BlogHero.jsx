@@ -6,7 +6,6 @@ export default function BlogHero({
     children,
     section = ""
 }) {
-    const hrStyle = "w-[20px] md:w-[25px]";
     return (
         <div className={`blog-hero blog-hero-${section} pl-[25px] lg:pl-[50px]`}>
             <div className="blog-hero-content w-[50%] lg:w-[30%]">
