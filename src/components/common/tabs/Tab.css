@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     gap: 5px;
-    font-size: clamp(10px, 2vw, 18px);
+    font-size: clamp(10px, 2.2vw, 18px);
     text-transform: uppercase;
     font-weight: bold;
 }
