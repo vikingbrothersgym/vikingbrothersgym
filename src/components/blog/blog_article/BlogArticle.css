@@ -1,9 +1,10 @@
 .new {
     overflow: hidden;
     width: 100%;
-    border-radius: 10px;
 
     background-color: #151514;
+
+    border-radius: 10px;
     border: 1px solid rgba(255,255,255,.15);
     cursor: pointer;
     transition: all .3s ease-in-out;

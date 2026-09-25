@@ -1,0 +1,38 @@
+.muscle-group-article {
+    border-radius: 10px;
+    border: 1px solid rgba(255, 174, 0, 0.5);
+    overflow: hidden;
+}
+
+.muscle-group-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    
+    background-color: #151514;
+}
+
+.exercise {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+    width: 100%;
+}
+
+.number {
+    width: 40px;
+    height: 40px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    border: 1px solid rgba(255, 174, 0, 0.5);
+    border-radius: calc(infinity * 1px);
+}

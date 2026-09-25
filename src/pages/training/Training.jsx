@@ -1,4 +1,4 @@
-import "./Nutrition.css";
+import "./Training.css";
 
 import NavBar from "../../components/navbar/NavBar";
 import Breadcrumbs from "../../components/common/breadcrumbs/Breadcrumbs";
@@ -19,8 +19,8 @@ import { category } from "../../constants/news/news";
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import news from "../../Noticias/News";
-import NutritionMeal from "../../components/blog/nutrition/nutrition_meal/NutritionMeal";
 import Footer from "../../components/footer/Footer";
+import TrainingMuscleGroup from "../../components/blog/training/training_muscle_group/TrainingMuscleGroup";
 import constants from "../../constants/Constants";
 
 const rules = [
@@ -32,7 +32,7 @@ const rules = [
     "Dormir 7-9 horas",
 ];
 
-export default function Nutrition() {
+export default function Training() {
     const { id } = useParams();
 
     const [newArticle, setNewArticle] = useState(null)
@@ -53,7 +53,7 @@ export default function Nutrition() {
 
                 <main>
                     {/* HERO */}
-                    <BlogHero section={category.nutrition}>
+                    <BlogHero section={category.training}>
                         <h1 className="m-0 text-[length:clamp(1.5rem,_5vw,_3.5rem)]">
                             {newArticle.title}
                         </h1>
@@ -69,7 +69,7 @@ export default function Nutrition() {
                             className={"mt-6"}
                             path={[
                                 { label: "Blog", to: "/blog" },
-                                { label: "Nutrición", to: "/blog/nutricion" },
+                                { label: "Entrenamiento", to: "/blog/entrenamiento" },
                                 { label: newArticle.title },
                             ]}
                         />
@@ -84,45 +84,14 @@ export default function Nutrition() {
                         ))}
                     </section>
 
-                    {/* DIETA */}
-                    <section className="nutrition-meals">
-                        {newArticle.meals.map((meal) => (
-                            <NutritionMeal
-                                key={meal.number}
-                                {...meal}
-                                visual={true}
+                    {/* Ejercicios */}
+                    <section className="grid grid-cols-1 md:grid-cols-2 gap-6 px-6">
+                        {newArticle.training.map((muscle_group, idx) => (
+                            <TrainingMuscleGroup
+                                key={idx}
+                                {...muscle_group}
                             />
                         ))}
-                    </section>
-
-                    {/* NORMAS + OBJETIVO */}
-                    <section className="nutrition-bottom flex flex-col md:flex-row">
-                        <article className="nutrition-rules w-[100%] md:w-[50%]">
-                            <h2>Normas del Clan</h2>
-
-                            <div>
-                                {rules.map((rule) => (
-                                    <p key={rule}>
-                                        <LuCircleCheck />
-                                        {rule}
-                                    </p>
-                                ))}
-                            </div>
-                        </article>
-
-                        <article className="nutrition-goal w-[100%] md:w-[50%]">
-                            <span>Objetivo:</span>
-
-                            <h2>
-                                FORJAR MÚSCULO.
-                                <br />
-                                QUEMAR GRASA.
-                            </h2>
-
-                            <p>
-                                Construir un cuerpo digno del Valhalla.
-                            </p>
-                        </article>
                     </section>
 
                     {/* CTA */}
@@ -140,7 +109,7 @@ export default function Nutrition() {
                                 </div>
                             </div>
 
-                            <a href={constants.root + "/blog/nutricion"}>
+                            <a href={constants.root + "/blog/entrenamiento"}>
                                 Ver más artículos de nutrición
                             </a>
                         </div>

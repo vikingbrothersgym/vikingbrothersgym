@@ -1,3 +1,5 @@
+import "./Breadcrumbs.css";
+
 import React from "react";
 import { Link } from "react-router-dom";
 import constants from "../../../constants/Constants";
@@ -16,9 +18,9 @@ export default function Breadcrumbs({
     className
 }) {
     const linkClass = `text-white opacity-90 hover:text-third transition-all transition-ease`;
-    console.log(path.length)
+
     return (
-        <div className={`box-border max-w-full overflow-x-auto whitespace-nowrap flex items-center gap-4 bg-[#151514] border-solid border-[rgba(255,174,0,.35)] border-1 w-fit rounded-[15px] px-4 ${className}`}>
+        <div className={`breadcrumbs box-border max-w-full overflow-x-auto whitespace-nowrap flex items-center gap-4 bg-[#151514] border-solid border-[rgba(255,174,0,.35)] border-1 w-fit rounded-[15px] px-4 ${className}`}>
             <Link className={linkClass} to={`${constants.root}`}>Inicio</Link>
             {path.map((segment, index) => {
                 return (
@@ -26,7 +28,7 @@ export default function Breadcrumbs({
                         <FaChevronRight className="shrink-0 text-[15px]" />
 
                         {index + 1 == path.length ? (
-                            <p className={`${linkClass} font-semibold`}>
+                            <p className={`${linkClass} !text-white font-semibold`}>
                                 {segment.label}
                             </p>
                         ) : (

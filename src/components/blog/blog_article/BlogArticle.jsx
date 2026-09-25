@@ -42,7 +42,6 @@ export default function BlogArticle({
                 <h1 className="new-title">{title}</h1>
                 <p className="new-description">{description}</p>
             </div>
-            
         </div>
     )
 }

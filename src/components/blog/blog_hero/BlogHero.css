@@ -34,3 +34,17 @@
     background-position: right 45%;
     background-repeat: no-repeat;
 }
+
+.blog-hero-entrenamiento {
+    height: clamp(200px, 28vw, 400px);
+    background-image: 
+        linear-gradient(
+            to right,
+            rgba(32, 32, 32, 1) 0%,
+            rgba(32, 32, 32, 0) 60%
+        ),
+        url("/src/assets/blog/blog_hero_training.webp");
+    background-size: cover;
+    background-position: right 55%;
+    background-repeat: no-repeat;
+}

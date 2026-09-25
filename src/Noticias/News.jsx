@@ -17,13 +17,39 @@ import {
     LuCircleCheck,
 } from "react-icons/lu";
 
-import desayuno_19 from "@assets/blog/nutrition/19_desayuno.webp"
-import comida_19 from "@assets/blog/nutrition/19_comida.webp"
-import cena_19 from "@assets/blog/nutrition/19_cena.webp"
+import desayuno_19 from "@assets/blog/nutrition/19_desayuno.webp";
+import comida_19 from "@assets/blog/nutrition/19_comida.webp";
+import cena_19 from "@assets/blog/nutrition/19_cena.webp";
 
 import { category } from "../constants/news/news"
+import { GiBiceps, GiChestArmor } from "react-icons/gi";
+import { chest } from "../data/chest_biceps/chest";
+import { biceps } from "../data/chest_biceps/biceps";
 
 const news = [
+    {
+        id: 20,
+        category: category.training,
+        image: "/vikingbrothersgym/news/new20.webp",
+        title: <>Rutina de <span className="text-third">Pecho y Bíceps</span></>,
+        date: "25/09/2026",
+        text: [
+            "Rutina enfocada en el desarrollo del pecho y bíceps, combinando fuerza e hipertrofia.",
+            "Trabajaremos con ejercicios compuestos y de aislamiento para lograr un estímulo completo y un crecimiento muscular óptimo."
+        ],
+        training: [
+            {
+                name: "Pecho",
+                icon: GiChestArmor,
+                exercises: chest
+            },
+            {
+                name: "Bíceps",
+                icon: GiBiceps,
+                exercises: biceps
+            }
+        ]
+    },
     {
         id: 19,
         category: category.nutrition,

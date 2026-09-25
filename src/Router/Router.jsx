@@ -7,6 +7,7 @@ import Noticias from "@pages/noticias/Noticias";
 import Noticia from "@pages/noticia/Noticia";
 import Blog from "../pages/blog/Blog";
 import Nutrition from "../pages/nutrition/Nutrition";
+import Training from "../pages/training/Training";
 
 const RouterComponent = () => {
     return (
@@ -20,6 +21,7 @@ const RouterComponent = () => {
                 <Route path={constants.root + "/blog/:category"} element={<Blog />} />
                 <Route path={constants.root + "/blog/nutricion/:id"} element={<Nutrition />} />
                 <Route path={constants.root + "/blog/noticias/:id"} element={<Noticia />} />
+                <Route path={constants.root + "/blog/entrenamiento/:id"} element={<Training />} />
             </Routes>
         </BrowserRouter>
     );
