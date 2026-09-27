@@ -60,7 +60,7 @@ export default function Training() {
 
                         <div className="nutrition-meta">
                             <span>⚔ Viking Brothers Gym</span>
-                            <span>12 Mayo 2025</span>
+                            <span>{newArticle.date}</span>
                         </div>
                     </BlogHero>
 
