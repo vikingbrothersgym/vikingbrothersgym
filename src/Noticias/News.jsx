@@ -22,11 +22,37 @@ import comida_19 from "@assets/blog/nutrition/19_comida.webp";
 import cena_19 from "@assets/blog/nutrition/19_cena.webp";
 
 import { category } from "../constants/news/news"
-import { GiBiceps, GiChestArmor } from "react-icons/gi";
+import { GiBiceps, GiChestArmor, GiStrong } from "react-icons/gi";
 import { chest } from "../data/chest_biceps/chest";
 import { biceps } from "../data/chest_biceps/biceps";
+import { dorsal_1 } from "../data/back_dorsal/dorsal_1";
+import { dorsal_2 } from "../data/back_dorsal/dorsal_2";
 
 const news = [
+    {
+        id: 21,
+        category: category.training,
+        image: "/vikingbrothersgym/news/new21.webp",
+        title: <>Rutina de <span className="text-third">Espalda</span></>,
+        date: "25/09/2026",
+        text: [
+            "Rutina enfocada en el desarrollo de la espalda, centrada en los dorsales aunque con implicación de la espalda al completo.",
+            "Gana fuerza en tu espalda y fortalécela para ser un auténtico vikingo."
+        ],
+        training: [
+            {
+                name: "Parte 1",
+                icon: GiChestArmor,
+                exercises: dorsal_1
+            },
+            {
+                name: "Parte 2",
+                icon: GiStrong,
+                exercises: dorsal_2
+            }
+        ]
+    },
+
     {
         id: 20,
         category: category.training,
