@@ -30,6 +30,7 @@ import krav_maga from "/news/new15.webp";
 
 import { FaInstagram } from "react-icons/fa";
 import HiperVideo from "../../components/video/HiperVideo";
+import TourVideo from "../../components/home/tour-video/TourVideo";
 
 const Home = () => {
     const images = [
@@ -78,9 +79,7 @@ const Home = () => {
                 </div> */}
                 {/* <Profesores/>
                 <hr className="mb-0"/> */}
-                <div className="video">
-                    <Video url={"https://www.youtube.com/watch?v=GNsp74QBxzo"}/>
-                </div>
+                <TourVideo />
                 <hr className="mb-0"/>
                 <div className="ubi-con mb-0">
                     <Ubicacion />

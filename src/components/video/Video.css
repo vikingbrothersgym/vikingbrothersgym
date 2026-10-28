@@ -1,9 +1,0 @@
-.player-container {
-    @media (min-width:1000px) {
-        width: 50%;
-    }
-    @media (max-width:1000px) {
-        width: 90%;
-    }
-    aspect-ratio: 16/9;
-}

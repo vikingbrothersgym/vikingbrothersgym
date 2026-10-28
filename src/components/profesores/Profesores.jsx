@@ -54,7 +54,7 @@ const Profesores = () => {
                 <div class="media-element md:w-[40vw] w-[90vw]">
                     <p className="text-center text-third font-bold text-[1.5rem]"> {v.nombre} </p>
                     <div className="video md:w-[40vw] w-[90vw]">
-                        <Video url={v.url} w="90"/>
+                        <Video url={v.url} className="w-[90%]" />
                     </div>
                 </div>
             

@@ -43,7 +43,7 @@ const Lesson = ({ lesson }) => {
                     <ModalBody className="text-[#ffffff]">
                         <div className="modal-info justify-around">
                             {clase.url != "" &&
-                                <Video url={clase.url} w="100"/>
+                                <Video url={clase.url} className="w-full" />
                             }
                             <div className=" ml-[15px] w-[100%]">
                                 {clase.info.map((text, idx) => (

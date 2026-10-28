@@ -34,7 +34,7 @@ const news = [
         category: category.training,
         image: "/vikingbrothersgym/news/new21.webp",
         title: <>Rutina de <span className="text-third">Espalda</span></>,
-        date: "25/09/2026",
+        date: "21/10/2026",
         text: [
             "Rutina enfocada en el desarrollo de la espalda, centrada en los dorsales aunque con implicación de la espalda al completo.",
             "Gana fuerza en tu espalda y fortalécela para ser un auténtico vikingo."

@@ -1,35 +1,24 @@
 import clases from "@assets/servicios/clases.webp"
-import exterior from "@assets/presentacion/gimasio_exterior.jpg"
-import {Image} from "@nextui-org/react";
+import exterior from "@assets/servicios/gimnasio_exterior.webp"
 import "./Presentacion.css"
 
 const Presentacion = () => {
     return (
         <div className="presentacion-container">
             <p className="presentacion">  
-                ¡Bienvenid@ a The Viking Brothers Gym! <br/> <br/>
-                Somos más que un gimnasio, somos una hermandad de guerrer@s
-                en busca de la excelencia física. <br/> <br/>
-                Únete a nuestra comunidad y forja tu cuerpo y mente con
-                entrenamientos épicos y apoyo inquebrantable. <br/> <br/>
-                ¡Prepárate para liberar al viking@ que llevas dentro!
+                ¡Bienvenid@ a The Viking Brothers Gym!<br/> <br/>
+                En este templo 
+                <span className="font-semibold text-third"> no importa tu edad, tu sexo, tu aspecto físico ni tu condición.</span>
+                <br/><br/>
+                No importa cuánto peso levantes ni cuánta experiencia 
+                tengas.<br/> <br/>
+                ¡Únete a nuestra comunidad y 
+                <span className="font-semibold text-third"> libera al viking@ </span> 
+                que llevas dentro!<br/> <br/> 
                 Te esperamos en el TEMPLO.
             </p>
             <div className="jefes-container">
-                <div className="im-jefes-container">
-                    <Image 
-                        className="im-jefes" 
-                        src={exterior}
-                        isBlurred
-                        isZoomed />
-                </div>
-                <div className="im-jefes-container">
-                    <Image 
-                        className="im-jefes" 
-                        src={clases}
-                        isBlurred
-                        isZoomed />
-                </div>
+                <img className="w-[600px] rounded-xl border border-third" src={exterior} />
             </div>
         </div>
     )

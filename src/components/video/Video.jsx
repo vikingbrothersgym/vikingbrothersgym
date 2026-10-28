@@ -1,27 +1,15 @@
 import YoutubePlayer from "react-player/youtube"
-import "./Video.css"
 import { useState } from "react";
 
-const Video = ({ url, w = 0 }) => {
-    const [width, setWidth] = useState(
-        w == 0 ? (window.innerWidth > 1000 ? 50 : 90) : w
-    );
-
+export default function Video({ className, url }) {
     return (
-        <div 
-          className="player-container" 
-          style={{
-            width: width+"%",
-          }}
-        >
+        <div className={`overflow-hidden rounded-xl aspect-video ${className}`} >
             <YoutubePlayer
                 url={url}
                 controls={true}
                 width="100%"
                 height="100%"
-                />
+            />
         </div>
     )
 }
-
-export default Video;
