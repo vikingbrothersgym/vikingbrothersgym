@@ -11,24 +11,23 @@ import salsa from "@assets/salsa.webp"
 import {Image} from "@nextui-org/react";
 import KravInfo from "../../components/informacion/krav_maga/KravInfo"
 import Taekwondo from "../../components/informacion/taekwondo/Taekwondo"
+import NutritionInfo from "../../components/informacion/nutrition/NutritionInfo"
+import PsychologyInfo from "../../components/informacion/psychology/PsychologyInfo"
+import Services from "../../components/informacion/services/Services"
 
 const Informacion = () => {
 
     return (
         <div className="w-full">
             <NavBar/>
-            <div>
+            <div className="mb-10">
                 <div className="presen-container">
                     <Presentacion/>
                 </div>
 
                 <Fees/>
                 
-                <KravInfo/>
-                
-                <Taekwondo />
-                                
-                <Suplementacion/>
+                <Services />
             </div>
             <div id="contacto">
                 <Contacto/>

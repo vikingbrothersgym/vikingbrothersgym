@@ -15,12 +15,6 @@ import { CgGym } from "react-icons/cg";
 export default function KravInfo() {
     return (
         <InfoSection
-            iconTitle={<>🥋</>}
-            title={
-                <>
-                    KRAV MAGÁ Y <span> DEFENSA PERSONAL </span>
-                </>
-            }
             imgCard={
                 <ImageCard
                     title={"José Ramos"}
@@ -55,7 +49,7 @@ export default function KravInfo() {
             }
         >
             <>
-                <div className="flex gap-6 mt-3">
+                <div className="flex gap-6">
                     <div className="flex h-full items-start mt-[19.2px]">
                         <FaRegCalendarAlt className="flex items-start text-third text-[50px] sm:text-[75px]" />
                     </div>

@@ -8,6 +8,7 @@ import Noticia from "@pages/noticia/Noticia";
 import Blog from "../pages/blog/Blog";
 import Nutrition from "../pages/nutrition/Nutrition";
 import Training from "../pages/training/Training";
+import ServicioPage from "../pages/servicio/ServicioPage";
 
 const RouterComponent = () => {
     return (
@@ -15,6 +16,7 @@ const RouterComponent = () => {
             <Routes>
                 <Route path={constants.root} element={<Home />} />
                 <Route path={constants.root + "/informacion"} element={<Informacion />} />
+                <Route path={constants.root + "/informacion/:serviceSlug"} element={<ServicioPage />} />
                 <Route path={constants.root + "/clases"} element={<Clases />} />
                 <Route path={constants.root + "/clases/boxeo"} element={<Clases />} />
                 <Route path={constants.root + "/blog"} element={<Blog />} />

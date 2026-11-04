@@ -68,7 +68,7 @@ export default function Taekwondo() {
             }
         >
             <>
-                <div className="flex gap-6 mt-3">
+                <div className="flex gap-6">
                     <p>
                         En Viking Brothers Gym contamos con clases de Taekwondo impartidas
                         por <b>Ismael Arriazu</b>, Maestro <b>5º Dan</b> y 

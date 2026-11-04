@@ -1,6 +1,7 @@
 .info-section {
     color: white;
-    padding: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     
     display: flex;
     align-items: start;
@@ -78,12 +79,11 @@
 }
 
 .info-container {
-    flex: 0 0 35%;
+    flex: 0 0 30%;
 }
 
 .info-content {
     flex: 1;
-
 }
 
 @media (max-width: 1300px) {

@@ -6,7 +6,7 @@ import suple from "@assets/Suple.jpg"
 // Iconos
 import { IoMdFitness } from "react-icons/io";
 
-export default function SalsaBachata() {
+export default function SuplementacionInfo() {
     return (
         <InfoSection
             iconTitle={<>💪🏼</>}
@@ -25,7 +25,7 @@ export default function SalsaBachata() {
             }
         >
             <>
-                <div className="flex items-center gap-6 mt-3">
+                <div className="flex items-center gap-6">
                     <div className="border-solid border-1 border-third rounded-[10px] border-opacity-70 p-4">
                         <IoMdFitness className="text-third text-[50px]" />
                     </div>

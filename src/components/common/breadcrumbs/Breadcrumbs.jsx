@@ -25,7 +25,7 @@ export default function Breadcrumbs({
             {path.map((segment, index) => {
                 return (
                     <React.Fragment key={index}>
-                        <FaChevronRight className="shrink-0 text-[15px]" />
+                        <FaChevronRight className="shrink-0 text-white text-[15px]" />
 
                         {index + 1 == path.length ? (
                             <p className={`${linkClass} !text-white font-semibold`}>
