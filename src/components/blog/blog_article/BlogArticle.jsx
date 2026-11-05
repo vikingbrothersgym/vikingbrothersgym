@@ -4,7 +4,7 @@ import { PiBowlFood } from "react-icons/pi";
 import { LuBicepsFlexed } from "react-icons/lu";
 import { FaRegCalendarAlt } from "react-icons/fa";
 import { category as CATEGORY } from "../../../constants/news/news";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import constants from "../../../constants/Constants";
 
 export default function BlogArticle({
@@ -26,7 +26,7 @@ export default function BlogArticle({
     const categoryLink = `/blog/${category == CATEGORY.nutrition ? "nutricion" : category == CATEGORY.training ? "entrenamiento" : "noticias"}/${id}`;
 
     return (
-        <div className="new" onClick={() => navigate(categoryLink)}>
+        <Link className="new" to={categoryLink}>
             <div className="new-img-container">
                 <div className="new-category">
                     {categoryName}
@@ -42,6 +42,6 @@ export default function BlogArticle({
                 <h1 className="new-title">{title}</h1>
                 <p className="new-description">{description}</p>
             </div>
-        </div>
+        </Link>
     )
 }

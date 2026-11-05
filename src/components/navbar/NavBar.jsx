@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import logo from "@assets/logo.webp"
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import "./NavBar.css"
@@ -34,18 +34,18 @@ const NavBar = () => {
         <img className="logo relative l-0" src={logo}/>
 
         <nav className="links-big">
-          <a onClick={() => navigate("/")} href=""> 
+          <Link to={"/"} href=""> 
             INICIO 
-          </a>
-          <a onClick={() => navigate("/blog")} href=""> 
+          </Link>
+          <Link to={"/blog"} href=""> 
             BLOG
-          </a>
-          <a onClick={() => navigate("/clases")} href=""> 
+          </Link>
+          <Link to={"/clases"} href=""> 
             CLASES
-          </a>
-          <a onClick={() => navigate("/informacion")} href=""> 
+          </Link>
+          <Link to={"/informacion"} href=""> 
             INFORMACIÓN 
-          </a>
+          </Link>
           <a href="#contacto"> 
             CONTACTO 
           </a>
@@ -55,32 +55,31 @@ const NavBar = () => {
         <img className="logo" src={logo}/>
 
         <div className={`menu-button${clicked ? '-clicked' : ''}`}>
-          <a className="flex items-center" onClick={handleClick} ><AiOutlineMenu/></a>
+          <Link className="flex items-center" onClick={handleClick} ><AiOutlineMenu/></Link>
         </div>
 
         <div className={`close-button${clicked ? '-clicked' : ''}`}>
-          <a className="flex items-center" onClick={handleClick} ><AiOutlineClose/></a>
+          <Link className="flex items-center" onClick={handleClick} ><AiOutlineClose/></Link>
         </div>
 
       </div>
 
       <div className={`menu-little${clicked ? '-clicked' : ''}`}>
-        <a onClick={() => navigate("/")} href=""> 
+        <Link to={"/"} href=""> 
           INICIO 
-        </a>
-        <a onClick={() => navigate("/blog")} href=""> 
+        </Link>
+        <Link to={"/blog"} href=""> 
           BLOG
-        </a>
-        <a onClick={() => navigate("/clases")} href=""> 
+        </Link>
+        <Link to={"/clases"} href=""> 
           CLASES
-        </a>
-        <a onClick={() => navigate("/informacion")} href=""> 
+        </Link>
+        <Link to={"/informacion"} href=""> 
           INFORMACIÓN 
-        </a>
+        </Link>
         <a href="#contacto" onClick={handleClick}> 
           CONTACTO 
         </a>
-
       </div>
     </header>
   )

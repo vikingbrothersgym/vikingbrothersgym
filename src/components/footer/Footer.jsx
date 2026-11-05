@@ -32,7 +32,7 @@ const Footer = () => {
     ]
 
     return (
-        <footer className="footer bg-[#101010] text-white p-4 flex flex-col justify-center lg:flex-row lg:items-start lg:justify-center lg:gap-10">
+        <footer id="contacto" className="footer bg-[#101010] text-white p-4 flex flex-col justify-center lg:flex-row lg:items-start lg:justify-center lg:gap-10">
             <div className="flex items-center justify-center gap-4">
                 <img src={logo} className="w-1/2 max-w-40"/>
                 <h1>

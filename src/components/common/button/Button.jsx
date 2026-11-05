@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Button.css'
 
 export default function Button({
@@ -7,8 +8,8 @@ export default function Button({
     href
 }) {
     return (
-        <a href={href} target={target} className={`button bg-third ${className}`}>
+        <Link href={href} target={target} className={`button bg-third ${className}`}>
             {children}
-        </a>
+        </Link>
     )
 }

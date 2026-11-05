@@ -1,7 +1,7 @@
 import "./Home.css";
 
 import NavBar from "@components/navbar/NavBar";
-import Contacto from "@components/footer/Footer";
+import Footer from "@components/footer/Footer";
 import Carrusel from "@components/carrusel/Carrusel";
 import Video from "@components/video/Video";
 import Ubicacion from "@components/ubicacion/Ubicacion";
@@ -100,9 +100,8 @@ const Home = () => {
                 <UltimasNoticias/>
                 <hr/>
                 <Competidores/>
-                <div id="contacto">
-                    <Contacto/>
-                </div>                
+                
+                <Footer/>
             </div>
         </div>
     )

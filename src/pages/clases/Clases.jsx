@@ -1,6 +1,6 @@
 import "./Clases.css"
 import Schedule from "@components/calendar/Schedule"
-import Contacto from "@components/footer/Footer"
+import Footer from "@components/footer/Footer"
 import NavBar from "@components/navbar/NavBar"
 import { horarios as timetableGym } from "../../constants/lessons/horarios";
 import { horarios as timetableBoxing } from "../../constants/lessons/boxeo";
@@ -47,9 +47,8 @@ const Clases = () => {
                 <Schedule key={location.pathname} timetable={timetable} />
             </div>
             <Lifestyle/>
-            <div id="contacto">
-                <Contacto/>
-            </div>
+
+            <Footer />
         </div>
     )
 }

@@ -16,7 +16,7 @@ import {
 import warrior from "@assets/blog/blog_hero.webp";
 import BlogHero from "../../components/blog/blog_hero/BlogHero";
 import { category } from "../../constants/news/news";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import news from "../../Noticias/News";
 import Footer from "../../components/footer/Footer";
@@ -109,9 +109,9 @@ export default function Training() {
                                 </div>
                             </div>
 
-                            <a href={"/blog/entrenamiento"}>
+                            <Link to={"/blog/entrenamiento"}>
                                 Ver más artículos de entrenamiento
-                            </a>
+                            </Link>
                         </div>
                     </section>
                 </main>

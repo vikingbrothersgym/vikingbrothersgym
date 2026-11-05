@@ -2,7 +2,7 @@ import "./Informacion.css"
 
 import NavBar from "@components/navbar/NavBar.jsx"
 import Presentacion from "@components/informacion/Presentacion.jsx"
-import Contacto from "@components/footer/Footer.jsx"
+import Footer from "@components/footer/Footer.jsx"
 import Fees from "@components/prices/Fees.jsx"
 import Suplementacion from "@components/informacion/suplementacion/Suplementacion.jsx"
 
@@ -29,9 +29,7 @@ const Informacion = () => {
                 
                 <Services />
             </div>
-            <div id="contacto">
-                <Contacto/>
-            </div>
+            <Footer/>
         </div>
     )
 }
