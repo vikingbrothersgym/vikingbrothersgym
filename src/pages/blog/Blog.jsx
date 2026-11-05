@@ -44,22 +44,22 @@ export default function Blog() {
             </BlogHero>
 
             <Tabs>
-                <Tab to={constants.root + "/blog"} end>
+                <Tab to={"/blog"} end>
                     <HiOutlineSquares2X2 />
                     Todos
                 </Tab>
 
-                <Tab to={constants.root + "/blog/noticias"}>
+                <Tab to={"/blog/noticias"}>
                     <FaRegNewspaper />
                     Noticias
                 </Tab>
 
-                <Tab to={constants.root + "/blog/nutricion"}>
+                <Tab to={"/blog/nutricion"}>
                     <PiBowlFood />
                     Nutrición
                 </Tab>
 
-                <Tab to={constants.root + "/blog/entrenamiento"}>
+                <Tab to={"/blog/entrenamiento"}>
                     <LuBicepsFlexed />
                     Entrenamiento
                 </Tab>

@@ -33,11 +33,11 @@ const Clases = () => {
                 </div>
                 <div className="tabs-container mb-3">
                     <Tabs>
-                        <Tab to={constants.root + '/clases'} end>
+                        <Tab to={'/clases'} end>
                             <FaRegStar />
                             Gimnasio
                         </Tab>
-                        <Tab to={constants.root + '/clases/boxeo'}>
+                        <Tab to={'/clases/boxeo'}>
                             <PiBoxingGloveBold />
                             Boxeo
                         </Tab>

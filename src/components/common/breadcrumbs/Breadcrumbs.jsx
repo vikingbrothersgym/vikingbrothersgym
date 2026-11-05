@@ -21,7 +21,7 @@ export default function Breadcrumbs({
 
     return (
         <div className={`breadcrumbs box-border max-w-full overflow-x-auto whitespace-nowrap flex items-center gap-4 bg-[#151514] border-solid border-[rgba(255,174,0,.35)] border-1 w-fit rounded-[15px] px-4 ${className}`}>
-            <Link className={linkClass} to={`${constants.root}`}>Inicio</Link>
+            <Link className={linkClass} to={`/`}>Inicio</Link>
             {path.map((segment, index) => {
                 return (
                     <React.Fragment key={index}>
@@ -34,7 +34,7 @@ export default function Breadcrumbs({
                         ) : (
                             <Link 
                                 className={`${linkClass}`} 
-                                to={`${constants.root + segment.to}`}
+                                to={segment.to}
                             >
                                 {segment.label}
                             </Link>

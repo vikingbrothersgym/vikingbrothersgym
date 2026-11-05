@@ -140,7 +140,7 @@ export default function Nutrition() {
                                 </div>
                             </div>
 
-                            <a href={constants.root + "/blog/nutricion"}>
+                            <a href={"/blog/nutricion"}>
                                 Ver más artículos de nutrición
                             </a>
                         </div>

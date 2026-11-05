@@ -14,16 +14,16 @@ const RouterComponent = () => {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path={constants.root} element={<Home />} />
-                <Route path={constants.root + "/informacion"} element={<Informacion />} />
-                <Route path={constants.root + "/informacion/:serviceSlug"} element={<ServicioPage />} />
-                <Route path={constants.root + "/clases"} element={<Clases />} />
-                <Route path={constants.root + "/clases/boxeo"} element={<Clases />} />
-                <Route path={constants.root + "/blog"} element={<Blog />} />
-                <Route path={constants.root + "/blog/:category"} element={<Blog />} />
-                <Route path={constants.root + "/blog/nutricion/:id"} element={<Nutrition />} />
-                <Route path={constants.root + "/blog/noticias/:id"} element={<Noticia />} />
-                <Route path={constants.root + "/blog/entrenamiento/:id"} element={<Training />} />
+                <Route path={"/"} element={<Home />} />
+                <Route path={"/informacion"} element={<Informacion />} />
+                <Route path={"/informacion/:serviceSlug"} element={<ServicioPage />} />
+                <Route path={"/clases"} element={<Clases />} />
+                <Route path={"/clases/boxeo"} element={<Clases />} />
+                <Route path={"/blog"} element={<Blog />} />
+                <Route path={"/blog/:category"} element={<Blog />} />
+                <Route path={"/blog/nutricion/:id"} element={<Nutrition />} />
+                <Route path={"/blog/noticias/:id"} element={<Noticia />} />
+                <Route path={"/blog/entrenamiento/:id"} element={<Training />} />
             </Routes>
         </BrowserRouter>
     );

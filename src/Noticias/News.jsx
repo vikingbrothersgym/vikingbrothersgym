@@ -1,7 +1,7 @@
 /* Plantilla para una nueva noticia */
 /*
 id: X,
-image: "/vikingbrothersgym/news/newX.png",
+image: "/news/newX.png",
 title: "",
 date: "",
 text: [""],
@@ -32,7 +32,7 @@ const news = [
     {
         id: 21,
         category: category.training,
-        image: "/vikingbrothersgym/news/new21.webp",
+        image: "/news/new21.webp",
         title: <>Rutina de <span className="text-third">Espalda</span></>,
         date: "21/10/2026",
         text: [
@@ -56,7 +56,7 @@ const news = [
     {
         id: 20,
         category: category.training,
-        image: "/vikingbrothersgym/news/new20.webp",
+        image: "/news/new20.webp",
         title: <>Rutina de <span className="text-third">Pecho y Bíceps</span></>,
         date: "25/09/2026",
         text: [
@@ -79,7 +79,7 @@ const news = [
     {
         id: 19,
         category: category.nutrition,
-        image: "/vikingbrothersgym/news/new19.webp",
+        image: "/news/new19.webp",
         title: <>Dieta del <span className="text-third">Guerrero Vikingo</span></>,
         date: "13/08/2026",
         text: [
@@ -159,7 +159,7 @@ const news = [
     {
         id: 18,
         category: category.news,
-        image: "/vikingbrothersgym/news/new18.webp",
+        image: "/news/new18.webp",
         title: "Cancelación del Seminario Femenino de Defensa Personal",
         date: "21/01/2026",
         text: [
@@ -172,7 +172,7 @@ const news = [
     {
         id: 17,
         category: category.news,
-        image: "/vikingbrothersgym/news/new17.webp",
+        image: "/news/new17.webp",
         title: "¡Nuevas clases de Boxeo Infantil a partir de febrero!",
         date: "21/01/2026",
         text: [
@@ -190,7 +190,7 @@ const news = [
     {
         id: 16,
         category: category.news,
-        image: "/vikingbrothersgym/news/new16.webp",
+        image: "/news/new16.webp",
         title: "🥋 Seminario de Krav Magá en Viking Brother Gym – 13 de Diciembre",
         date: "08/12/2025",
         text: [
@@ -207,7 +207,7 @@ const news = [
     {
         id: 15,
         category: category.news,
-        image: "/vikingbrothersgym/news/new15.webp",
+        image: "/news/new15.webp",
         title: "🥋 Seminario de Krav Magá en Viking Brother Gym – 18 de Octubre",
         date: "20/09/2025",
         text: [
@@ -224,7 +224,7 @@ const news = [
     {
         id: 14,
         category: category.news,
-        image: "/vikingbrothersgym/news/new14.webp",
+        image: "/news/new14.webp",
         title: "🥊 ¡Vuelven las Clases de Boxeo en Viking Brothers Gym!",
         date: "31/08/2025",
         text: [
@@ -239,7 +239,7 @@ const news = [
     {
         id: 13,
         category: category.news,
-        image: "/vikingbrothersgym/news/new13.webp",
+        image: "/news/new13.webp",
         title: "🥋💥¡Nuevo! Krav Magá y Defensa Personal",
         date: "30/08/2025",
         text: [
@@ -254,7 +254,7 @@ const news = [
     {
         id: 12,
         category: category.news,
-        image: "/vikingbrothersgym/news/new12.webp",
+        image: "/news/new12.webp",
         title: "Descanso Yoga: Volvemos en Septiembre",
         date: "10/07/2025",
         text: [
@@ -269,7 +269,7 @@ const news = [
     {
         id: 11,
         category: category.news,
-        image: "/vikingbrothersgym/news/new11.webp",
+        image: "/news/new11.webp",
         title: "🥋 Seminario de Krav Magá en Viking Brother Gym – 21 de Junio",
         date: "22/05/2025",
         text: [
@@ -286,7 +286,7 @@ const news = [
     {
         id: 10,
         category: category.news,
-        image: "/vikingbrothersgym/news/new10.webp",
+        image: "/news/new10.webp",
         title: "💪🔥 ¡La Batalla Ha Comenzado en Viking Brothers Gym! 🔥💪",
         date: "25/03/2025",
         text: [
@@ -303,7 +303,7 @@ const news = [
     {
         id: 9,
         category: category.news,
-        image: "/vikingbrothersgym/news/new9.webp",
+        image: "/news/new9.webp",
         title: "¡No dejes pasar tu Drakkar!",
         date: "02/03/2025",
         text: [
@@ -315,7 +315,7 @@ const news = [
     },
     // {
     //     id: 8,
-    //     image: "/vikingbrothersgym/news/new8.png",
+    //     image: "/news/new8.png",
     //     title: "Boxeo, Kick Boxing, Kick Boxing Infantil y Defensa Personal",
     //     date: "19/01/2025",
     //     text: [
@@ -327,7 +327,7 @@ const news = [
     // },
     // {
     //     id: 7,
-    //     image: "/vikingbrothersgym/news/new7.jpeg",
+    //     image: "/news/new7.jpeg",
     //     title: "¡NUEVO! Kick boxing infantil",
     //     date: "11/11/2024",
     //     text: [
@@ -340,7 +340,7 @@ const news = [
     {
         id: 5,
         category: category.news,
-        image: "/vikingbrothersgym/news/new5.jpeg",
+        image: "/news/new5.jpeg",
         title: "Nuestra campeona de boxeo del templo",
         date: "11/11/2024",
         text: [
@@ -353,7 +353,7 @@ const news = [
     {
         id: 1,
         category: category.news,
-        image: "/vikingbrothersgym/news/new1.png",
+        image: "/news/new1.png",
         title: "Web Viking Brothers Gym Zaragoza",
         date: "13/08/2024",
         text: [

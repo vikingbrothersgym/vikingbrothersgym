@@ -23,7 +23,7 @@ export default function BlogArticle({
         : category == CATEGORY.training ? (<><LuBicepsFlexed /> Entrenamiento</>)
         : <></>;
 
-    const categoryLink = `${constants.root}/blog/${category == CATEGORY.nutrition ? "nutricion" : category == CATEGORY.training ? "entrenamiento" : "noticias"}/${id}`;
+    const categoryLink = `/blog/${category == CATEGORY.nutrition ? "nutricion" : category == CATEGORY.training ? "entrenamiento" : "noticias"}/${id}`;
 
     return (
         <div className="new" onClick={() => navigate(categoryLink)}>

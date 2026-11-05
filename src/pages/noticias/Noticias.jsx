@@ -3,11 +3,9 @@ import NavBar from "@components/navbar/NavBar.jsx"
 import Contacto from "@components/footer/Footer.jsx"
 import news from "../../Noticias/News.jsx"
 import "./Noticias.css"
-import { useNavigate } from "react-router-dom";
 import NoticiaPreview from "@components/noticias/NoticiaPreview.jsx"
 
 const Noticias = () => {
-    const navigate = useNavigate()
 
     return (
         <div className="w-[100%]">

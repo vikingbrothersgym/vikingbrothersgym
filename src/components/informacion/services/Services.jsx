@@ -2,12 +2,9 @@ import Button from "../../common/button/Button";
 import Card from "../../common/card/Card";
 import SectionTitle from "../../common/section-title/SectionTitle";
 import constants from "../../../constants/Constants";
-import { useNavigate } from "react-router-dom";
 import { services } from "../../../constants/services/services";
 
 export default function Services() {
-    const navigate = useNavigate();
-
     return (
         <section className="flex flex-col items-center my-4 px-4">
             <SectionTitle
@@ -39,7 +36,7 @@ export default function Services() {
                         <p className="text-white mt-0 mb-5 leading-6 min-h-12 line-clamp-2">
                             {service.description}
                         </p>
-                        <Button href={`${constants.root}${service.path}`}>
+                        <Button href={`${service.path}`}>
                             Más información
                         </Button>
                     </div>

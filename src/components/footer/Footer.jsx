@@ -49,7 +49,7 @@ const Footer = () => {
                             <li key={idx}>
                                 <Link 
                                     className={navLinkClass}
-                                    to={constants.root + navLink.sectionLink}
+                                    to={navLink.sectionLink}
                                 > 
                                     {navLink.text}
                                 </Link>

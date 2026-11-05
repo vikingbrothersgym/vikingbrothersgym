@@ -109,7 +109,7 @@ export default function Training() {
                                 </div>
                             </div>
 
-                            <a href={constants.root + "/blog/entrenamiento"}>
+                            <a href={"/blog/entrenamiento"}>
                                 Ver más artículos de entrenamiento
                             </a>
                         </div>
