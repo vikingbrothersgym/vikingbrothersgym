@@ -8,7 +8,7 @@ export default function Button({
     href
 }) {
     return (
-        <Link href={href} target={target} className={`button bg-third ${className}`}>
+        <Link to={href} target={target} className={`button bg-third ${className}`}>
             {children}
         </Link>
     )
