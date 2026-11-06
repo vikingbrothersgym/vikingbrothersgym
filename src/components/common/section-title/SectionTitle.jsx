@@ -15,10 +15,10 @@ export default function SectionTitle({
             <h3 className="text-third uppercase tracking-widest">
                 {pretitle}
             </h3>
-            <h2 className="font-viking text-4xl md:text-5xl mt-0 mb-4 uppercase">
+            <h2 className="text-white font-viking text-4xl md:text-5xl mt-0 mb-4 uppercase">
                 {title}
             </h2>
-            <h3 className="my-0">
+            <h3 className="text-white my-0">
                 {subtitle}
             </h3>
         </div>
