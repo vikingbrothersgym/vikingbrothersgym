@@ -6,6 +6,7 @@ import familia from "@assets/servicios/familia.webp"
 import todos from "@assets/servicios/todos.webp"
 import exterior from "@assets/servicios/gimnasio_exterior.webp";
 import ServicioCard from "./ServicioCard"
+import SectionTitle from "../common/section-title/SectionTitle"
 
 const Servicios = () => {
     const servicios = [
@@ -43,10 +44,11 @@ const Servicios = () => {
     
     return (
         <section id="servicios" className="flex flex-col items-center justify-center box-border mb-[50px] w-full px-7">
-            <h1 className="sec-tit"> 
-                TRANSFORMA  
-                <span> TU RUTINA </span>  
-            </h1>
+            <SectionTitle 
+                pretitle={"Transforma tu rutina"}
+                title={"Nuestro gimnasio"}
+                subtitle={"¿Qué puedes encontrar en Viking Brothers Gym?"}
+            />
             <div className="grid w-full gap-7 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                 {servicios.map((s ,idx) => (
                     <ServicioCard
