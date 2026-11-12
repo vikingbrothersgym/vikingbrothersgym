@@ -25,7 +25,7 @@ export default function TextSlider() {
           className="texto-slider"
         >
           {poemas[index].map((p, idx) => (
-            <p key={idx}> {p} </p>
+            <p key={idx}>{p}</p>
           ))}
         </motion.p>
       </AnimatePresence>

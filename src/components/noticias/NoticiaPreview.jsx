@@ -2,31 +2,42 @@ import { Link } from "react-router-dom"
 import {Card, CardHeader, CardBody, Image, Button, CardFooter} from "@nextui-org/react";
 import "./NoticiaPreview.css"
 import constants from "@constants/Constants"
+import BlogArticle from "../blog/blog_article/BlogArticle";
 
 const NoticiaPreview = ({ultimas, not }) => {
   return (
-    <Card 
-      as={Link}
-      to={`/blog/noticias/${not.id}`}
-      className="w-full bg-zinc-900 max-w-sm shadow-lg rounded-2xl hover:opacity-100 hover:scale-[1.02] cursor-pointer animate-fadeIn"
-    >
-      {/* Imagen */}
-      <Image
-        alt={not.title}
-        src={not.image}
-        className="object-cover rounded-t-2xl w-full"
-      />
+    <BlogArticle
+        key={not.id}
+        id={not.id}
+        category={not.category}
+        date={not.date}
+        img={not.image}
+        title={not.title}
+        description={not.text}
+    />
+    
+    // <Card 
+    //   as={Link}
+    //   to={`/blog/noticias/${not.id}`}
+    //   className="w-full bg-zinc-900 max-w-sm shadow-lg rounded-2xl hover:opacity-100 hover:scale-[1.02] cursor-pointer animate-fadeIn"
+    // >
+    //   {/* Imagen */}
+    //   <Image
+    //     alt={not.title}
+    //     src={not.image}
+    //     className="object-cover rounded-t-2xl w-full"
+    //   />
 
-      {/* Contenido */}
-      <CardBody className="w-full p-0">
-        <h3 className="px-5 text-lg font-semibold text-third">{not.title}</h3>
-      </CardBody>
+    //   {/* Contenido */}
+    //   <CardBody className="w-full p-0">
+    //     <h3 className="px-5 text-lg font-semibold text-third">{not.title}</h3>
+    //   </CardBody>
 
-      {/* Footer con la fecha */}
-      <CardFooter className="p-4 pt-0 text-base text-gray-300 font-bold">
-        {not.date}
-      </CardFooter>
-    </Card>
+    //   {/* Footer con la fecha */}
+    //   <CardFooter className="p-4 pt-0 text-base text-gray-300 font-bold">
+    //     {not.date}
+    //   </CardFooter>
+    // </Card>
   )
 }
 

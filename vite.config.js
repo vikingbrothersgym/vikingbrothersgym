@@ -1,20 +1,19 @@
 import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react-swc';
-import path from 'path';
+import react from '@vitejs/plugin-react';
+import path from 'node:path';
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/",
+  base: '/',
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src'),
-      '@components': path.resolve(__dirname, './src/components'),
-      '@pages': path.resolve(__dirname, './src/pages'),
-      '@assets': path.resolve(__dirname, './src/assets'),
-      '@constants': path.resolve(__dirname, './src/constants'),
-      '@lessons': path.resolve(__dirname, './src/constants/lessons'),
-      '@noticias': path.resolve(__dirname, './src/Noticias'),
+      '@': path.resolve(import.meta.dirname, './src'),
+      '@components': path.resolve(import.meta.dirname, './src/components'),
+      '@pages': path.resolve(import.meta.dirname, './src/pages'),
+      '@assets': path.resolve(import.meta.dirname, './src/assets'),
+      '@constants': path.resolve(import.meta.dirname, './src/constants'),
+      '@lessons': path.resolve(import.meta.dirname, './src/constants/lessons'),
+      '@noticias': path.resolve(import.meta.dirname, './src/Noticias'),
     }
   }
-})
+});
